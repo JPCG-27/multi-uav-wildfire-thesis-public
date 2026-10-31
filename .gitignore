@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.md
+*.MD
+.venv/
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+configs/
+detector/dataset/images/
+detector/dataset/masks/
+detector/dataset/labels/
+paths/trace_*/
+downloads/
+cache-bundles/
+
+# Withheld assets and training inputs must not enter this release.
+*.pt
+*.pth
+*.onnx
+*.engine
+private-project-assets*
+detector-data*
+detector/dataset/
+detector/weights/

@@ -1,0 +1,13 @@
+{
+  "authoritative_execution_receipt": "Saved/Benchmarks/supervisor-controls/full-matrix-attempt16-execution/controller_execution.json",
+  "execution_receipt_sha256": "7df4b199c198643ae1d05d46b09f43bccdcddb71285fb5bfd478a4bc5724d324",
+  "accepted_analysis_report": "Saved/Benchmarks/supervisor-controls/analysis/attempt16-three-ideal-analysis.json",
+  "accepted_analysis_sha256": "0660e180e81f9616549ab1bb811926b59f9070e6effcf0fb2a6db9c15c251b4c",
+  "execution_state": "runtime_complete_pending_recovery_analysis",
+  "created_utc": "2026-10-18T04:02:07.839144+00:00",
+  "source_count_expected": 9720,
+  "source_count_completed": 9720,
+  "three_ideal_source_count_completed": 3240,
+  "three_ideal_completed_summaries_verified": 3240,
+  "verification": "Every selected job is in completed_source_ids, has verified_complete state, and its summary and runtime configuration SHA-256 match the job receipt. All summaries finish at tick 8000; all runtime configs specify three drones. The packaged completed index is derived from these attempt16 receipts. The separate prepared-only study index is omitted."
+}

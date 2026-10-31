@@ -1,0 +1,161 @@
+#include "/Engine/Public/Platform.ush"
+#include "/ThesisShaders/PriorityModel.ush"
+
+// Packed across two uint4 streams so C++ can upload stable 16-byte elements.
+// CellStateA[cell] = uint4(asuint(FireLogOdds), asuint(PersonLogOdds), LastObservedTick, FirstFireDetectionTick)
+// CellStateB[cell] = uint4(FirstPersonDetectionTick, LastPersonObservedTick, 0, 0)
+StructuredBuffer<uint4> CellStateA;
+StructuredBuffer<uint4> CellStateB;
+StructuredBuffer<uint>  OwnedMask;
+
+// x = per-cell priority, y = 3x3 owned-neighborhood target score.
+RWStructuredBuffer<float2> OutputPlanning;
+
+uint  NumCells;
+uint  Width;
+uint  Height;
+uint  CurrentTick;
+float WeightStaleness;
+float WeightDanger;
+float WeightPerson;
+float StalenessSaturationTicks;
+float ProbabilityScale;
+float MonitoringUrgencyTau;
+float UnseenExplorationBonus;
+float FirePriorityRampMultiplier;
+float FireMonitoringUrgencyTau;
+float FireMinimumUrgency;
+float NeighborPriorityWeight;
+uint  FireDangerDiscoveryDelayTicks;
+uint  FireDangerDiscoveryRampTicks;
+uint  DroneDangerDiscoveryDelayTicks;
+uint  DroneDangerDiscoveryRampTicks;
+
+float ThesisDiscoveryGateWithParams(
+    uint FirstDetectionTickRaw,
+    uint CurrentTickValue,
+    uint DelayTicks,
+    uint RampTicks)
+{
+    int FirstDetectionTick = int(FirstDetectionTickRaw);
+    if (FirstDetectionTick < 0) return 0.0;
+
+    float Age = float(int(CurrentTickValue) - FirstDetectionTick);
+    if (Age < float(DelayTicks)) return 0.0;
+
+    float Ramp = max(float(RampTicks), 1.0);
+    return saturate((Age - float(DelayTicks)) / Ramp);
+}
+
+float ThesisComputeDroneLocalPriority(
+    float Staleness,
+    float PersonStaleness,
+    int LastObservedTick,
+    uint FirstFireDetectionTickRaw,
+    uint FirstPersonDetectionTickRaw,
+    uint CurrentTickValue,
+    float FireLogOdds,
+    float PersonLogOdds)
+{
+    float StalenessTerm = max(0.0, Staleness / max(StalenessSaturationTicks, 1.0));
+    if (LastObservedTick < 0)
+    {
+        StalenessTerm += UnseenExplorationBonus;
+    }
+
+    float GeneralUrgency = ThesisMonitoringUrgency(PersonStaleness, MonitoringUrgencyTau);
+    float FireUrgency = max(
+        FireMinimumUrgency,
+        ThesisMonitoringUrgency(Staleness, FireMonitoringUrgencyTau));
+
+    float FireGate = ThesisDiscoveryGateWithParams(
+        FirstFireDetectionTickRaw,
+        CurrentTickValue,
+        FireDangerDiscoveryDelayTicks,
+        FireDangerDiscoveryRampTicks);
+    float PersonGate = ThesisDiscoveryGateWithParams(
+        FirstPersonDetectionTickRaw,
+        CurrentTickValue,
+        DroneDangerDiscoveryDelayTicks,
+        DroneDangerDiscoveryRampTicks);
+
+    float DangerTerm = ThesisPositiveEvidence(FireLogOdds)
+        * ProbabilityScale
+        * FireUrgency
+        * FireGate
+        * FirePriorityRampMultiplier;
+    float PersonTerm = ThesisPositiveEvidence(PersonLogOdds)
+        * ProbabilityScale
+        * GeneralUrgency
+        * PersonGate;
+
+    return WeightStaleness * StalenessTerm
+         + WeightDanger    * DangerTerm
+         + WeightPerson    * PersonTerm;
+}
+
+float ComputePriorityForCell(uint Cell)
+{
+    uint4 A = CellStateA[Cell];
+    uint4 B = CellStateB[Cell];
+
+    float FireLogOdds = asfloat(A.x);
+    float PersonLogOdds = asfloat(A.y);
+    int LastObservedTick = int(A.z);
+
+    float Staleness = (LastObservedTick < 0)
+        ? float(CurrentTick)
+        : float(int(CurrentTick) - LastObservedTick);
+
+    return ThesisComputeDroneLocalPriority(
+        Staleness,
+        (int(B.y) < 0) ? float(CurrentTick) : float(int(CurrentTick) - int(B.y)),
+        LastObservedTick,
+        A.w,
+        B.x,
+        CurrentTick,
+        FireLogOdds,
+        PersonLogOdds);
+}
+
+[numthreads(64, 1, 1)]
+void MainCS(uint3 DispatchThreadId : SV_DispatchThreadID)
+{
+    uint Cell = DispatchThreadId.x;
+    if (Cell >= NumCells) return;
+
+    const float Priority = ComputePriorityForCell(Cell);
+
+    // Keep priority valid for path planning even outside the current owned set.
+    // Target acquisition ignores unowned centers by assigning a very low score.
+    float NeighborhoodScore = -3.402823466e+38;
+
+    if (OwnedMask[Cell] != 0)
+    {
+        uint CX = Cell % Width;
+        uint CY = Cell / Width;
+        NeighborhoodScore = 0.0;
+
+        [unroll]
+        for (int DY = -1; DY <= 1; ++DY)
+        {
+            int NY = int(CY) + DY;
+            if (NY < 0 || NY >= int(Height)) continue;
+
+            [unroll]
+            for (int DX = -1; DX <= 1; ++DX)
+            {
+                int NX = int(CX) + DX;
+                if (NX < 0 || NX >= int(Width)) continue;
+
+                uint NCell = uint(NY) * Width + uint(NX);
+                if (OwnedMask[NCell] == 0) continue;
+
+                float Weight = (DX == 0 && DY == 0) ? 1.0 : NeighborPriorityWeight;
+                NeighborhoodScore += Weight * ComputePriorityForCell(NCell);
+            }
+        }
+    }
+
+    OutputPlanning[Cell] = float2(Priority, NeighborhoodScore);
+}

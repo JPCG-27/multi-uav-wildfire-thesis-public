@@ -1,0 +1,1670 @@
+[
+  {
+    "published_path": "simulator/current/Source/Thesis.Target.cs",
+    "recorded_sha256": "cbca04236d1927bea1d142144bad9bb5e8bca6d9a3a5c389261e574363f9322a",
+    "published_sha256": "3880326edaf1af1adf3a6534c5e77b1d9b4262ebc0321faeb44924cf4f3fb900",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisEditor.Target.cs",
+    "recorded_sha256": "46010b24d6302aaf0c230c651369c9a616a421802cbfd1deda9ced4fda7beff2",
+    "published_sha256": "ce6720dcf250b7d96d5e9d9236ba53b95d407c69e8728272f52282c45c58e386",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Thesis.Build.cs",
+    "recorded_sha256": "ff8157d3e0b8ab546691792a5169c8d7cdc59dcb4becaa7347f5d768274b47f6",
+    "published_sha256": "c6852709ab7f1b305bc27ff6ce78ea0a364c82aea8db9c88eae47d766536a95a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Thesis.cpp",
+    "recorded_sha256": "ec46e75a42cdc180bbf5471300e3c5f87f62df15bc25004ccc12abf7fc2c428d",
+    "published_sha256": "a9508db0ad6548bf29226e12b212b165c60ddfa22417a8fb9e89c40dd257e73d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/ThesisShaders.Build.cs",
+    "recorded_sha256": "1eadb0bcae7d8b36a2073156a12d489e25ffd0a3ad7a1c963b917ce1d60a6f7b",
+    "published_sha256": "e629b10564cec80f8d63feb3d5b28fe09a2a28247908d430192e6dc7298e6b16",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Benchmark/MethodSpec.h",
+    "recorded_sha256": "54d324ca0d002c6da5b3f12894ddbf347d4d5dd9f0e6f5d7578f942928b1da89",
+    "published_sha256": "6af621b00693fd99c6285c2abc0329e2c989dd3ea39e526d7c6236b00b862ab0",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Benchmark/SimMetricsRecorder.cpp",
+    "recorded_sha256": "19df308d0e0ba5d147e876ca6c1aadda7743b6045e49a27705cf04d124f80fd2",
+    "published_sha256": "24f0aeb55d62bcf30841ff51c2a64e23d5c79f92e051dabbf6e002f89596f830",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Benchmark/SimMetricsRecorder.h",
+    "recorded_sha256": "802d947b5c0f57129994038f1c3a4807bb15dc0cc7c08169206349256b5a09fc",
+    "published_sha256": "32269be64500d3ea1e9a074bb813e4632df8cb96d84eb4822cc10c2031e5b751",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Benchmark/SimRunConfig.cpp",
+    "recorded_sha256": "53b63d3a1e3fbc874bf370cc634ee6a697bf0b6d49011ea290d9c5e0c91e74e1",
+    "published_sha256": "a7f2a5b074be322ef0f004136200305c23f4d4d3ccf35176614ffe460713dca8",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Benchmark/SimRunConfig.h",
+    "recorded_sha256": "0c7b2976788c5908231c7f22fe09f71355f1c88e81d29678c2ea05b33b728137",
+    "published_sha256": "a9dfb9f66c6ce0650f335a1966184656519b4767a19c110fd5cdd570c95c2697",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.cpp",
+    "recorded_sha256": "5405f5243a9469e57b469ebbb226392b5fb71f0dbbe447d174c90de56351f7aa",
+    "published_sha256": "278c98902e678114b3b04f8a5e02270d5018b129c342ed5e044b976ad563e702",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.h",
+    "recorded_sha256": "6e824406b4267dc21b1fc7c2eda92d43f645e1908b7e5fe2c12726e8e75444db",
+    "published_sha256": "597f739f648e2ae8a8d24ce0f97ae3b27fc8411970e2b1e5a040405e574b883d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/DronePlannerBase.h",
+    "recorded_sha256": "d8dd86168736f72d1689235433f797c22e5796c88dc14ff3ee6b4744bd2af1ee",
+    "published_sha256": "51f1d779e47176e6342391d76574e059062a07de3a255136b45c9212d85e1206",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/DronePlannerFactory.cpp",
+    "recorded_sha256": "08ba6a6ad07de58ebb3afc9d9c6f29ce0a8d4bfbc4c77d62c875c38876cfbe7f",
+    "published_sha256": "cf6b590c90239c62e78882cd42a73d17dc264903a6ff92ba9629656e5a1fb0b8",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/DronePlannerFactory.h",
+    "recorded_sha256": "a64e429d9dac5aeef95ca180fc58517e60e326cfee46bacb7acb6eae3fefcc1d",
+    "published_sha256": "706baaaef4ea16c52b730497bd34126e463501e9d313553a17680b0682dbee30",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/DroneTypes.h",
+    "recorded_sha256": "8c7362033fc8f9aba24bc6332fbbf45eaa3df5bfcb46cc937675500860e6c671",
+    "published_sha256": "e9d367344ac602246bd3dcf388c5534132290381d775409dfa65b504633802f0",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/FullyRandomPlanner.cpp",
+    "recorded_sha256": "67c26265af0920cb85e3aaa5c330def151b1d5d1ce3994534d86af76faa77444",
+    "published_sha256": "8d7db6c925f348cdaf06db08461da32c44278c3b72683ef554b4828004bd1919",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/FullyRandomPlanner.h",
+    "recorded_sha256": "cb8afa8bd3f9365e4fa9f3108042993190a61b2725bb57c6df58f92186fc0996",
+    "published_sha256": "8093b3a02b13be6a44788aa6fe7da48eb1be7857f0ceda7138da7971c3e023c1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/FullyRandomWalk.h",
+    "recorded_sha256": "30ed9b58feca3a9bedbc89ff0569ea35e7cee829271f1119cb10c65f8db27cfa",
+    "published_sha256": "7eaf6af2299ac9f441536be7d13578371cc7d25d2f6e32d4114fe6ddcdef8bae",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/GreedyFovPlanner.cpp",
+    "recorded_sha256": "2d2d24ba4d36a5f70dab97c18fe8739a9d79dcdd2dce57b897f06b0df870080d",
+    "published_sha256": "f56f2b7811e0a8a33e4529491b82ddcd242f2b4d346ba7e88b8ad3d8baef952a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/GreedyFovPlanner.h",
+    "recorded_sha256": "fb7b89d458b1bcdb4d050c1cf16108c3430ef5f0f0d44b90527e09401e7df69b",
+    "published_sha256": "71d80a1088159e1e416a5cb7e41d9649394dce4b639787a2f3aeb97cfb00667c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/LawnmowerV1AlignedPlanner.cpp",
+    "recorded_sha256": "bc4b542e03eb346cec71080342b4c5e22f6aebfc6b43e66bc55703cf41959f61",
+    "published_sha256": "afcd3904b3bb17adb35a5e3095543906130992538f412f7312b46c281c1a954a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/LawnmowerV1AlignedPlanner.h",
+    "recorded_sha256": "fa1320e2bfe98174003bae18b5768b2249cd7ff1e283bbb59dc5bdd5a093ed16",
+    "published_sha256": "d88cb66e5d4156c3bcdb50ad92d6dacffce674ef4cd8f390d5e841af303b0a25",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/LawnmowerV1Planner.cpp",
+    "recorded_sha256": "d74f85c5f5ecfbeb07231d5b6e0bc96a2452227a62a40d25d92989282ddc74b9",
+    "published_sha256": "bed787cf6b700fd8144cb1dfb1610c8fda02da7614041763646fef950b2d0456",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/LawnmowerV1Planner.h",
+    "recorded_sha256": "2920d4f3f4f7f5a6ca1b6e23b4c19068d8cfb41bb7605c683a62047e1948908f",
+    "published_sha256": "3218148295c414f73edc5cf4d0d479b11c7f9f8f02c2317c83fefb016d8b7b0c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/LawnmowerV2Planner.cpp",
+    "recorded_sha256": "cb39fdd2acb514f05f5203eee9774685606016b65a9ca8acc8b03486d7a4fd7a",
+    "published_sha256": "7689cc508cd83ff353c58760fa45d7bf682303f0342806dbba67f6c9d07097f2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/LawnmowerV2Planner.h",
+    "recorded_sha256": "c4500582934268a6c21846948535cf2902048c274736612ac97ded09a69e058f",
+    "published_sha256": "bd3a28951374c400b315c8ea50ad4c6459659453190c6bef2d4dd1c281f54885",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/OracleAssignmentSolver.cpp",
+    "recorded_sha256": "7995e2a26220b8a167db6f3764b6687711d959619fb7346ee783d64f8ad4f29e",
+    "published_sha256": "ab721c195aa4166019c970a144d877c4aa5cd17c267ea60a139241d09e235307",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/OracleAssignmentSolver.h",
+    "recorded_sha256": "dfce487b64cde7560358a48e1aec71d5950ac41a5cbd62bd1931310f10893cfe",
+    "published_sha256": "72d6cac12867b51b322344a27e8b7ea66737c032a4ab5652833cce61cc4db1c2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/OracleTargetPlanner.cpp",
+    "recorded_sha256": "dc1a3041733c9a89355d7d5767308c890772a0d36591a489b1ec9bd14fc5aa4d",
+    "published_sha256": "acceaafb3eca5d309071847b34144ca1e02284b1ba7c37946f001624f7e5a08f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/OracleTargetPlanner.h",
+    "recorded_sha256": "98b32ef4130a0a7270599a1479274e0fb8d5c28e787d46bbc63c1df6cb0bb404",
+    "published_sha256": "a0646fe176fd9a5db0d4a58f589042d42e1d51dcf91e3b60d7752c59d5e72915",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/PerfectDroneSensor.cpp",
+    "recorded_sha256": "06d994099c759261510f705a1d73f27d99c58d9e94e7f0b1fc8c783d3def845b",
+    "published_sha256": "f4cf55493b357fa44917922d5a8690ad164953cc9d81d1f65af1c2959dfb208f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/RandomPlanner.cpp",
+    "recorded_sha256": "60e42f8860262ae53982d3a29358884ea0ea797663a4a172c448a50af4b13cd9",
+    "published_sha256": "d654897e26c453395aee789f216c24f13d04ed0e7cf1b7688f83acf99b706726",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Drone/RandomPlanner.h",
+    "recorded_sha256": "6973889f00e1178d7d215953d09dbf413eaa50de4e3e2b7a62fdf8d623f39b13",
+    "published_sha256": "c65e91a874d350f57a77ac45aa82f1925ee58a19df0c2b0a86dcfb464433a39b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Gpu/GpuBeliefManager.cpp",
+    "recorded_sha256": "a7eab4ceeba755e3ec0caafc3182a90a8d38c381097e8e0f02815bf72529cf27",
+    "published_sha256": "ebfc69666cbe5304c5940733d810f23beb585d718dc87d8d9b1083bbe30a86d1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Gpu/GpuBeliefManager.h",
+    "recorded_sha256": "dbc99a3b22cfcc3d9c758aa1c1bbf71104c43cbe1471702e147701226bdff7d6",
+    "published_sha256": "f9e7451ea84bdbf334ee24a73ef3fc0c807d1c4f449162f2db07c92ec2d842d8",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Human/HumanManager.cpp",
+    "recorded_sha256": "3d4da124031a2b5206766871f8840f0a6125c23af7dba24d11aefc41170df028",
+    "published_sha256": "0aa0dd12d3849a1aefa5254bf912e294315c8fbaab638842596694d095a030e1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Human/HumanManager.h",
+    "recorded_sha256": "c44066a90fa967c26adaf299246b6979eeff190bc26916b9b539dd8432faa8c7",
+    "published_sha256": "ac215cf000d467749fab09bad06db23dfa7132f80336fad4acdc0e6cfe40529a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Human/HumanTrajectoryImporter.cpp",
+    "recorded_sha256": "f0087ef95f3ec53d2a39821e754c9b842f48006d589f5c2ba23ebbe3d1f2c7b8",
+    "published_sha256": "188cc9e47fc93c44fabf58c5c278fcf3aa38e0d44c3e5478232cff130ef6297f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Human/HumanTrajectoryImporter.h",
+    "recorded_sha256": "13959786e85794e1997b46014123083ca0465e9df6259e3f0b5f5d159b1c65f1",
+    "published_sha256": "31540df6ec3c670b0ef906b776503264b5cf7356157e1b0535ed9e7bf56ddc39",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Human/HumanTypes.h",
+    "recorded_sha256": "2e4ef852d095e08dc1ba1a63e8af5ed1cb99abed865efae8a8195501d66f06f0",
+    "published_sha256": "72da49c7428b91be9801b0d3c1bd45f356b55bfbe2a2c51cc54c41f4964f3cac",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Human/HumanVisualPose.cpp",
+    "recorded_sha256": "276815bfb1f586c123ad2a976eb20ba5103b00a7613f69135c7d56b347e0136b",
+    "published_sha256": "6b29ffe2e2e281bc3f035bf6f4f31e80f604667cbda3458ef6c0586e790ce0d6",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Human/HumanVisualPose.h",
+    "recorded_sha256": "7561cd67db50d8b4ed85b4d9cb0ff77ce9765e262162e8b2912fe4ef2fb90284",
+    "published_sha256": "58062afaf58406ff13a3cd453065f4a74b65d091b091d4a50dd893637303be43",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/FullyRandomPartition.cpp",
+    "recorded_sha256": "faa65fad2bb8dba64b664a8edaa1cce2c169337a86261dc60dbda8304c50f59b",
+    "published_sha256": "80fee2d0afbc9760843703a648983e0efb44d43e16305ab2485a99bb3b921935",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/FullyRandomPartition.h",
+    "recorded_sha256": "628d167691da6e1034fa639c9bd64b4c6330257c790f39239f1a575d14b223e3",
+    "published_sha256": "cee1acd4cd068e5e57e542f4b129410f3c2cb246c045f80d5325d79ef0ea5026",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/OracleAllocationPartition.cpp",
+    "recorded_sha256": "eab1c4a898a93f1df4360d3a185167cb802ccc1bd6ebcedb6ee56fdf99758c03",
+    "published_sha256": "6e3a0f50a76fe07f46ed4d92d6bb821199d746462ff56e8a16c7be3bd4e07f83",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/OracleAllocationPartition.h",
+    "recorded_sha256": "e347880fd5a19e5bbd1d0008d088e174b2fcf67de31617ceca51b572f351a78c",
+    "published_sha256": "a65d87a09f149a81f279c3afea5780d92ce7be0bb627aef5a2d558ca268245b8",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/PartitionStrategy.h",
+    "recorded_sha256": "ec72cf5c35d762ebe3a4d67e50340372b138db65497570b8ffe7ba4242aa5242",
+    "published_sha256": "df5d1ec896052fd38ab31d7c675cef70dfc87db127f21a609f1fb7d6d689d74a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/PartitionStrategyFactory.cpp",
+    "recorded_sha256": "29109337527e51f793e9ad5ab444920ba3a00b8238cc0683d4e6d672f4c7108f",
+    "published_sha256": "8c3f0c274cba6683200c2cddbf4cebc2cebd801b9dafe68741a8b19536e22945",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/RandomPartition.cpp",
+    "recorded_sha256": "ec8c986bf760df56fd6314612d65f022140bfa9cd7464e28310b810bd7a97290",
+    "published_sha256": "5e7d30c644a8253377a9489454a44375daea09dee5114ea03d8c5851161b5eb2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/RandomPartition.h",
+    "recorded_sha256": "52bea5741ebe88f935556eecc06723bda51435c8c35608d680561983b6893aaf",
+    "published_sha256": "2242439179a4190af5f8c33d8068afc987e2de2a9786c54d9ffae6132ab0e4b8",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/SpawnAwareUniformPartition.cpp",
+    "recorded_sha256": "32e6bb851a79c049650d92dd1856fe0561e2e094d79108989039895eecf792d1",
+    "published_sha256": "09ec8393ecb9e9b0f8191d3f8b4325f2baac22f2c16dec06fd9635de58b2d502",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/SpawnAwareUniformPartition.h",
+    "recorded_sha256": "6183eb6c6f72f21cd44f28dfa516e64f3fa3777b82ad3a0b4c990c916bdf12ae",
+    "published_sha256": "3b837c5575ed227408d0b4500f63d2cfe4f6e7c2becc18a99afd6700c9e48503",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/UniformPartition.cpp",
+    "recorded_sha256": "88121dcc57ec0c6a4b9fa0fa483b683621516364f0990433b0ec839cbda5fc37",
+    "published_sha256": "d5faf68765409ee0e84a1bca837908977db31d77624444ebd4f0af20e465d78d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/UniformPartition.h",
+    "recorded_sha256": "8853d56457e5562022d5700cc55c188ce2f5f24f87361b86bb4f013353c0ebdd",
+    "published_sha256": "141f61d71d8d395d4ef5c020a8d90cba9eee45edba5450c88487958f89ea23f5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/ZoneRegionGrowingPartition.cpp",
+    "recorded_sha256": "2cb76f73588e2d3908f776fa368d258b8f2bf6829f80bbb42d02099b0c77ffc5",
+    "published_sha256": "db69a2b2122089cd4bac35d419115774cdd0d60edca92993cb869a3d7ec1d7ac",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Partition/ZoneRegionGrowingPartition.h",
+    "recorded_sha256": "fc95f7b2bd008bec5fc5aa7583c418af2b02f1bd0740cb28087730addba5937a",
+    "published_sha256": "8c9adf366b0918444be8ff3cf23da2418c38262fcb3f9b3cbefdf75d28d248c1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/CameraReadbackTests.cpp",
+    "recorded_sha256": "1b254af2dc3456679bde79fab5388d28b9a34b720acd6367d3d4b36cef83311c",
+    "published_sha256": "e5526560b023a2b9303d0baed42cd7a77f4e9f3ec85c16c05e7e2cb41b61350c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/DeterministicCaptureEffectsTests.cpp",
+    "recorded_sha256": "2784420ddd1f9dd9a00b51f46edb5d04823793a841ea8da0ba3f73350a205774",
+    "published_sha256": "fa76a6f92e0fcf53eb043e8141f2fe8a8447e1b0719c554de88b568ee4c45b9a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/EnvironmentEdgeRenderTests.cpp",
+    "recorded_sha256": "c9ee2867a198afd8e665955d9dee92603deeb09cb0f54eb3dcf1655835f49184",
+    "published_sha256": "cbe2414370ce1b1f8c73f51cced8a234256584c9380d407704faaf53553c1cbd",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/EnvironmentLightingLifecycleTests.cpp",
+    "recorded_sha256": "57f55689756dc5affa829c8ef18c50880bdfe5703597505261c8acdc3e2996c9",
+    "published_sha256": "1d7a51838cf3ff6bd5d31cb07ec9234e34f288422641c8b4c7306524279c0362",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/EnvironmentRenderCostProbe.cpp",
+    "recorded_sha256": "a051a24804ec5277f8a9b5cd936e153f04e4cedee760619ab0ef9a4eaa2bc2ce",
+    "published_sha256": "b27ba60f7141bff99ae95596f9f63851e06a847dd76a3bbc1bb43408d79dfcc5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/FirePresentationTests.cpp",
+    "recorded_sha256": "23b0632d4c064eca0622e8feed2a248f396be2a57306209b04e91c80060cf363",
+    "published_sha256": "83e0a2c5c8c268a1677f35c82038e1406b5b11507cc4f3c6e3a4fa95d776f4b7",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/FireVisibilityRenderTests.cpp",
+    "recorded_sha256": "70f06086dcb4a83d2c87a6956b6eedfa202d6fca315cb11b185de5c96150aee5",
+    "published_sha256": "9201f46bfee316775a21dd7c4bbae5b1a01784d3b67c9033e47f5bdfe9ac9628",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/ForestApronDeterminismTests.cpp",
+    "recorded_sha256": "43e2abc86e8de405753dd65324078e89e871f54e78c30baddfbd164a9983b0bf",
+    "published_sha256": "4c20ac72444dc7bd4bb58c2ffe1f810958557ac412091f1950ece8959d259515",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/ForestDresserBatchingTests.cpp",
+    "recorded_sha256": "16e668933e9978c765cc5e60cec0a3e72fd17f0f7ce5f2af0b5762229fc1d5a9",
+    "published_sha256": "b12f22b2613a576bf5d386e0907a56fca0400e3bc79d776deb64728a9eed8499",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/ForestVisibilityRenderTests.cpp",
+    "recorded_sha256": "4bc128ae092554d5a5bf3cb93f9ba2788425bbecf5409f22be535b9c2f7705c4",
+    "published_sha256": "774e75bfee47bfb353fe039a4d6a73d8fbc75904bb644721b4b465a9cf709f79",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/FullyRandomPartitionTests.cpp",
+    "recorded_sha256": "6a8310ed866f5bc94505c4777e201003abdca7f14eca73cbe61401169380c6f4",
+    "published_sha256": "31e996c12531e8e6815702b761deccdf12690aa001c69855f71bcb4cb1c8c4f7",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/FullyRandomWalkTests.cpp",
+    "recorded_sha256": "35e8d7a3c845be9d1e6aa37834719e76fb669908d6623f03cccabcf2577eb988",
+    "published_sha256": "61b2543aaecb60e76515ad1701689ef066708b78e652304c1ee52050bfd7a87e",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/GpuPersonObservationFreshnessTests.cpp",
+    "recorded_sha256": "9c29c5cedb1c8f9dd8c42165f21847fc6cb74f7ca6885c88637585e5d63bc61f",
+    "published_sha256": "39b3ac57beae2d1a211498c2ea8b32776c1a84d7b6c2afddab90d0c238ae2c79",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/HumanVisualPoseTests.cpp",
+    "recorded_sha256": "aaafe55f14974ab9916e13116030d6176edce211675de67bfff269d90decafa0",
+    "published_sha256": "76f226cf4da2dd38d709873c7d16f6c764c9dbfb24514230b3aae007cf23e880",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/LawnmowerV1AlignedTests.cpp",
+    "recorded_sha256": "910954863947319d2b3a89160f28e37b7b5355125b0510e98c9eb3090c72cd8c",
+    "published_sha256": "353750893ef99e409b5ce9f516a872aeec1710423c0f9cbfaf1eeb4e95d3eaaa",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/LawnmowerV1Tests.cpp",
+    "recorded_sha256": "a8c739ed1cac04b6a6590bafedbf48b5082989e6b5ce59e4220354ff1ac5e5de",
+    "published_sha256": "def5e0b7bdc3720616730b0259516ad2a314df7b8ec53ad9cbcc8fe0c2f81767",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/LawnmowerV2Tests.cpp",
+    "recorded_sha256": "e304c654ed57a8537b820e517f783f25ff950d0d4ebcb1e3d6f6260a06362d0a",
+    "published_sha256": "710771dd3ff547e6de2d1722982180beeeaed8c12b0f9a43f79b791a5c998e1b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/LiveRenderPolicyTests.cpp",
+    "recorded_sha256": "47f9446a357f46a7bf2eda4ecd157293983f6e9cafa68fbce7e7b2599d533a36",
+    "published_sha256": "b3daac6860ffb7b62e0eef71050ddc1750d6686ac43772eb01592ab1f058e216",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/LiveViewPresentationTests.cpp",
+    "recorded_sha256": "a66161121fdb972bb18eef44979e5765bf398e06c106ddbdc523554def9831b3",
+    "published_sha256": "a804dff342cf6ea3acd6515ce1fbe69c60ae04f41a96f317ce2d13e05442881f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/OracleAssignmentSolverTests.cpp",
+    "recorded_sha256": "8884bf3b8000bb02b7c00a56c90fb08726fef46dae0e01f3297ddaaf5fdf0693",
+    "published_sha256": "befd3269e1015b8e35337e668e0f29625f31dfc373a9344acbfa51f09ef992f5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/PersonFreshnessOwnershipTests.cpp",
+    "recorded_sha256": "c86c7f7fc4fbf03597f77a3a4e3d657078cc0f94bc90991b0aad5be259c959c2",
+    "published_sha256": "cbbb2dc8e51dac149a0a98779208a04fc2140eee405d065fc3d5d218267c6f41",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/PersonObservationFreshnessTests.cpp",
+    "recorded_sha256": "7ce62f4336a425486dbb19ab8b495f2bc09243fee0bd34dddc7507ae6c5a9b83",
+    "published_sha256": "172f9a556d9c24ba7ab193798e7b60ca05057df35db1d4d0a2f33877d29af3b0",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/ProceduralTerrainBorderTests.cpp",
+    "recorded_sha256": "e6e1e9a608a11eec4ba1418a22d1dea73d8da64524bcc989b728641b40938953",
+    "published_sha256": "4668cf0eb20ba443bf6db0a0053c2aacade0ecfe3964e6326f7d63469abb2c0a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/SpawnAwareUniformPartitionTests.cpp",
+    "recorded_sha256": "8e8bea3adae043d8c09b5a0f1e3fbe45005bf2d4f00d6cab42201955bf8ee56b",
+    "published_sha256": "6733d9ef090eb02731f445de72a2a66f1f038ef2a57b5944e839305dd0b07cc3",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/TerrainRenderTileTests.cpp",
+    "recorded_sha256": "49f9c4e444fb4da093d8b9c429c28ad88b60db7eb38a9cd2d021fa35f7ec6195",
+    "published_sha256": "3a2c7d9a229c18e6d4ce0d84e8660c15ac16d3332ef981e489cc49a1f7adbc09",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/TerrainSceneCacheTests.cpp",
+    "recorded_sha256": "b4f3b90d8999c3996c71918a7919a0490c30c6dbc9bc699d794c9854de8d3f4f",
+    "published_sha256": "d426b4d2e449e59090ff411f09b3361e5abf5e3056a0d04bfb241364033a4d43",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/VisionProjectionTests.cpp",
+    "recorded_sha256": "51826c101d2d81aaf3b842b0cb19b4e360a9133e723a2503c2fc1aa3c247eeaa",
+    "published_sha256": "240fee1b88e685406db25565eac0eab7a70b65143a8bdcfb00309301b3ce28e7",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/YoloDatasetExportTests.cpp",
+    "recorded_sha256": "09845a5c9a50a682e03aa31812dddbffc7b18a6051c0a53e8b5aa65637eb03b1",
+    "published_sha256": "36939ffd76ed79341a6cd43847cd15336d638024483f0030ce963cd5d9a1b670",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/YoloDatasetRenderTests.cpp",
+    "recorded_sha256": "e7f2c12745fe0258a507bf1a3d87036358dfc3b875c430cc6ef566e08c515675",
+    "published_sha256": "07f281e5abf612f31f8f43c3bc3000c006fa6a9c16e16e1b82485921866144d3",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Tests/YoloGeometricMetricsTests.cpp",
+    "recorded_sha256": "75568d675cb99c844727c0e3a517f3b8e5954bf29a942e1eb3242fc0ca3f02f6",
+    "published_sha256": "1ca6cbced29f999b9d057c860a34092b1fae49efad5975b68fa4ea2c62674033",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/ChanceNullScorer.cpp",
+    "recorded_sha256": "210900064b433b027229d283dda06c72a53a51030bad0223ae7720a0d2fb3d73",
+    "published_sha256": "63ff18088b19c203631013785c711ec78982d3226cd60fbc59eba211f4a85d7b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/ChanceNullScorer.h",
+    "recorded_sha256": "59145dcab70c6b6f963a15db9d70dd66a1b4a2014413b0b3362d33e4a3d99f31",
+    "published_sha256": "d0fc83050f8e5a5a4d5d15697daeef61da09cb9a1a0b3091bd9e01193df96c36",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/DroneCaptureComponent.cpp",
+    "recorded_sha256": "cfae6508b4cbe419935a4122474a82e4e1128128b5dc09d045a7bd666cfc2d09",
+    "published_sha256": "055494f08e39184f42f5f555f1045e8491447ed38a8a3edbdf702636a978df07",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/DroneCaptureComponent.h",
+    "recorded_sha256": "b61af26cbd80d45f51f87eeda18f0e96acd730e9f733f5e4f741a25e12ba68c1",
+    "published_sha256": "326b79b80a9c52d89f6aaae2c15fa89f4f3fc9217f3337622b689ff0305fa390",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/VisionTypes.h",
+    "recorded_sha256": "bc2090df8b02076a9e4be873fe6fa5056aeb2d7ce2a33de0ef90eb503faa3263",
+    "published_sha256": "8d48ca903d358c4a54ecedfb585768cf4aaa33c414f265d8b1aa8746461ef2f3",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/YoloDatasetExporter.cpp",
+    "recorded_sha256": "65b84ce9ff78c7c4715f4a4d2f6508cec8c58fb7fcc0f9da883509f8f03194f7",
+    "published_sha256": "273b65eed9b56a01a5ddd3d4005a9a3ef9af44f4959d16a701efbec3035bc8ed",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/YoloDatasetExporter.h",
+    "recorded_sha256": "da42f6a5b21697db7055f9cc343f2157f46179545c03baf61777c4fecee8b57f",
+    "published_sha256": "9d260a50d1564bbdecdc67f52700df90fa68e57cb0828c9b026ed3203840aa0b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/Vision/YoloGeometricMetrics.h",
+    "recorded_sha256": "9832c114dce6cd9a37cd6f56dc6b4f6cfc4a5a5148865ad231b2b377e4746726",
+    "published_sha256": "e674e75a6d7a87e99ea809b85c6d727bd71fec2a0f7951291d4645d52f078c95",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/DeterministicCaptureEffects.cpp",
+    "recorded_sha256": "2624e421f70a2f15838ca51d8d19da1a75892f59b1edbdec9c30ffa8bb6fbb15",
+    "published_sha256": "09e09d80af1c59eaba0b5543649c2ddb12e89de88347c59b161549cf443d199c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/DeterministicCaptureEffects.h",
+    "recorded_sha256": "0e35c043619d0bb8dceba60a485f544093c3d3dc103549fe077792fa5f4952be",
+    "published_sha256": "2109ef289bd2bd208bc9bd153377e07b872dff2b25dd36a73d1433421cd3844a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/FireDataImporter.cpp",
+    "recorded_sha256": "cd6767396f17331d383543165214bf78b04ef0c41fcfd9f3f93ca916ad6f4b97",
+    "published_sha256": "22851877cc9e23b9c0403b806e2844b34722366e9041f17712c7e6cb041f8c05",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/FireDataImporter.h",
+    "recorded_sha256": "9fc6c2fecab9fe7d441cf8746894d5d996e344c38255d1b561747125f65cc49f",
+    "published_sha256": "72fe48c2ad4da8b99f048f00dc0e26672ce43352add7e75936a6a9e5c4c15c89",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/FirePresentationMath.h",
+    "recorded_sha256": "443419f6df3cf6a3861e0b77a91f2aebbd2ada999115bcc56bfb9770c1e0e72b",
+    "published_sha256": "df8e33812be1052e0b4d39640a7dadaddbe18c018af2e4c27262e61fd70480ce",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/FireVisualProfile.cpp",
+    "recorded_sha256": "2a8101ed4696c17e6699bbc5dca887054cf4ce92b3e855f9aee1338e89a27ef5",
+    "published_sha256": "7541b6804a1a957650ac248e0abb6ce784a343954df9b819772870f70794725c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/FireVisualProfile.h",
+    "recorded_sha256": "72f8e8ba4b8d924d04a2536df6ce18ab0d4d81a129637a2c7a3044dd5bd8469d",
+    "published_sha256": "c2d4d9183ddf28c5f6ce92d688ed22f2db9ee68ef8e5c5b69de3277efd767b94",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/FireVisualsManager.cpp",
+    "recorded_sha256": "b818e1563668c702285ca625c8b2ec9393831d844faf8846695c9a589e1b4bff",
+    "published_sha256": "663d67998ee0facb303ea62a3b6ee69580d21f430cd54780c87893cd4a50767c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/FireVisualsManager.h",
+    "recorded_sha256": "5fdc8af7a34a5f18e055035a3cf44145204db90f3b84230e4ecc28a607a71c68",
+    "published_sha256": "9fde5078fc5b08c7f7e959aac9a4afbad5fc12c746cf00607546824764846b77",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/ForestDresser.cpp",
+    "recorded_sha256": "0e2c538bc999aebc1afbb7339e6a26e0d98f2032470f43971c304021ce2bd2ee",
+    "published_sha256": "fbac0241875a5948be6a28c1c7686c5356f6f68befc7fa988683b388ac3c41d1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/ForestDresser.h",
+    "recorded_sha256": "e60f6e9ec3fbbde7f3818b12f8ec06dabb4fbe645d60f9e1a53e53281584b89b",
+    "published_sha256": "6d0b53f2f87f221f5bd15c8a34e790ebcb5fb3ce09ef77702bd811f0347334c2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/ForestDresserBatching.h",
+    "recorded_sha256": "a2d1e3d455f9cf8b82419327e88ec23ed0886037866c03cec3b9994250141fac",
+    "published_sha256": "18ecab628b9586190affc62c982048ad491740016e9c00284e5564f90d048606",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/Grid.cpp",
+    "recorded_sha256": "0c22f287ab3666a6778d454b71eac4a19b94e63750d8682def47be0813054a04",
+    "published_sha256": "417483455c3e39a21a2705405ffa1374f7da1abe7a753b09768aa7190e0892fe",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/Grid.h",
+    "recorded_sha256": "95aad564807ff8995406b1b8c98284055c256d574085e5133790811dcd134e32",
+    "published_sha256": "2643349f39a696d01def42b067e7f2566b2c5d7527726de0212e76f0ae871597",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/GroundTruthOracle.h",
+    "recorded_sha256": "97e2fc445765320d8662ee0582b8abb5e4dd4558b6551e4dc1b5902bb271f482",
+    "published_sha256": "1fce29e3b8832d95f88e5823705d2d5dc8c0e4dbbb74ea5cdebb0d6b1193800a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/LiveRenderPolicy.cpp",
+    "recorded_sha256": "8fdeda1316c77b423866d67b1746976cfa8ae606f1af52c9a69d3c228e6cb74c",
+    "published_sha256": "f647174dd9a7cf779010a08cab790ba629630bddfae86ddaf97f5da8660bf000",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/LiveRenderPolicy.h",
+    "recorded_sha256": "eee137323b7f6e4c8f7b02d5401b288924a3e080ed2b27abfcaf0a81be9ec0c3",
+    "published_sha256": "369608aec7bc7f15ff412041510edcc16bb77f9e821a3e1e62f136bd6fd1f48a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/LiveViewPresentation.h",
+    "recorded_sha256": "9b771221ece38c559a2638a12e8fe214693037fd6e3ce87c6953a795305e8ca9",
+    "published_sha256": "768f6badea05f1dce6eb7cca3576c79701a12954438fbd27afaa09f1185c5647",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/PriorityModel.h",
+    "recorded_sha256": "82126fcd431492219b9eedf782294a6b80bd88ef5017697635743edd5b495c85",
+    "published_sha256": "8249523f4a222c4c890c69277c94a27c78c1d68c3f3775ca058e52047f3a3a4a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/ProceduralTerrain.cpp",
+    "recorded_sha256": "25c8ac03c9d24ac2ea073a7edeb94a02506f0831a16ea3175210f3ceb2d66a55",
+    "published_sha256": "dcbb25fb7223064af792d0f61845b5dd95a890e7711300773298ba2c30b1283f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/ProceduralTerrain.h",
+    "recorded_sha256": "6f9fe114bc6ca776257e0d789f76f85ed8a254bf1ab01c18c610f6b4d365ea6c",
+    "published_sha256": "2182113b04b00120ab7ec66dfe24553379a4c9d9740f5a9e4969685a4c313bf2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/SimulationDatasetExport.cpp",
+    "recorded_sha256": "1b389f0c4f67567c228e74142c7a9b5ddfc9e966e9cc5818b949051b2b4b9645",
+    "published_sha256": "dd139a69f86c65421b04dd3c087c993ac367b2f9fb34c280d766307f1e09ccf1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/SimulationHUD.cpp",
+    "recorded_sha256": "0aac23665f72f24f6f58af649934902535f14e3fb4b7c3f16595cb71e71f0d89",
+    "published_sha256": "c6ef3f3033d9f4829348d3483f4a436dd783ef1436eae0437e225fe1547d437f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/SimulationHUD.h",
+    "recorded_sha256": "482753d60cb35f4010559ba916241fff813904c053d86f6edea3502396c13e6e",
+    "published_sha256": "ac5202fafa6d535c6835ce1bd795a9987eb7543452cb33fc092bffc2aefa79d6",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/SimulationManager.cpp",
+    "recorded_sha256": "8a5a9e397fa6c7f9041553e8582b640f5b8632e1a614dbf3beac275af1c477f3",
+    "published_sha256": "3f580034a520d69ddb2c349af3b718c91271fa1615b4d58e69a1a439ad0c41a2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/SimulationManager.h",
+    "recorded_sha256": "9b5630c5ee7001758c51118e44b554b50d40d8f66fd887cde9ffa0841a430494",
+    "published_sha256": "bbecc0f3823c352b83761409dab319c8700877fb84ed3330ab379dd07aadc3c1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/Thesis/World/VisionProjection.h",
+    "recorded_sha256": "2a35334d8327aa219ae82531cb1e00e0594a9e85314af18a43d713e98c3d63d9",
+    "published_sha256": "2ee43984238066d9228bd40f670eadd7cfd058a46d47dc05482a0776b505754d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Private/DroneLocalPriorityComputeShader.cpp",
+    "recorded_sha256": "b1626d6ad03d6078fe35d9d30e066173cf1799fe80bf590980352b8e3159b894",
+    "published_sha256": "0372224abea3f0304cadffca1db09692972b5e0695cbae78d718a23d85289099",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Private/GridStatsShader.cpp",
+    "recorded_sha256": "d9369a9693f2daf85adb40dbd682c4dc2268ac35d0d452196533a74fe1d14797",
+    "published_sha256": "7a31530c4009d12d47c287e89a191d0c5850c80bc584a999e20f5e69675a2bd5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Private/PixelBleedSpreadShader.cpp",
+    "recorded_sha256": "820ef87f43ec274d71010c1d9bf8d39e27fa0a526500baac27fd3e77bf0568e5",
+    "published_sha256": "467acce09d2b1b29d68eaceda8b94ee83b88f66607cef1e29ab0e060bcaae186",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Private/PriorityComputeShader.cpp",
+    "recorded_sha256": "893e6c66cbe69baeea74e8f09bb3d5d6f5a3e6b5b47d5a9b7d649b15d89ae13a",
+    "published_sha256": "266c4aae274871419bbfc80bbc9d53a389744254a899ab663828fbfe1ae4bf5a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Private/ThesisShadersModule.cpp",
+    "recorded_sha256": "d0e178cc6b7c0c42b06b54891b28325f29d01d9025605a44b498aed143a996f2",
+    "published_sha256": "c27e472d62f97c59b9fd9ab2a99d505b20e943fcfcc3c9b19a13876cfa79cdce",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Public/DroneLocalPriorityComputeShader.h",
+    "recorded_sha256": "0241b41fe03208c17763223a99cffc43df932d80710c8155d2421f5457b18b13",
+    "published_sha256": "b946a45346d38ca619e3e9018c8d2bd0e95cecaa6a5e082b0077895d0a780aa9",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Public/GridStatsShader.h",
+    "recorded_sha256": "59bcc8efe266a42d3edb7b499707f4e4050c42691c4711769f4b0de8a6c7a497",
+    "published_sha256": "66e4ef7574b3377c39e2fddaa7cd06dac7c460565bb848a62e9af5e256504807",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Public/ObservationIngestShader.h",
+    "recorded_sha256": "2a97b45e5459a666cb8b86bcd9531a14bc4f232abbfa4df61216e81353a49f49",
+    "published_sha256": "caa73f2baf5fb71b2917ae7ba8d7ca66bdb53101d5828bfb0f47714b041de98b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Public/PixelBleedSpreadShader.h",
+    "recorded_sha256": "f3f6d3dad629a4d6861b6323ca2ce2289fa7bd5b671de2d82c252740cc23908a",
+    "published_sha256": "2834441bf15f9d64780bc49e9ce1baf62fc8e79f730d80db28738849d504b6d3",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Public/PriorityComputeShader.h",
+    "recorded_sha256": "3c4c2a1227519d03e1d3e2760bf93c577e4031c6fa5dfab7b25e99092532ffce",
+    "published_sha256": "f2c82a5f3821677dc95d77d7f9d4e16713ef6443e1e369bc6853f68cfc971dd1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Source/ThesisShaders/Public/StalenessUpdateShader.h",
+    "recorded_sha256": "4599b8a8ce577a3704d20269c21a5675db56614ccb938d5266427b1584689de8",
+    "published_sha256": "fd22ce71b4afbcb90a07e29926f2807ef507741a94efb574558a5f5201e86b5d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Shaders/Common.ush",
+    "recorded_sha256": "0bfd31dd5add6bb78cf89f6ebcb9ba5bdf8bbe27e6113a5feb35070c8e57f3b3",
+    "published_sha256": "25386c42e5ef3dbbed64c205388780f09010089154113ef96a434a45d5564857",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Shaders/DroneLocalPriorityCompute.usf",
+    "recorded_sha256": "8d6ac6024b3b4824bb170fef620b6641ef57dfda1eeb86cfa22f1c483178b4f4",
+    "published_sha256": "485e02b160b17311316eabb2e00b33958270cb4234de4db29f09f37b2f9ef844",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Shaders/GridStatsReduce.usf",
+    "recorded_sha256": "239c50846e278c61929085b13d9969bcb703faaf59272a9cd69b2820fb45c3fe",
+    "published_sha256": "4454a848d12398baa9d6c42c1d088830498e6d0bf3fc6d832363f48f1df93944",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Shaders/ObservationIngest.usf",
+    "recorded_sha256": "76c6fed194fd89feafe18a964a22f926cba621c7eb388dda938d2aaca1e2756d",
+    "published_sha256": "55140ff2596ecd50a13dcbca5977b56202df7f9cf304403335336c4493976d70",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Shaders/PixelBleedSpread.usf",
+    "recorded_sha256": "f6faa70365125d265e45950a73a2153012db807778a9dee72c09860927bce1dd",
+    "published_sha256": "37752d1396de3e69e3b7f65c02e5bdcd744896ae0e97c160193f1693b10d1711",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Shaders/PriorityCompute.usf",
+    "recorded_sha256": "347e2aa7d84ebcd03bc97dc8d6ecd24e768348b826cf52dc16040bcb095dc974",
+    "published_sha256": "46bc683a649c0a699ada1904830c136c88baa716ee8a4267597b9d307736a2ad",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Shaders/PriorityModel.ush",
+    "recorded_sha256": "e0c283ddea1e53e1f104806f2f37cfa665c91c0530823d43fe0287c331a70336",
+    "published_sha256": "6227aa73cb6a086c7b4f3b5dd2f1b15cfe27d39b699fe1f96bd459f3e91b678b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis.Target.cs",
+    "recorded_sha256": "cbca04236d1927bea1d142144bad9bb5e8bca6d9a3a5c389261e574363f9322a",
+    "published_sha256": "3880326edaf1af1adf3a6534c5e77b1d9b4262ebc0321faeb44924cf4f3fb900",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisEditor.Target.cs",
+    "recorded_sha256": "46010b24d6302aaf0c230c651369c9a616a421802cbfd1deda9ced4fda7beff2",
+    "published_sha256": "ce6720dcf250b7d96d5e9d9236ba53b95d407c69e8728272f52282c45c58e386",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Thesis.Build.cs",
+    "recorded_sha256": "ff8157d3e0b8ab546691792a5169c8d7cdc59dcb4becaa7347f5d768274b47f6",
+    "published_sha256": "c6852709ab7f1b305bc27ff6ce78ea0a364c82aea8db9c88eae47d766536a95a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Thesis.cpp",
+    "recorded_sha256": "ec46e75a42cdc180bbf5471300e3c5f87f62df15bc25004ccc12abf7fc2c428d",
+    "published_sha256": "a9508db0ad6548bf29226e12b212b165c60ddfa22417a8fb9e89c40dd257e73d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/ThesisShaders.Build.cs",
+    "recorded_sha256": "1eadb0bcae7d8b36a2073156a12d489e25ffd0a3ad7a1c963b917ce1d60a6f7b",
+    "published_sha256": "e629b10564cec80f8d63feb3d5b28fe09a2a28247908d430192e6dc7298e6b16",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Benchmark/MethodSpec.h",
+    "recorded_sha256": "66ec9e7487b9ab3f169b549370ee64e8ab4153c33a8a5556e9fac55753286e19",
+    "published_sha256": "e0e094ea0d22546431423c2e7848c5c5afd93393405ae83c39daa89119a501a4",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimMetricsRecorder.cpp",
+    "recorded_sha256": "aaa1875cba30ccb7627b857d75fce2b77002df30d48f760d714145c47548d4c3",
+    "published_sha256": "6c6d0d4e1871e3c3e33f5922643d214c7c6f1807daa14a2d88e4ac2d4aeede9d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimMetricsRecorder.h",
+    "recorded_sha256": "a5a904d00fcedeea8f8decf638945c437357177f20f544d6a52f044626d1ca09",
+    "published_sha256": "42d7d702eb51bc7b1903699ccab8056d46653c3c34ec35da04b6340ea9690291",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimRunConfig.cpp",
+    "recorded_sha256": "44d1f2dc74e3ecaf908948a7e2dbd0684958460b72f0a7ceade07c0d5de90295",
+    "published_sha256": "a2bbbf30557eaef365f3cd8c68afdebe3f65c6db79025f994f50a436dd4c6eeb",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimRunConfig.h",
+    "recorded_sha256": "0c7b2976788c5908231c7f22fe09f71355f1c88e81d29678c2ea05b33b728137",
+    "published_sha256": "a9dfb9f66c6ce0650f335a1966184656519b4767a19c110fd5cdd570c95c2697",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.cpp",
+    "recorded_sha256": "5405f5243a9469e57b469ebbb226392b5fb71f0dbbe447d174c90de56351f7aa",
+    "published_sha256": "278c98902e678114b3b04f8a5e02270d5018b129c342ed5e044b976ad563e702",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.h",
+    "recorded_sha256": "6e824406b4267dc21b1fc7c2eda92d43f645e1908b7e5fe2c12726e8e75444db",
+    "published_sha256": "597f739f648e2ae8a8d24ce0f97ae3b27fc8411970e2b1e5a040405e574b883d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/Drone.cpp",
+    "recorded_sha256": "322430d3a0a03d598cfff2152a79fe5add24ab08bca2378ba17a7acaf6c774e0",
+    "published_sha256": "72068236a0466e420258f2c95bf69da0dba7ae10265373be80bcd6bda62e5490",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/Drone.h",
+    "recorded_sha256": "24f56e24f6e632323b723f69b99397254ef13093a534c9a0cf878c79506b5305",
+    "published_sha256": "03a17a5436747a2e9f2521e0379df54a4e19c8af1f1ae4080e16bbac8a3128c6",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/DronePlannerBase.h",
+    "recorded_sha256": "d8dd86168736f72d1689235433f797c22e5796c88dc14ff3ee6b4744bd2af1ee",
+    "published_sha256": "51f1d779e47176e6342391d76574e059062a07de3a255136b45c9212d85e1206",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/DronePlannerFactory.cpp",
+    "recorded_sha256": "9e872a2415ba5a854195d433b18d16dbe595c3732a250d15a904ea1d1bf1973a",
+    "published_sha256": "3f3588e3927670be399967ea4183848a99b3a2e81f8a74b3afec255213eb4d04",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/DronePlannerFactory.h",
+    "recorded_sha256": "a64e429d9dac5aeef95ca180fc58517e60e326cfee46bacb7acb6eae3fefcc1d",
+    "published_sha256": "706baaaef4ea16c52b730497bd34126e463501e9d313553a17680b0682dbee30",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/DroneTypes.h",
+    "recorded_sha256": "8c7362033fc8f9aba24bc6332fbbf45eaa3df5bfcb46cc937675500860e6c671",
+    "published_sha256": "e9d367344ac602246bd3dcf388c5534132290381d775409dfa65b504633802f0",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/GreedyFovPlanner.cpp",
+    "recorded_sha256": "2d2d24ba4d36a5f70dab97c18fe8739a9d79dcdd2dce57b897f06b0df870080d",
+    "published_sha256": "f56f2b7811e0a8a33e4529491b82ddcd242f2b4d346ba7e88b8ad3d8baef952a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/GreedyFovPlanner.h",
+    "recorded_sha256": "fb7b89d458b1bcdb4d050c1cf16108c3430ef5f0f0d44b90527e09401e7df69b",
+    "published_sha256": "71d80a1088159e1e416a5cb7e41d9649394dce4b639787a2f3aeb97cfb00667c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/OracleAssignmentSolver.cpp",
+    "recorded_sha256": "7995e2a26220b8a167db6f3764b6687711d959619fb7346ee783d64f8ad4f29e",
+    "published_sha256": "ab721c195aa4166019c970a144d877c4aa5cd17c267ea60a139241d09e235307",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/OracleAssignmentSolver.h",
+    "recorded_sha256": "dfce487b64cde7560358a48e1aec71d5950ac41a5cbd62bd1931310f10893cfe",
+    "published_sha256": "72d6cac12867b51b322344a27e8b7ea66737c032a4ab5652833cce61cc4db1c2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/OracleTargetPlanner.cpp",
+    "recorded_sha256": "dc1a3041733c9a89355d7d5767308c890772a0d36591a489b1ec9bd14fc5aa4d",
+    "published_sha256": "acceaafb3eca5d309071847b34144ca1e02284b1ba7c37946f001624f7e5a08f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/OracleTargetPlanner.h",
+    "recorded_sha256": "98b32ef4130a0a7270599a1479274e0fb8d5c28e787d46bbc63c1df6cb0bb404",
+    "published_sha256": "a0646fe176fd9a5db0d4a58f589042d42e1d51dcf91e3b60d7752c59d5e72915",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/PerfectDroneSensor.cpp",
+    "recorded_sha256": "06d994099c759261510f705a1d73f27d99c58d9e94e7f0b1fc8c783d3def845b",
+    "published_sha256": "f4cf55493b357fa44917922d5a8690ad164953cc9d81d1f65af1c2959dfb208f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/RandomPlanner.cpp",
+    "recorded_sha256": "60e42f8860262ae53982d3a29358884ea0ea797663a4a172c448a50af4b13cd9",
+    "published_sha256": "d654897e26c453395aee789f216c24f13d04ed0e7cf1b7688f83acf99b706726",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Drone/RandomPlanner.h",
+    "recorded_sha256": "6973889f00e1178d7d215953d09dbf413eaa50de4e3e2b7a62fdf8d623f39b13",
+    "published_sha256": "c65e91a874d350f57a77ac45aa82f1925ee58a19df0c2b0a86dcfb464433a39b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Gpu/GpuBeliefManager.cpp",
+    "recorded_sha256": "12ecce3a5cc23c4bfd8577011051319619a7de0f46511cdfaed006c81dd26a1d",
+    "published_sha256": "b149c9221173301004d08edf0dc42e308084af195065e889751f34fa153015a1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Gpu/GpuBeliefManager.h",
+    "recorded_sha256": "819d77be2e4b1c004b4f6d9cc0e0a7c2144f471cb36c3af93802d2bb82f0d04a",
+    "published_sha256": "1f8fc048c14aada88e4f1cbb020804116b877a881582577d340248a712039439",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Human/HumanManager.cpp",
+    "recorded_sha256": "6251e6f6b7f3411bb3ebd0f525608a4bcef860aaa1e2c52d8d898a66efb0d952",
+    "published_sha256": "d637872d7ac160c9c20e7f431b8dbef64cb05a914eed0cab9aab34e3cb5a5184",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Human/HumanManager.h",
+    "recorded_sha256": "bf9f68bdce23a2a9f2cc252f399e140e0d66201a3e941f8bd88904b91efbd85a",
+    "published_sha256": "12b5e4f44079389e6ff7bb4df17b88937b0cbc4d1d9f5ea656b70844793f44e1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Human/HumanTrajectoryImporter.cpp",
+    "recorded_sha256": "f0087ef95f3ec53d2a39821e754c9b842f48006d589f5c2ba23ebbe3d1f2c7b8",
+    "published_sha256": "188cc9e47fc93c44fabf58c5c278fcf3aa38e0d44c3e5478232cff130ef6297f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Human/HumanTrajectoryImporter.h",
+    "recorded_sha256": "13959786e85794e1997b46014123083ca0465e9df6259e3f0b5f5d159b1c65f1",
+    "published_sha256": "31540df6ec3c670b0ef906b776503264b5cf7356157e1b0535ed9e7bf56ddc39",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Human/HumanTypes.h",
+    "recorded_sha256": "2e4ef852d095e08dc1ba1a63e8af5ed1cb99abed865efae8a8195501d66f06f0",
+    "published_sha256": "72da49c7428b91be9801b0d3c1bd45f356b55bfbe2a2c51cc54c41f4964f3cac",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Human/HumanVisualPose.cpp",
+    "recorded_sha256": "276815bfb1f586c123ad2a976eb20ba5103b00a7613f69135c7d56b347e0136b",
+    "published_sha256": "6b29ffe2e2e281bc3f035bf6f4f31e80f604667cbda3458ef6c0586e790ce0d6",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Human/HumanVisualPose.h",
+    "recorded_sha256": "7561cd67db50d8b4ed85b4d9cb0ff77ce9765e262162e8b2912fe4ef2fb90284",
+    "published_sha256": "58062afaf58406ff13a3cd453065f4a74b65d091b091d4a50dd893637303be43",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/OracleAllocationPartition.cpp",
+    "recorded_sha256": "eab1c4a898a93f1df4360d3a185167cb802ccc1bd6ebcedb6ee56fdf99758c03",
+    "published_sha256": "6e3a0f50a76fe07f46ed4d92d6bb821199d746462ff56e8a16c7be3bd4e07f83",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/OracleAllocationPartition.h",
+    "recorded_sha256": "e347880fd5a19e5bbd1d0008d088e174b2fcf67de31617ceca51b572f351a78c",
+    "published_sha256": "a65d87a09f149a81f279c3afea5780d92ce7be0bb627aef5a2d558ca268245b8",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/PartitionStrategy.h",
+    "recorded_sha256": "ec72cf5c35d762ebe3a4d67e50340372b138db65497570b8ffe7ba4242aa5242",
+    "published_sha256": "df5d1ec896052fd38ab31d7c675cef70dfc87db127f21a609f1fb7d6d689d74a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/PartitionStrategyFactory.cpp",
+    "recorded_sha256": "58e29e4fe5f007f10b14572dc7db74f5bf2c8f40dd3ab837b0e956b99b81d876",
+    "published_sha256": "9c9e79539adeb888ab5c78669f17a4b927ce07d2536ed4be187fddf088087a4b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/RandomPartition.cpp",
+    "recorded_sha256": "ec8c986bf760df56fd6314612d65f022140bfa9cd7464e28310b810bd7a97290",
+    "published_sha256": "5e7d30c644a8253377a9489454a44375daea09dee5114ea03d8c5851161b5eb2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/RandomPartition.h",
+    "recorded_sha256": "52bea5741ebe88f935556eecc06723bda51435c8c35608d680561983b6893aaf",
+    "published_sha256": "2242439179a4190af5f8c33d8068afc987e2de2a9786c54d9ffae6132ab0e4b8",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/UniformPartition.cpp",
+    "recorded_sha256": "88121dcc57ec0c6a4b9fa0fa483b683621516364f0990433b0ec839cbda5fc37",
+    "published_sha256": "d5faf68765409ee0e84a1bca837908977db31d77624444ebd4f0af20e465d78d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/UniformPartition.h",
+    "recorded_sha256": "8853d56457e5562022d5700cc55c188ce2f5f24f87361b86bb4f013353c0ebdd",
+    "published_sha256": "141f61d71d8d395d4ef5c020a8d90cba9eee45edba5450c88487958f89ea23f5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/ZoneRegionGrowingPartition.cpp",
+    "recorded_sha256": "2cb76f73588e2d3908f776fa368d258b8f2bf6829f80bbb42d02099b0c77ffc5",
+    "published_sha256": "db69a2b2122089cd4bac35d419115774cdd0d60edca92993cb869a3d7ec1d7ac",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Partition/ZoneRegionGrowingPartition.h",
+    "recorded_sha256": "fc95f7b2bd008bec5fc5aa7583c418af2b02f1bd0740cb28087730addba5937a",
+    "published_sha256": "8c9adf366b0918444be8ff3cf23da2418c38262fcb3f9b3cbefdf75d28d248c1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/CameraReadbackTests.cpp",
+    "recorded_sha256": "1b254af2dc3456679bde79fab5388d28b9a34b720acd6367d3d4b36cef83311c",
+    "published_sha256": "e5526560b023a2b9303d0baed42cd7a77f4e9f3ec85c16c05e7e2cb41b61350c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/DeterministicCaptureEffectsTests.cpp",
+    "recorded_sha256": "2784420ddd1f9dd9a00b51f46edb5d04823793a841ea8da0ba3f73350a205774",
+    "published_sha256": "fa76a6f92e0fcf53eb043e8141f2fe8a8447e1b0719c554de88b568ee4c45b9a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/EnvironmentEdgeRenderTests.cpp",
+    "recorded_sha256": "c9ee2867a198afd8e665955d9dee92603deeb09cb0f54eb3dcf1655835f49184",
+    "published_sha256": "cbe2414370ce1b1f8c73f51cced8a234256584c9380d407704faaf53553c1cbd",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/EnvironmentLightingLifecycleTests.cpp",
+    "recorded_sha256": "57f55689756dc5affa829c8ef18c50880bdfe5703597505261c8acdc3e2996c9",
+    "published_sha256": "1d7a51838cf3ff6bd5d31cb07ec9234e34f288422641c8b4c7306524279c0362",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/EnvironmentRenderCostProbe.cpp",
+    "recorded_sha256": "a051a24804ec5277f8a9b5cd936e153f04e4cedee760619ab0ef9a4eaa2bc2ce",
+    "published_sha256": "b27ba60f7141bff99ae95596f9f63851e06a847dd76a3bbc1bb43408d79dfcc5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/FirePresentationTests.cpp",
+    "recorded_sha256": "23b0632d4c064eca0622e8feed2a248f396be2a57306209b04e91c80060cf363",
+    "published_sha256": "83e0a2c5c8c268a1677f35c82038e1406b5b11507cc4f3c6e3a4fa95d776f4b7",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/FireVisibilityRenderTests.cpp",
+    "recorded_sha256": "70f06086dcb4a83d2c87a6956b6eedfa202d6fca315cb11b185de5c96150aee5",
+    "published_sha256": "9201f46bfee316775a21dd7c4bbae5b1a01784d3b67c9033e47f5bdfe9ac9628",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/ForestApronDeterminismTests.cpp",
+    "recorded_sha256": "43e2abc86e8de405753dd65324078e89e871f54e78c30baddfbd164a9983b0bf",
+    "published_sha256": "4c20ac72444dc7bd4bb58c2ffe1f810958557ac412091f1950ece8959d259515",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/ForestDresserBatchingTests.cpp",
+    "recorded_sha256": "16e668933e9978c765cc5e60cec0a3e72fd17f0f7ce5f2af0b5762229fc1d5a9",
+    "published_sha256": "b12f22b2613a576bf5d386e0907a56fca0400e3bc79d776deb64728a9eed8499",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/ForestVisibilityRenderTests.cpp",
+    "recorded_sha256": "4bc128ae092554d5a5bf3cb93f9ba2788425bbecf5409f22be535b9c2f7705c4",
+    "published_sha256": "774e75bfee47bfb353fe039a4d6a73d8fbc75904bb644721b4b465a9cf709f79",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/GpuPersonObservationFreshnessTests.cpp",
+    "recorded_sha256": "9c29c5cedb1c8f9dd8c42165f21847fc6cb74f7ca6885c88637585e5d63bc61f",
+    "published_sha256": "39b3ac57beae2d1a211498c2ea8b32776c1a84d7b6c2afddab90d0c238ae2c79",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/HumanVisualPoseTests.cpp",
+    "recorded_sha256": "aaafe55f14974ab9916e13116030d6176edce211675de67bfff269d90decafa0",
+    "published_sha256": "76f226cf4da2dd38d709873c7d16f6c764c9dbfb24514230b3aae007cf23e880",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/LiveRenderPolicyTests.cpp",
+    "recorded_sha256": "47f9446a357f46a7bf2eda4ecd157293983f6e9cafa68fbce7e7b2599d533a36",
+    "published_sha256": "b3daac6860ffb7b62e0eef71050ddc1750d6686ac43772eb01592ab1f058e216",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/LiveViewPresentationTests.cpp",
+    "recorded_sha256": "a66161121fdb972bb18eef44979e5765bf398e06c106ddbdc523554def9831b3",
+    "published_sha256": "a804dff342cf6ea3acd6515ce1fbe69c60ae04f41a96f317ce2d13e05442881f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/OracleAssignmentSolverTests.cpp",
+    "recorded_sha256": "8884bf3b8000bb02b7c00a56c90fb08726fef46dae0e01f3297ddaaf5fdf0693",
+    "published_sha256": "befd3269e1015b8e35337e668e0f29625f31dfc373a9344acbfa51f09ef992f5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/PersonFreshnessOwnershipTests.cpp",
+    "recorded_sha256": "c86c7f7fc4fbf03597f77a3a4e3d657078cc0f94bc90991b0aad5be259c959c2",
+    "published_sha256": "cbbb2dc8e51dac149a0a98779208a04fc2140eee405d065fc3d5d218267c6f41",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/PersonObservationFreshnessTests.cpp",
+    "recorded_sha256": "7ce62f4336a425486dbb19ab8b495f2bc09243fee0bd34dddc7507ae6c5a9b83",
+    "published_sha256": "172f9a556d9c24ba7ab193798e7b60ca05057df35db1d4d0a2f33877d29af3b0",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/ProceduralTerrainBorderTests.cpp",
+    "recorded_sha256": "e6e1e9a608a11eec4ba1418a22d1dea73d8da64524bcc989b728641b40938953",
+    "published_sha256": "4668cf0eb20ba443bf6db0a0053c2aacade0ecfe3964e6326f7d63469abb2c0a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/TerrainRenderTileTests.cpp",
+    "recorded_sha256": "49f9c4e444fb4da093d8b9c429c28ad88b60db7eb38a9cd2d021fa35f7ec6195",
+    "published_sha256": "3a2c7d9a229c18e6d4ce0d84e8660c15ac16d3332ef981e489cc49a1f7adbc09",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/TerrainSceneCacheTests.cpp",
+    "recorded_sha256": "b4f3b90d8999c3996c71918a7919a0490c30c6dbc9bc699d794c9854de8d3f4f",
+    "published_sha256": "d426b4d2e449e59090ff411f09b3361e5abf5e3056a0d04bfb241364033a4d43",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/VisionProjectionTests.cpp",
+    "recorded_sha256": "51826c101d2d81aaf3b842b0cb19b4e360a9133e723a2503c2fc1aa3c247eeaa",
+    "published_sha256": "240fee1b88e685406db25565eac0eab7a70b65143a8bdcfb00309301b3ce28e7",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/YoloDatasetExportTests.cpp",
+    "recorded_sha256": "09845a5c9a50a682e03aa31812dddbffc7b18a6051c0a53e8b5aa65637eb03b1",
+    "published_sha256": "36939ffd76ed79341a6cd43847cd15336d638024483f0030ce963cd5d9a1b670",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/YoloDatasetRenderTests.cpp",
+    "recorded_sha256": "e7f2c12745fe0258a507bf1a3d87036358dfc3b875c430cc6ef566e08c515675",
+    "published_sha256": "07f281e5abf612f31f8f43c3bc3000c006fa6a9c16e16e1b82485921866144d3",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Tests/YoloGeometricMetricsTests.cpp",
+    "recorded_sha256": "75568d675cb99c844727c0e3a517f3b8e5954bf29a942e1eb3242fc0ca3f02f6",
+    "published_sha256": "1ca6cbced29f999b9d057c860a34092b1fae49efad5975b68fa4ea2c62674033",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/ChanceNullScorer.cpp",
+    "recorded_sha256": "210900064b433b027229d283dda06c72a53a51030bad0223ae7720a0d2fb3d73",
+    "published_sha256": "63ff18088b19c203631013785c711ec78982d3226cd60fbc59eba211f4a85d7b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/ChanceNullScorer.h",
+    "recorded_sha256": "59145dcab70c6b6f963a15db9d70dd66a1b4a2014413b0b3362d33e4a3d99f31",
+    "published_sha256": "d0fc83050f8e5a5a4d5d15697daeef61da09cb9a1a0b3091bd9e01193df96c36",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/DroneCaptureComponent.cpp",
+    "recorded_sha256": "cfae6508b4cbe419935a4122474a82e4e1128128b5dc09d045a7bd666cfc2d09",
+    "published_sha256": "055494f08e39184f42f5f555f1045e8491447ed38a8a3edbdf702636a978df07",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/DroneCaptureComponent.h",
+    "recorded_sha256": "b61af26cbd80d45f51f87eeda18f0e96acd730e9f733f5e4f741a25e12ba68c1",
+    "published_sha256": "326b79b80a9c52d89f6aaae2c15fa89f4f3fc9217f3337622b689ff0305fa390",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/VisionTypes.h",
+    "recorded_sha256": "bc2090df8b02076a9e4be873fe6fa5056aeb2d7ce2a33de0ef90eb503faa3263",
+    "published_sha256": "8d48ca903d358c4a54ecedfb585768cf4aaa33c414f265d8b1aa8746461ef2f3",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/YoloDatasetExporter.cpp",
+    "recorded_sha256": "65b84ce9ff78c7c4715f4a4d2f6508cec8c58fb7fcc0f9da883509f8f03194f7",
+    "published_sha256": "273b65eed9b56a01a5ddd3d4005a9a3ef9af44f4959d16a701efbec3035bc8ed",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/YoloDatasetExporter.h",
+    "recorded_sha256": "da42f6a5b21697db7055f9cc343f2157f46179545c03baf61777c4fecee8b57f",
+    "published_sha256": "9d260a50d1564bbdecdc67f52700df90fa68e57cb0828c9b026ed3203840aa0b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/Vision/YoloGeometricMetrics.h",
+    "recorded_sha256": "9832c114dce6cd9a37cd6f56dc6b4f6cfc4a5a5148865ad231b2b377e4746726",
+    "published_sha256": "e674e75a6d7a87e99ea809b85c6d727bd71fec2a0f7951291d4645d52f078c95",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/DeterministicCaptureEffects.cpp",
+    "recorded_sha256": "2624e421f70a2f15838ca51d8d19da1a75892f59b1edbdec9c30ffa8bb6fbb15",
+    "published_sha256": "09e09d80af1c59eaba0b5543649c2ddb12e89de88347c59b161549cf443d199c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/DeterministicCaptureEffects.h",
+    "recorded_sha256": "0e35c043619d0bb8dceba60a485f544093c3d3dc103549fe077792fa5f4952be",
+    "published_sha256": "2109ef289bd2bd208bc9bd153377e07b872dff2b25dd36a73d1433421cd3844a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/FireDataImporter.cpp",
+    "recorded_sha256": "cd6767396f17331d383543165214bf78b04ef0c41fcfd9f3f93ca916ad6f4b97",
+    "published_sha256": "22851877cc9e23b9c0403b806e2844b34722366e9041f17712c7e6cb041f8c05",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/FireDataImporter.h",
+    "recorded_sha256": "9fc6c2fecab9fe7d441cf8746894d5d996e344c38255d1b561747125f65cc49f",
+    "published_sha256": "72fe48c2ad4da8b99f048f00dc0e26672ce43352add7e75936a6a9e5c4c15c89",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/FirePresentationMath.h",
+    "recorded_sha256": "443419f6df3cf6a3861e0b77a91f2aebbd2ada999115bcc56bfb9770c1e0e72b",
+    "published_sha256": "df8e33812be1052e0b4d39640a7dadaddbe18c018af2e4c27262e61fd70480ce",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/FireVisualProfile.cpp",
+    "recorded_sha256": "2a8101ed4696c17e6699bbc5dca887054cf4ce92b3e855f9aee1338e89a27ef5",
+    "published_sha256": "7541b6804a1a957650ac248e0abb6ce784a343954df9b819772870f70794725c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/FireVisualProfile.h",
+    "recorded_sha256": "72f8e8ba4b8d924d04a2536df6ce18ab0d4d81a129637a2c7a3044dd5bd8469d",
+    "published_sha256": "c2d4d9183ddf28c5f6ce92d688ed22f2db9ee68ef8e5c5b69de3277efd767b94",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/FireVisualsManager.cpp",
+    "recorded_sha256": "b818e1563668c702285ca625c8b2ec9393831d844faf8846695c9a589e1b4bff",
+    "published_sha256": "663d67998ee0facb303ea62a3b6ee69580d21f430cd54780c87893cd4a50767c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/FireVisualsManager.h",
+    "recorded_sha256": "5fdc8af7a34a5f18e055035a3cf44145204db90f3b84230e4ecc28a607a71c68",
+    "published_sha256": "9fde5078fc5b08c7f7e959aac9a4afbad5fc12c746cf00607546824764846b77",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/ForestDresser.cpp",
+    "recorded_sha256": "0e2c538bc999aebc1afbb7339e6a26e0d98f2032470f43971c304021ce2bd2ee",
+    "published_sha256": "fbac0241875a5948be6a28c1c7686c5356f6f68befc7fa988683b388ac3c41d1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/ForestDresser.h",
+    "recorded_sha256": "e60f6e9ec3fbbde7f3818b12f8ec06dabb4fbe645d60f9e1a53e53281584b89b",
+    "published_sha256": "6d0b53f2f87f221f5bd15c8a34e790ebcb5fb3ce09ef77702bd811f0347334c2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/ForestDresserBatching.h",
+    "recorded_sha256": "a2d1e3d455f9cf8b82419327e88ec23ed0886037866c03cec3b9994250141fac",
+    "published_sha256": "18ecab628b9586190affc62c982048ad491740016e9c00284e5564f90d048606",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/Grid.cpp",
+    "recorded_sha256": "0c22f287ab3666a6778d454b71eac4a19b94e63750d8682def47be0813054a04",
+    "published_sha256": "417483455c3e39a21a2705405ffa1374f7da1abe7a753b09768aa7190e0892fe",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/Grid.h",
+    "recorded_sha256": "95aad564807ff8995406b1b8c98284055c256d574085e5133790811dcd134e32",
+    "published_sha256": "2643349f39a696d01def42b067e7f2566b2c5d7527726de0212e76f0ae871597",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/GroundTruthOracle.h",
+    "recorded_sha256": "97e2fc445765320d8662ee0582b8abb5e4dd4558b6551e4dc1b5902bb271f482",
+    "published_sha256": "1fce29e3b8832d95f88e5823705d2d5dc8c0e4dbbb74ea5cdebb0d6b1193800a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/LiveRenderPolicy.cpp",
+    "recorded_sha256": "8fdeda1316c77b423866d67b1746976cfa8ae606f1af52c9a69d3c228e6cb74c",
+    "published_sha256": "f647174dd9a7cf779010a08cab790ba629630bddfae86ddaf97f5da8660bf000",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/LiveRenderPolicy.h",
+    "recorded_sha256": "eee137323b7f6e4c8f7b02d5401b288924a3e080ed2b27abfcaf0a81be9ec0c3",
+    "published_sha256": "369608aec7bc7f15ff412041510edcc16bb77f9e821a3e1e62f136bd6fd1f48a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/LiveViewPresentation.h",
+    "recorded_sha256": "9b771221ece38c559a2638a12e8fe214693037fd6e3ce87c6953a795305e8ca9",
+    "published_sha256": "768f6badea05f1dce6eb7cca3576c79701a12954438fbd27afaa09f1185c5647",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/PriorityModel.h",
+    "recorded_sha256": "82126fcd431492219b9eedf782294a6b80bd88ef5017697635743edd5b495c85",
+    "published_sha256": "8249523f4a222c4c890c69277c94a27c78c1d68c3f3775ca058e52047f3a3a4a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/ProceduralTerrain.cpp",
+    "recorded_sha256": "25c8ac03c9d24ac2ea073a7edeb94a02506f0831a16ea3175210f3ceb2d66a55",
+    "published_sha256": "dcbb25fb7223064af792d0f61845b5dd95a890e7711300773298ba2c30b1283f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/ProceduralTerrain.h",
+    "recorded_sha256": "6f9fe114bc6ca776257e0d789f76f85ed8a254bf1ab01c18c610f6b4d365ea6c",
+    "published_sha256": "2182113b04b00120ab7ec66dfe24553379a4c9d9740f5a9e4969685a4c313bf2",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/SimulationDatasetExport.cpp",
+    "recorded_sha256": "1b389f0c4f67567c228e74142c7a9b5ddfc9e966e9cc5818b949051b2b4b9645",
+    "published_sha256": "dd139a69f86c65421b04dd3c087c993ac367b2f9fb34c280d766307f1e09ccf1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/SimulationHUD.cpp",
+    "recorded_sha256": "0aac23665f72f24f6f58af649934902535f14e3fb4b7c3f16595cb71e71f0d89",
+    "published_sha256": "c6ef3f3033d9f4829348d3483f4a436dd783ef1436eae0437e225fe1547d437f",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/SimulationHUD.h",
+    "recorded_sha256": "482753d60cb35f4010559ba916241fff813904c053d86f6edea3502396c13e6e",
+    "published_sha256": "ac5202fafa6d535c6835ce1bd795a9987eb7543452cb33fc092bffc2aefa79d6",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/SimulationManager.cpp",
+    "recorded_sha256": "059794ecd18d63f0053cba443ca0d4682f05a256338c381b80316a5279646b7c",
+    "published_sha256": "23d5e9e4786f2249a52d0f3615a1f51dc419531fceb4b3161d71a91d09587b76",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/SimulationManager.h",
+    "recorded_sha256": "d73b91ca16bbddfd0abb63a213060e9a5dc8160cba119eaebb0371797e3ce2ad",
+    "published_sha256": "e5112bd84f16dce8da3b7cba3a69e02a29d7e0fb183952589e86e522a2527758",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/Thesis/World/VisionProjection.h",
+    "recorded_sha256": "2a35334d8327aa219ae82531cb1e00e0594a9e85314af18a43d713e98c3d63d9",
+    "published_sha256": "2ee43984238066d9228bd40f670eadd7cfd058a46d47dc05482a0776b505754d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Private/DroneLocalPriorityComputeShader.cpp",
+    "recorded_sha256": "b1626d6ad03d6078fe35d9d30e066173cf1799fe80bf590980352b8e3159b894",
+    "published_sha256": "0372224abea3f0304cadffca1db09692972b5e0695cbae78d718a23d85289099",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Private/GridStatsShader.cpp",
+    "recorded_sha256": "d9369a9693f2daf85adb40dbd682c4dc2268ac35d0d452196533a74fe1d14797",
+    "published_sha256": "7a31530c4009d12d47c287e89a191d0c5850c80bc584a999e20f5e69675a2bd5",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Private/PixelBleedSpreadShader.cpp",
+    "recorded_sha256": "820ef87f43ec274d71010c1d9bf8d39e27fa0a526500baac27fd3e77bf0568e5",
+    "published_sha256": "467acce09d2b1b29d68eaceda8b94ee83b88f66607cef1e29ab0e060bcaae186",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Private/PriorityComputeShader.cpp",
+    "recorded_sha256": "893e6c66cbe69baeea74e8f09bb3d5d6f5a3e6b5b47d5a9b7d649b15d89ae13a",
+    "published_sha256": "266c4aae274871419bbfc80bbc9d53a389744254a899ab663828fbfe1ae4bf5a",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Private/ThesisShadersModule.cpp",
+    "recorded_sha256": "d0e178cc6b7c0c42b06b54891b28325f29d01d9025605a44b498aed143a996f2",
+    "published_sha256": "c27e472d62f97c59b9fd9ab2a99d505b20e943fcfcc3c9b19a13876cfa79cdce",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Public/DroneLocalPriorityComputeShader.h",
+    "recorded_sha256": "0241b41fe03208c17763223a99cffc43df932d80710c8155d2421f5457b18b13",
+    "published_sha256": "b946a45346d38ca619e3e9018c8d2bd0e95cecaa6a5e082b0077895d0a780aa9",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Public/GridStatsShader.h",
+    "recorded_sha256": "59bcc8efe266a42d3edb7b499707f4e4050c42691c4711769f4b0de8a6c7a497",
+    "published_sha256": "66e4ef7574b3377c39e2fddaa7cd06dac7c460565bb848a62e9af5e256504807",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Public/ObservationIngestShader.h",
+    "recorded_sha256": "2a97b45e5459a666cb8b86bcd9531a14bc4f232abbfa4df61216e81353a49f49",
+    "published_sha256": "caa73f2baf5fb71b2917ae7ba8d7ca66bdb53101d5828bfb0f47714b041de98b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Public/PixelBleedSpreadShader.h",
+    "recorded_sha256": "f3f6d3dad629a4d6861b6323ca2ce2289fa7bd5b671de2d82c252740cc23908a",
+    "published_sha256": "2834441bf15f9d64780bc49e9ce1baf62fc8e79f730d80db28738849d504b6d3",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Public/PriorityComputeShader.h",
+    "recorded_sha256": "3c4c2a1227519d03e1d3e2760bf93c577e4031c6fa5dfab7b25e99092532ffce",
+    "published_sha256": "f2c82a5f3821677dc95d77d7f9d4e16713ef6443e1e369bc6853f68cfc971dd1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Source/ThesisShaders/Public/StalenessUpdateShader.h",
+    "recorded_sha256": "4599b8a8ce577a3704d20269c21a5675db56614ccb938d5266427b1584689de8",
+    "published_sha256": "fd22ce71b4afbcb90a07e29926f2807ef507741a94efb574558a5f5201e86b5d",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Shaders/Common.ush",
+    "recorded_sha256": "0bfd31dd5add6bb78cf89f6ebcb9ba5bdf8bbe27e6113a5feb35070c8e57f3b3",
+    "published_sha256": "25386c42e5ef3dbbed64c205388780f09010089154113ef96a434a45d5564857",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Shaders/DroneLocalPriorityCompute.usf",
+    "recorded_sha256": "8d6ac6024b3b4824bb170fef620b6641ef57dfda1eeb86cfa22f1c483178b4f4",
+    "published_sha256": "485e02b160b17311316eabb2e00b33958270cb4234de4db29f09f37b2f9ef844",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Shaders/GridStatsReduce.usf",
+    "recorded_sha256": "239c50846e278c61929085b13d9969bcb703faaf59272a9cd69b2820fb45c3fe",
+    "published_sha256": "4454a848d12398baa9d6c42c1d088830498e6d0bf3fc6d832363f48f1df93944",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Shaders/ObservationIngest.usf",
+    "recorded_sha256": "76c6fed194fd89feafe18a964a22f926cba621c7eb388dda938d2aaca1e2756d",
+    "published_sha256": "55140ff2596ecd50a13dcbca5977b56202df7f9cf304403335336c4493976d70",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Shaders/PixelBleedSpread.usf",
+    "recorded_sha256": "f6faa70365125d265e45950a73a2153012db807778a9dee72c09860927bce1dd",
+    "published_sha256": "37752d1396de3e69e3b7f65c02e5bdcd744896ae0e97c160193f1693b10d1711",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Shaders/PriorityCompute.usf",
+    "recorded_sha256": "347e2aa7d84ebcd03bc97dc8d6ecd24e768348b826cf52dc16040bcb095dc974",
+    "published_sha256": "46bc683a649c0a699ada1904830c136c88baa716ee8a4267597b9d307736a2ad",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Shaders/PriorityModel.ush",
+    "recorded_sha256": "e0c283ddea1e53e1f104806f2f37cfa665c91c0530823d43fe0287c331a70336",
+    "published_sha256": "6227aa73cb6a086c7b4f3b5dd2f1b15cfe27d39b699fe1f96bd459f3e91b678b",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/import_polyhaven.py",
+    "recorded_sha256": "e55781106382ad25add81f13a3b52171296f957a216782d5243c2e94bd48907e",
+    "published_sha256": "66b1b8d265d0f42499d0c2208a1d4b79aa8af50c4c7fd79b141d5db24167d39c",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/download_geres_polyhaven.py",
+    "recorded_sha256": "0d51d42e37dfffbc7ec53ebe2a66e23621a6e0c7ada00d19194aff0563543cc0",
+    "published_sha256": "c791d19486140b9f91f937f0f3f10c2cf4ec326708f987088048ac8a82d8b1cb",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/download_flora.py",
+    "recorded_sha256": "be38fa570f6c8d8ea31594738dd3cd7daae3d1d72f8f3e043a1ce945f0f35f35",
+    "published_sha256": "aaf82f995918d121354f32f173e500d29856cecfdf827160b6497b3564942fd1",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/verify_lawnmower_followup_validation.py",
+    "recorded_sha256": "d507ffe59fdbba629e38daa565a417ab8a5af58a121bf81bd47de91a5c4be454",
+    "published_sha256": "67c4e1d9182c90dbc4e45772280a3b43c180ce5881a283f9368842b6e7eb3103",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/run_lawnmower_pinned_validation.py",
+    "recorded_sha256": "63bdc94d037b34582699525a81d848680843e7da3b6f9805e97cdfafaf4423ce",
+    "published_sha256": "d382202b726874bb79ab660f98734a0ec65152e5c870ff6a09a1b12d8a9c71ac",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/run_lawnmower_followup_production.py",
+    "recorded_sha256": "e8e6b785341ba22d389d8cb4252ac55870d05521dc5813ad9ba42087c1045317",
+    "published_sha256": "da52b087ceeb5977e486fddac7fcbfb08a498caded872129bd59d8140dd362d0",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/run_fov_scoring_full_matrix.py",
+    "recorded_sha256": "76d9aadd2da6d58787448037aa3dcf730b20a0656842e6177a818d6d5cc557f3",
+    "published_sha256": "6440cea94b2a0ebf48b46db0f6ebce81f89292603a389f22330a82bab5e751ed",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/run_fov_current_build_all_arms.py",
+    "recorded_sha256": "f0c0fc3031c884687cf8b79061f42b6a09b9d25db6d6485e26238167e02bdb62",
+    "published_sha256": "7dd732ba57f5349d6e8ced90d4c04f3c0abada4bd211c2eb420d4bcf3330400e",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/train_yolo_experiment.py",
+    "recorded_sha256": "421ae0e0bb65b3c15ae3006e504b66790c18a753dbbe046d0e78899858a55feb",
+    "published_sha256": "699a7726f567179771822da0733fa321422191b2edcd6218c1f9f8f9ebfe0140",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/prepare_yolo_dataset.py",
+    "recorded_sha256": "56d70c83989ed5d1fcfc77e94f7d3a29a6b54458b54d0d2bcb5b1c5c1ad6bfc6",
+    "published_sha256": "2c4dbf25760014f262903c9f03a0c4a95f603327954c797710bbab86172d14bb",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/evaluate_yolo_experiment.py",
+    "recorded_sha256": "ca637b2e9836794ccd9e84ae64b280e14b6ff6b80d7a1f2349a1a4858ef8deed",
+    "published_sha256": "5ae24a17ba179022e3bd2146b3b3f441ea81ab35b724f17d5e254b602f2f0c33",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/generate_humans.py",
+    "recorded_sha256": "31695e4f2748cb0a62fb9bf726ebe972b1300af8f14c1febe7929e6b35060d5d",
+    "published_sha256": "0def298fc0db55d9c46353660425a8649b4d06ba34e7d7f0c610e2d13e359d77",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/current/Tools/generate_fire_csv.py",
+    "recorded_sha256": "d018d7b81e37c6fe3ddcf878266b0f13006c3ae103d5b93c5be9d630a0ce5648",
+    "published_sha256": "5ce3f1fe03272b098a3b4a7cb1c7ceb835fbdcea9f0965605115a875a10054ae",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Tools/run_fov_current_build_all_arms.py",
+    "recorded_sha256": "f0c0fc3031c884687cf8b79061f42b6a09b9d25db6d6485e26238167e02bdb62",
+    "published_sha256": "7dd732ba57f5349d6e8ced90d4c04f3c0abada4bd211c2eb420d4bcf3330400e",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  },
+  {
+    "published_path": "simulator/main_evaluated/Tools/run_fov_scoring_full_matrix.py",
+    "recorded_sha256": "76d9aadd2da6d58787448037aa3dcf730b20a0656842e6177a818d6d5cc557f3",
+    "published_sha256": "6440cea94b2a0ebf48b46db0f6ebce81f89292603a389f22330a82bab5e751ed",
+    "change": "Text encoding/comment normalization; executable statements retained."
+  }
+]

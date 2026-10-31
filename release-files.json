@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "file": "scenario-inputs-01.zip",
+      "bytes": 419188547,
+      "sha256": "6593b27470475dd925dcfc962c98d0cfe05757e5a8d59aa6d4157cd7f72d4c7e",
+      "files": 1167,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "scenario-inputs-02.zip",
+      "bytes": 428621810,
+      "sha256": "ea6b01818ef626f02dfa86316bff83b9b445cde1b3199924ec1a61184a82ff98",
+      "files": 1150,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "scenario-inputs-03.zip",
+      "bytes": 455540472,
+      "sha256": "d908b9af4525d0c36ae20601748010b07e32f2c3572bdd41ceaeb6d4cebccad1",
+      "files": 1125,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "scenario-inputs-04.zip",
+      "bytes": 447688011,
+      "sha256": "7dc364fc140acc3ff5d3b87cd274eccc3e3138a950058d8e554d0cc1275dddf1",
+      "files": 1124,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "scenario-inputs-05.zip",
+      "bytes": 434149818,
+      "sha256": "f1effdff08344581701435788aa62263426bd4e3aa67718249dd03d7433ac8ad",
+      "files": 1116,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "scenario-inputs-06.zip",
+      "bytes": 454052923,
+      "sha256": "9e99855c4cf36528787eb86937b2784a09992060cc5a6da131eeff519f0cacc0",
+      "files": 1125,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "scenario-inputs-07.zip",
+      "bytes": 463711698,
+      "sha256": "37146f9ca4db1fff6e3883ebb1fafd0d5d7af313ef9d1ace94020c8ef0f7579a",
+      "files": 1125,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "scenario-inputs-08.zip",
+      "bytes": 71845163,
+      "sha256": "120a47bb94f08da9d7dec5454aa045639f8d9cf095fa208cbb282b2237a06a53",
+      "files": 168,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "run-configurations-01.zip",
+      "bytes": 29707228,
+      "sha256": "7238e27440e0f4c4339806678c90a1dc97573778aadd89996798547ba7e45ba0",
+      "files": 19440,
+      "extract_at": "repository root"
+    },
+    {
+      "file": "flight-paths-01.zip",
+      "bytes": 11405016,
+      "sha256": "195aa94ea79c926318695b09cbd48f6b2a0134a399929b0458aa36eafff2edce",
+      "files": 84,
+      "extract_at": "repository root"
+    }
+  ],
+  "scenario_directories": 1620,
+  "scenario_files": 8100,
+  "recorded_configurations": 19440
+}

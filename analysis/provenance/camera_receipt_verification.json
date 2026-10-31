@@ -1,0 +1,102 @@
+{
+  "receipt": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\preparation\\continuations\\offline_final_report_receipt_20261025_v3.json",
+  "receipt_sha256": "0215cbc410973d7d579f9b0c4fea870aa8d6ae21b84f742a4aa26f1c79268ccd",
+  "checks": [
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\manifest.json",
+      "expected": "dc09bc8d74e77964f2c9c8e64dcfc4a0b4dde7ed8ec1bc9afeb7debea9316e90",
+      "actual": "dc09bc8d74e77964f2c9c8e64dcfc4a0b4dde7ed8ec1bc9afeb7debea9316e90",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\preparation\\continuations\\full_prefix_integrity_360_20261024.json",
+      "expected": "50ad0ec63f72d31324ff15e65ac98289eeb286c772a17b577d2c88901f5cd6f6",
+      "actual": "50ad0ec63f72d31324ff15e65ac98289eeb286c772a17b577d2c88901f5cd6f6",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\preparation\\continuations\\saved_results_640_integrity_20261025\\saved_results_640_integrity_receipt.json",
+      "expected": "17f61e33af70b4409428e086c61b11fdb94d11a413bb00788caa45a6a4b6f1fa",
+      "actual": "17f61e33af70b4409428e086c61b11fdb94d11a413bb00788caa45a6a4b6f1fa",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\preparation\\repair_20261024_w2_cont02\\worker_01.json",
+      "expected": "10da49686f0d494f096c29c0847a72c633bdbe3868fecebbe67ec15a2a28393b",
+      "actual": "10da49686f0d494f096c29c0847a72c633bdbe3868fecebbe67ec15a2a28393b",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\preparation\\repair_20261024_w2_cont02\\worker_02.json",
+      "expected": "69c39e9c74a9e3d2c2b39d119891d12e76931649adb748ddc8d9f6be464b498f",
+      "actual": "69c39e9c74a9e3d2c2b39d119891d12e76931649adb748ddc8d9f6be464b498f",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\pretese\\revision\\camera-study-final-20261025\\resolved-config-unique-values.json",
+      "expected": "77204f1418a1c114e95132f2bd6c89974adcc0baa961eb540a16ddf0fa556c6e",
+      "actual": "77204f1418a1c114e95132f2bd6c89974adcc0baa961eb540a16ddf0fa556c6e",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\pretese\\revision\\camera-study-final-20261025\\gpu-field-scope-summary.json",
+      "expected": "e498b1c1790ff60bed3213e72441cf3d3ab6abe475d20175e4f9b53bcad630c7",
+      "actual": "e498b1c1790ff60bed3213e72441cf3d3ab6abe475d20175e4f9b53bcad630c7",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\pretese\\revision\\camera-study-final-20261025\\matched-starts-detector-settings-summary.json",
+      "expected": "ea141a3d9eaba6c888e3a6e796e61ce56cbd4f7e1a9e3668582beea4162a0dc6",
+      "actual": "ea141a3d9eaba6c888e3a6e796e61ce56cbd4f7e1a9e3668582beea4162a0dc6",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\build_pin.json",
+      "expected": "f5415d088eda7c220489626343e06d3ace77ec73f7df21f3e27570fc1328a787",
+      "actual": "f5415d088eda7c220489626343e06d3ace77ec73f7df21f3e27570fc1328a787",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Tools\\camera_state_resume_supervisor_20261024.py",
+      "expected": "cc89b141311e0bcf436d515eb90fd0f128b4480324ba8d3b80a2391e840b9b3c",
+      "actual": "cc89b141311e0bcf436d515eb90fd0f128b4480324ba8d3b80a2391e840b9b3c",
+      "matches": true
+    },
+    {
+      "path": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Tools\\test_camera_state_resume_supervisor_20261024.py",
+      "expected": "d6262e02af4ea91e88165ceb56a051b607a2d0756ec3377d834e89a0ca199994",
+      "actual": "d6262e02af4ea91e88165ceb56a051b607a2d0756ec3377d834e89a0ca199994",
+      "matches": true
+    }
+  ],
+  "all_references_match": true,
+  "study": {
+    "manifest_sha256": "dc09bc8d74e77964f2c9c8e64dcfc4a0b4dde7ed8ec1bc9afeb7debea9316e90",
+    "run_count": 1000,
+    "team_block_count": 250,
+    "scenario_count": 125,
+    "horizon_ticks": 8000,
+    "checkpoint_ticks": [
+      0,
+      100,
+      500,
+      2000,
+      8000
+    ]
+  },
+  "comparison_contract": {
+    "team_comparisons_validated": 250,
+    "required_csv_gpu_cpu_owner_settings_pose_projection_equalities_pass": true,
+    "only_false_boolean_leaf": "render_hashes_compared=false, exactly once per live-to-replay camera-state comparison (Replay A and Replay B); replay does not render",
+    "false_leaf_count": 500,
+    "rendered_image_hash_equivalence_claimed": false,
+    "gpu_cpu_checkpoint_comparison_scope": "Replay A versus Replay B only",
+    "gpu_checkpoint_scope": {
+      "available_active_belief_and_observation_fields": "fire_belief, person_belief, person_observation_tick_plus_one; raw bytes and Python SHA compared between Replay A and Replay B at all five ticks",
+      "priority_and_staleness": "raw values available and compared only at tick 0; later checkpoints producer_inactive, so only availability metadata is compared, not numeric texture values",
+      "owner": "GPU owner texture unavailable (unsupported_gpu_source); CPU WorldGrid owner stream separately recorded and hashes compared between Replay A and Replay B",
+      "live_to_replay_gpu_hashes_compared": false
+    }
+  },
+  "scope": "Rehashed final receipt dependencies. No camera missions or inference run, and no new rehash of the 26GB resumed raw output set; its saved integrity receipt is checked here."
+}

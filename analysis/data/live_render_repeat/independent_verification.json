@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "validation_date": "2026-10-24",
+  "independent_live_runs": 2,
+  "scenario_count": 1,
+  "team": "four cameras",
+  "horizon_ticks": 8000,
+  "camera_events_each": 6399,
+  "captures_each": 3200,
+  "paired_image_hashes": 3199,
+  "image_hash_mismatches": 0,
+  "distinct_image_hashes": 3199,
+  "resolution": [
+    640,
+    640
+  ],
+  "pixel_format": "BGRA8",
+  "hash_algorithm": "FNV-1a-64",
+  "terminal_capture_without_consumed_pixel_hash": {
+    "drone": 0,
+    "tick": 8000
+  },
+  "original_module_sha256": "e4681c20563689af95e34fc35457338fcc6362e590f873100c329d479fdb57b0",
+  "repair_module_sha256": "b27fdd5e466f773c7052c2eef651095501f2469bea77de0a3cfa9ccf63d28e34",
+  "same_module": false,
+  "interpretation": "Live-to-live rendered sensor pixel hashes match in this full-horizon pilot. Separate from 250 live/cache-replay blocks. This is hash evidence, not a newly repeated pixel-array or PNG comparison.",
+  "sources": [
+    {
+      "path": "Saved\\Benchmarks\\camera_state_validation_1000_20261023\\repair_20261024_w2\\repair_concurrency_pilot_receipt.json",
+      "sha256": "92188f2f1038b870fd3a966aa40181eea13b6c42e14fca42771d1ed4443ffb8f",
+      "bytes": 14936
+    },
+    {
+      "path": "Saved\\Benchmarks\\camera_state_validation_1000_20261023\\pilot_attempt_02\\runs\\allcamera\\block_001\\liveRecord\\camera_audit\\camera_state.csv",
+      "sha256": "5a3e7ad947b9712174da6ca593103c901958157e62022ac22d63acc5782df3d1",
+      "bytes": 75876873
+    },
+    {
+      "path": "Saved\\Benchmarks\\camera_state_validation_1000_20261023\\repair_20261024\\concurrency_pilot_live_replay\\worker_01\\allcamera\\block_001\\liveRecord\\camera_audit\\camera_state.csv",
+      "sha256": "297337c35a3fb8c91a2df2da38c9c4eccaa374ff9962bc5ce8bd315a7697bf9a",
+      "bytes": 76126434
+    },
+    {
+      "path": "Saved\\Benchmarks\\camera_state_validation_1000_20261023\\pilot_attempt_02\\runs\\allcamera\\block_001\\liveRecord\\config.json",
+      "sha256": "cb8414efbf67d2196841809c410014a8631470361650f37fbcacf4e72b3b8189",
+      "bytes": 20212
+    },
+    {
+      "path": "Saved\\Benchmarks\\camera_state_validation_1000_20261023\\repair_20261024\\concurrency_pilot_live_replay\\worker_01\\allcamera\\block_001\\liveRecord\\config.json",
+      "sha256": "3a1f637e35d6831ce01a8db0c5d713a60285d119f5d24ad2f6591c134d01c213",
+      "bytes": 20777
+    },
+    {
+      "path": "Saved\\Benchmarks\\camera_state_validation_1000_20261023\\preparation\\continuations\\repair_20261024_w2_pilot_revalidation\\liveRecord_validation.json",
+      "sha256": "51695ae46aae2a480f3d14c4733340635c3774473e0614dc5ef4d6fa35ab4054",
+      "bytes": 15668
+    },
+    {
+      "path": "Saved\\Benchmarks\\camera_state_validation_1000_20261023\\preparation\\continuations\\repair_20261024_w2_pilot_revalidation\\replayA_validation.json",
+      "sha256": "5aed4df3ce3d86e7273318e9048f8566e4ec451c88e888626c6b0270af19968e",
+      "bytes": 15653
+    }
+  ]
+}

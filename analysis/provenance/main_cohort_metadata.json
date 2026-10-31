@@ -1,0 +1,26 @@
+{
+  "experiment": "Current-build main planner comparison and combined FOV ablation",
+  "runs": 12960,
+  "arms": {
+    "mine_full_fov": 3240,
+    "mine_target_cell": 3240,
+    "random": 3240,
+    "oracle": 3240
+  },
+  "unique_scenarios": 1620,
+  "scenario_regime_pairs_per_arm": 3240,
+  "ticks_per_run": 8000,
+  "seed_range": [
+    27,
+    41
+  ],
+  "module_build_gate_sha256": "b93ab572ce06285f38a147010f931bf71a7f156fced659da0c858bc141bce6b4",
+  "execution_plan_sha256": "461c7cb72e0520bb53057162e73c6529e71ca93fc43b6074c8e58c7acc369bc5",
+  "run_metrics_source_sha256": "12bf4e1d200e45e13aa88032c381896745983f3984de001c0b0ed30e1761bfad",
+  "completion_integrity_audit_sha256": "3f351415645518dd9fdf9029e3cd6b90ed9880096a15aab5fc21f8756ab5f30a",
+  "build_receipt_module_dll_sha256": "b93ab572ce06285f38a147010f931bf71a7f156fced659da0c858bc141bce6b4",
+  "analysis_metric": "summary.csv detection_fraction; equal-run mean",
+  "current_main_control": "computed from included current-build run summaries",
+  "module_hash_scope": "Build-gate and build-receipt identity; per-run binary hashes were not recorded. CSV manifest_module_sha256 is not a per-run binary measurement.",
+  "current_main_control_percent": 92.40209188271605
+}

@@ -1,0 +1,434 @@
+{
+  "run_id": "repairPilot_worker_01_allcamera_liveRecord",
+  "arm": "liveRecord",
+  "baseline_run_id": "pilot02_cs1000_block_001_allcamera_liveRecord",
+  "attempt_receipt": "attempt_receipts\\repair_20261024_w2\\concurrency_pilot_live_replay\\worker_01.json",
+  "attempt_receipt_sha256": "f718a35f36de46b3baafd00d3bd4bba6d49c52f695fdaa77d1d502491f5b7c1b",
+  "output_dir": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\Benchmarks\\camera_state_validation_1000_20261023\\repair_20261024\\concurrency_pilot_live_replay\\worker_01\\allcamera\\block_001\\liveRecord",
+  "output_file_count": 36,
+  "output_tree_sha256": "487a8ff8b7477afd53fa489177d7d79f3545489c0d7561d106618317ba4deff4",
+  "validation": {
+    "run_id": "repairPilot_worker_01_allcamera_liveRecord",
+    "gpu_checkpoints": [
+      "0",
+      "100",
+      "500",
+      "2000",
+      "8000"
+    ],
+    "camera_audit": {
+      "rows": 6399,
+      "captures": 3200,
+      "consumes": 3199,
+      "unconsumed_terminal": 1,
+      "camera_slots": 4
+    },
+    "outputs": {
+      "first_tick": 1,
+      "final_tick": 8000,
+      "tick_rows": 8000,
+      "drone_rows": 32000
+    }
+  },
+  "gpu_checkpoint_hashes": {
+    "hash_computation": "python_sha256_after_run",
+    "checkpoints": {
+      "0": {
+        "fields": {
+          "fire_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 0,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "e7e2dcff542de95352682dc186432e98f0188084896773f1973276b0577d5305"
+          },
+          "person_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 0,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "e7e2dcff542de95352682dc186432e98f0188084896773f1973276b0577d5305"
+          },
+          "staleness": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 0,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "e7e2dcff542de95352682dc186432e98f0188084896773f1973276b0577d5305"
+          },
+          "priority": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 0,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "e7e2dcff542de95352682dc186432e98f0188084896773f1973276b0577d5305"
+          },
+          "person_observation_tick_plus_one": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 0,
+            "format": "R32_UINT",
+            "width": 100,
+            "height": 100,
+            "sha256": "e7e2dcff542de95352682dc186432e98f0188084896773f1973276b0577d5305"
+          },
+          "owner": {
+            "available": false,
+            "availability_class": "unsupported_gpu_source",
+            "unavailable_reason": "No GPU owner texture exists; partition owners are CPU-generated.",
+            "source_tick": 0,
+            "format": "",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          }
+        },
+        "cpu_partition_owner": {
+          "source": "CPU WorldGrid owner; GPU owner texture unavailable in this build",
+          "format": "uint16 little-endian; 65535=unowned",
+          "sha256": "ed2f5fbfd5951e054586699b690fe1e03a0555ead600badf7ec98bde4c05bd3b"
+        }
+      },
+      "100": {
+        "fields": {
+          "fire_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 100,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "8a5687b0e44dab8c1811a56bd71667bdb0e9a4e3be46c10e5493b0205b7447bd"
+          },
+          "person_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 100,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "a65337bfd560b081c3b1747a89e72b6c86c655c4c5e1e83d391fe3a24ac4f78a"
+          },
+          "staleness": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Staleness update was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "priority": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Priority compute was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "person_observation_tick_plus_one": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 100,
+            "format": "R32_UINT",
+            "width": 100,
+            "height": 100,
+            "sha256": "b06619fe59c4b4f80874eb3476a9a75a731f2cd1f38262cbb405b807dc574c54"
+          },
+          "owner": {
+            "available": false,
+            "availability_class": "unsupported_gpu_source",
+            "unavailable_reason": "No GPU owner texture exists; partition owners are CPU-generated.",
+            "source_tick": 100,
+            "format": "",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          }
+        },
+        "cpu_partition_owner": {
+          "source": "CPU WorldGrid owner; GPU owner texture unavailable in this build",
+          "format": "uint16 little-endian; 65535=unowned",
+          "sha256": "ed2f5fbfd5951e054586699b690fe1e03a0555ead600badf7ec98bde4c05bd3b"
+        }
+      },
+      "500": {
+        "fields": {
+          "fire_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 500,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "2ad683df8376ddf0c0f26b0a99c33658e36846f184331dcf6ec562918a6ca7bf"
+          },
+          "person_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 500,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "e61fde956f7b562f928f79a37794751d66e5099f8e1bdc7c304b442cb3c2c3a6"
+          },
+          "staleness": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Staleness update was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "priority": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Priority compute was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "person_observation_tick_plus_one": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 500,
+            "format": "R32_UINT",
+            "width": 100,
+            "height": 100,
+            "sha256": "01292fc21df8d28f007164f15b16b67472a3a81d9fecf6fe47ee8df4cce201ec"
+          },
+          "owner": {
+            "available": false,
+            "availability_class": "unsupported_gpu_source",
+            "unavailable_reason": "No GPU owner texture exists; partition owners are CPU-generated.",
+            "source_tick": 500,
+            "format": "",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          }
+        },
+        "cpu_partition_owner": {
+          "source": "CPU WorldGrid owner; GPU owner texture unavailable in this build",
+          "format": "uint16 little-endian; 65535=unowned",
+          "sha256": "ed2f5fbfd5951e054586699b690fe1e03a0555ead600badf7ec98bde4c05bd3b"
+        }
+      },
+      "2000": {
+        "fields": {
+          "fire_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 2000,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "15aca3fa1eb043a7bac298d0c0dba19034ee83e3f8ca5375310d7681812d8430"
+          },
+          "person_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 2000,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "7b86fa1c3c4a56421ae48999821ad8ac223f8f42fd13489b9540e9d75585d3e1"
+          },
+          "staleness": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Staleness update was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "priority": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Priority compute was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "person_observation_tick_plus_one": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 2000,
+            "format": "R32_UINT",
+            "width": 100,
+            "height": 100,
+            "sha256": "b40b58ada2f94030de87496474c2aaea8b6dbef27b34faeaabf7d76fd7753e19"
+          },
+          "owner": {
+            "available": false,
+            "availability_class": "unsupported_gpu_source",
+            "unavailable_reason": "No GPU owner texture exists; partition owners are CPU-generated.",
+            "source_tick": 2000,
+            "format": "",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          }
+        },
+        "cpu_partition_owner": {
+          "source": "CPU WorldGrid owner; GPU owner texture unavailable in this build",
+          "format": "uint16 little-endian; 65535=unowned",
+          "sha256": "ed2f5fbfd5951e054586699b690fe1e03a0555ead600badf7ec98bde4c05bd3b"
+        }
+      },
+      "8000": {
+        "fields": {
+          "fire_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 8000,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "f4b88274448b9a2bb8aa1f2e1b518a3a2bc79e193589245c56cde41ab6b0dc57"
+          },
+          "person_belief": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 8000,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": "3588331a89da195bfb822258c81db2269af904016a77568f8519322e0ba98ba5"
+          },
+          "staleness": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Staleness update was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "priority": {
+            "available": false,
+            "availability_class": "producer_inactive",
+            "unavailable_reason": "Priority compute was not dispatched at this checkpoint tick.",
+            "source_tick": -1,
+            "format": "R32_FLOAT",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          },
+          "person_observation_tick_plus_one": {
+            "available": true,
+            "availability_class": "available",
+            "unavailable_reason": "",
+            "source_tick": 8000,
+            "format": "R32_UINT",
+            "width": 100,
+            "height": 100,
+            "sha256": "7eed0a1c2267ea9a01069c686dd87a08018e7ae671d766c69c761fe683557afa"
+          },
+          "owner": {
+            "available": false,
+            "availability_class": "unsupported_gpu_source",
+            "unavailable_reason": "No GPU owner texture exists; partition owners are CPU-generated.",
+            "source_tick": 8000,
+            "format": "",
+            "width": 100,
+            "height": 100,
+            "sha256": null
+          }
+        },
+        "cpu_partition_owner": {
+          "source": "CPU WorldGrid owner; GPU owner texture unavailable in this build",
+          "format": "uint16 little-endian; 65535=unowned",
+          "sha256": "ed2f5fbfd5951e054586699b690fe1e03a0555ead600badf7ec98bde4c05bd3b"
+        }
+      }
+    }
+  },
+  "parity": {
+    "scientific_csv_equal": {
+      "summary.csv": true,
+      "ticks.csv": true,
+      "drones.csv": true,
+      "persons.csv": true,
+      "events.csv": true,
+      "yolo_frames.csv": true
+    },
+    "gpu_cpu_owner_hash_equal": {
+      "t0:fire_belief": true,
+      "t0:owner": true,
+      "t0:person_belief": true,
+      "t0:person_observation_tick_plus_one": true,
+      "t0:priority": true,
+      "t0:staleness": true,
+      "t0:cpu_owner": true,
+      "t100:fire_belief": true,
+      "t100:owner": true,
+      "t100:person_belief": true,
+      "t100:person_observation_tick_plus_one": true,
+      "t100:priority": true,
+      "t100:staleness": true,
+      "t100:cpu_owner": true,
+      "t500:fire_belief": true,
+      "t500:owner": true,
+      "t500:person_belief": true,
+      "t500:person_observation_tick_plus_one": true,
+      "t500:priority": true,
+      "t500:staleness": true,
+      "t500:cpu_owner": true,
+      "t2000:fire_belief": true,
+      "t2000:owner": true,
+      "t2000:person_belief": true,
+      "t2000:person_observation_tick_plus_one": true,
+      "t2000:priority": true,
+      "t2000:staleness": true,
+      "t2000:cpu_owner": true,
+      "t8000:fire_belief": true,
+      "t8000:owner": true,
+      "t8000:person_belief": true,
+      "t8000:person_observation_tick_plus_one": true,
+      "t8000:priority": true,
+      "t8000:staleness": true,
+      "t8000:cpu_owner": true
+    },
+    "camera_pose_projection_pixel_hash_equal": true,
+    "resolved_scientific_settings_equal": true,
+    "cache_inventory_equal": true
+  },
+  "cache_inventory_sha256": "e108f0a83ce139373c4b60208a6adbd3623fc4d7431ecd9941582c25883b137f"
+}

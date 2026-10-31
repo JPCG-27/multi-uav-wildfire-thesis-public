@@ -1,0 +1,32 @@
+DISTRIBUTION EDITION VALIDATION — 2026-10-31
+
+All seven numerical analysis entrypoints in README.txt completed successfully
+using only files in this reduced repository. Every regenerated output matched
+the retained file byte-for-byte. No detector dataset, checkpoint, Unreal run
+or release extraction was needed for these seven analyses.
+
+The seven-method evidence covers 22,680 runs, 3,240 per method, and 1,620
+scenarios in both allocation regimes. The complementary analysis checked
+529,200 person-run records. Camera analyses and sampled image/state repeat
+checks ran against the retained records; they do not constitute fresh inference
+or a new rendering experiment.
+
+All 13 retained reproduction ZIPs passed byte-size and SHA-256 verification.
+Their ZIP member lists were checked for excluded raw art, detector images and
+model checkpoints. The camera-response restore utility additionally verified
+one run from each cohort (799 mixed-team and 3,199 four-camera responses).
+This smoke check is not a new full replay of either cohort.
+
+Both trained checkpoints, the detector dataset tree and download entries, and
+all eight private-project-assets archives are excluded. The retained Unreal
+binary files are project maps and SimBlank template/sample content. The asset
+inventory is historical metadata, not included raw content.
+
+The public-distribution checkout has fresh history, separate from the complete
+private repository. The private repository's 433 tracked files, HEAD and clean
+working-tree state were verified unchanged during preparation.
+
+Not validated for this reduced edition: a clean-machine Unreal build, a fresh
+simulator experiment, image-level rescoring requiring withheld labels, model
+training, fresh detector inference, or cross-machine/driver equality.
+The README documents these boundaries and separately acquired dependencies.

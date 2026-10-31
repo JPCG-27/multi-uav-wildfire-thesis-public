@@ -1,0 +1,2130 @@
+{
+  "scope": "Distribution checkout files; excludes this inventory itself, Git metadata, downloads and generated caches.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 405,
+      "sha256": "7deadd57b500aedd4e4864f5bc92fd7190340202c7d9642092244acfb3b900e8"
+    },
+    {
+      "path": "analysis/analyze_camera_cohorts.py",
+      "bytes": 11619,
+      "sha256": "f25b5f39c2a27ceb903a0ae342c74c13bcdb4e067c8b3d5d0cadfe12433c7d03"
+    },
+    {
+      "path": "analysis/analyze_main_results.py",
+      "bytes": 8144,
+      "sha256": "660605cac5a349efd57e82f04a5514826a2348f9835fe155f9d61640dd0303cc"
+    },
+    {
+      "path": "analysis/complementary_objectives/allocation_effects.csv",
+      "bytes": 34345,
+      "sha256": "146ae14674a6408e264ae8898125b6825c4a0e8bf3512df9b61b3d2be0a7a08a"
+    },
+    {
+      "path": "analysis/complementary_objectives/method_names.json",
+      "bytes": 264,
+      "sha256": "fe8791abf2d1126c2fa73f79e325b7f9f8d85a7fe16d11efec388f14fdb73393"
+    },
+    {
+      "path": "analysis/complementary_objectives/method_summaries.csv",
+      "bytes": 16723,
+      "sha256": "383d90ad0606b722e1a1ac59cca49427ef2c7c9e0dfd7d1ba33e172a00806690"
+    },
+    {
+      "path": "analysis/complementary_objectives/paired_effects_vs_priority.csv",
+      "bytes": 112581,
+      "sha256": "9134c9d84608d8e7a7e155e11ae8569b5a10144aa85d378d4526575bbdd06186"
+    },
+    {
+      "path": "analysis/complementary_objectives/paired_seed_effects.csv",
+      "bytes": 991225,
+      "sha256": "a92224a2e161450a7ac9a812e21b9038b07be6626fb4ab6e4eaadf3fd2b289eb"
+    },
+    {
+      "path": "analysis/complementary_objectives/per_run_scores.csv",
+      "bytes": 3287918,
+      "sha256": "fd005d1c18fcd2bd4c3e253b47609b93b064b71d5edf9e268010f95836f1957e"
+    },
+    {
+      "path": "analysis/complementary_objectives/person_evidence.csv.gz",
+      "bytes": 2761898,
+      "sha256": "700d7c35b9409ba21a8f0a81d01ef695bc962cf35908e3889c12df22bf329ee0"
+    },
+    {
+      "path": "analysis/complementary_objectives/provenance.json",
+      "bytes": 2825,
+      "sha256": "a22351d948c766870d199452766b4cc41dd5b3d9f9a11886b2760317bb907406"
+    },
+    {
+      "path": "analysis/complementary_objectives/README.txt",
+      "bytes": 3382,
+      "sha256": "f77c9cddc11d6478529936cee36a3b0cdddc330be3d840f20490aed54794b0aa"
+    },
+    {
+      "path": "analysis/complementary_objectives/reproduce.py",
+      "bytes": 10922,
+      "sha256": "48ec281c826eabe794a5dfe64eb57a08bff891b72140a856f75883a1d7f3e97b"
+    },
+    {
+      "path": "analysis/complementary_objectives/results.json",
+      "bytes": 442622,
+      "sha256": "0c2adc0b2ca01b04613afd83983639b65e7b428ba4c2ffadca9391c598984b5e"
+    },
+    {
+      "path": "analysis/complementary_objectives/run_evidence.csv.gz",
+      "bytes": 3563554,
+      "sha256": "8c135dec3fc6c099364f26bb1ae32b5325e3b3d4e8788a93640c8b6c50386385"
+    },
+    {
+      "path": "analysis/complementary_objectives/scenario_person_states.csv.gz",
+      "bytes": 97511,
+      "sha256": "466af5f759acd51630a8e29615dbb686248974eb95ea6c165b513780e3f960b6"
+    },
+    {
+      "path": "analysis/complementary_objectives/trajectory_provenance.csv.gz",
+      "bytes": 45402,
+      "sha256": "2e4c19e45a41a092ae0fcf8743eed7fe918fba5818d9edb1ef45fa321fa09ebe"
+    },
+    {
+      "path": "analysis/data/camera_studies/camera_cell_belief_analysis.json",
+      "bytes": 38482,
+      "sha256": "07a062a5249997b1679ef824c37d6bc4daec00c707041213c0698d85c5d87e19"
+    },
+    {
+      "path": "analysis/data/camera_studies/camera_cell_belief_paired_runs.csv",
+      "bytes": 364488,
+      "sha256": "2e1eb9810995c7342a9f340bb5d6fe3414bfc66f6a9047428f4fd6598384bdf0"
+    },
+    {
+      "path": "analysis/data/camera_studies/camera_derived_evidence_receipt.json",
+      "bytes": 8325,
+      "sha256": "4dd74f9f96a9e8e8eeeb4f63c5c6d35ad088cca968926f348308a6b0619fb84f"
+    },
+    {
+      "path": "analysis/data/camera_studies/four_camera_aggregate.csv",
+      "bytes": 1427445,
+      "sha256": "1627dbca3492c936348de09635f114c20748b25c954e089b7d5c8c61054de619"
+    },
+    {
+      "path": "analysis/data/camera_studies/four_camera_chance_null_rank_aggregates.csv",
+      "bytes": 1298,
+      "sha256": "c4df8845f8dd578b20e9b377d7b61d7a8acd9432a3d42241867680dbc41eee78"
+    },
+    {
+      "path": "analysis/data/camera_studies/four_camera_run_index.csv",
+      "bytes": 2742244,
+      "sha256": "0fc2a318a257a0d3385d5ece1ff4d4a6ed31b1bd493dbd6463f71394c3788a2a"
+    },
+    {
+      "path": "analysis/data/camera_studies/mixed_camera_territory_analysis.json",
+      "bytes": 852991,
+      "sha256": "c2272fdc90d4bf3d879408241eee40b15e9e6eb9c593eded3345457a8ebc0468"
+    },
+    {
+      "path": "analysis/data/camera_studies/mixed_camera_territory_normalized_analysis.json",
+      "bytes": 33382,
+      "sha256": "ddc397853a5f6696cb436c6beb957c87a376a6efc732f26441c4cf7f51c88882"
+    },
+    {
+      "path": "analysis/data/camera_studies/mixed_camera_territory_per_run.csv",
+      "bytes": 590567,
+      "sha256": "98550893fcf610293ef0cbb56a80fb73dcd5cad98b9f859f06e26b2a2374457d"
+    },
+    {
+      "path": "analysis/data/camera_studies/mixed_chance_null_rank_aggregates.csv",
+      "bytes": 1301,
+      "sha256": "3a053f2ba8134fc3a9a1d4fd72cd9efb167a23005f2fe44cb1dfc00d9572cb82"
+    },
+    {
+      "path": "analysis/data/camera_studies/mixed_ideal_plus_camera_aggregate.csv",
+      "bytes": 1423744,
+      "sha256": "605f5f1d71d8451d65e9353a676989f5ca9e17ff0feb10b0d71b90eda5a547d4"
+    },
+    {
+      "path": "analysis/data/camera_studies/mixed_ideal_plus_camera_run_index.csv",
+      "bytes": 2717062,
+      "sha256": "e580d964630c6278ec3a22e83ef1815b6ec0247cd5208e45512f3ac658c948bc"
+    },
+    {
+      "path": "analysis/data/camera_studies/mixed_recovery_analysis.json",
+      "bytes": 14518977,
+      "sha256": "2e81eeed48fc43721bf2a2082f936ae23b6bcc3e80eb55bcb4f2c9135bb64d30"
+    },
+    {
+      "path": "analysis/data/camera_studies/temporal_shift_per_run_summary.csv",
+      "bytes": 929744,
+      "sha256": "16aa87c3de262617e8445402194a30b038f765c7b039e779f7d0eb9a35719ea4"
+    },
+    {
+      "path": "analysis/data/camera_studies/three_ideal_analysis.json",
+      "bytes": 4861194,
+      "sha256": "0660e180e81f9616549ab1bb811926b59f9070e6effcf0fb2a6db9c15c251b4c"
+    },
+    {
+      "path": "analysis/data/camera_studies/three_ideal_cell_belief_run_summaries.csv",
+      "bytes": 1835500,
+      "sha256": "9d8e9b41e8f4b2d848acae99738db0c99574d7fbd2e4069a19da20be4284c23c"
+    },
+    {
+      "path": "analysis/data/camera_studies/three_ideal_completed_attempt16_run_index.csv",
+      "bytes": 1578559,
+      "sha256": "db7e6b9d06c904037d4af6d8358e7b71d6e297ac94e54a11df1abb961354b9e4"
+    },
+    {
+      "path": "analysis/data/fully_random_oct22_run_summaries.csv",
+      "bytes": 198488,
+      "sha256": "4069ec0621c0b2e26757e50580f3ee6921c528fef3b8642f6bb1dafb007aa994"
+    },
+    {
+      "path": "analysis/data/ideal_methods/method_names.json",
+      "bytes": 262,
+      "sha256": "2b5d858891e2df87823d0f93256f75d0c90601bb5dee7a8b03ba977f9c1e865f"
+    },
+    {
+      "path": "analysis/data/ideal_methods/numbers_key_contrasts.csv",
+      "bytes": 15926,
+      "sha256": "58d6d4373428ab29de7896904eb8a27f8fe3d6561debaf6f01adeac435989fdf"
+    },
+    {
+      "path": "analysis/data/ideal_methods/numbers_methods.csv",
+      "bytes": 10805,
+      "sha256": "08006aee30752a5bd70ea015031bda79de7976e47ce7b5e9b00d5318a9ae223d"
+    },
+    {
+      "path": "analysis/data/ideal_methods/per_run_metrics.csv",
+      "bytes": 3058122,
+      "sha256": "7ebd1d3f52f06596f779380ca19230c43165ef0286e094fdfeea77a799ed8a0a"
+    },
+    {
+      "path": "analysis/data/ideal_methods/reproduce_numbers.py",
+      "bytes": 2623,
+      "sha256": "d66cda9266ed8527c348d1af1f6699ae7f10ae09db53c246e6dee5706ef7a623"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/baseline_camera_state.csv",
+      "bytes": 75876873,
+      "sha256": "5a3e7ad947b9712174da6ca593103c901958157e62022ac22d63acc5782df3d1"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/baseline_config.json",
+      "bytes": 20212,
+      "sha256": "cb8414efbf67d2196841809c410014a8631470361650f37fbcacf4e72b3b8189"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/baseline_resolved_config.json",
+      "bytes": 87778,
+      "sha256": "22769760207c6094c8e0a0e292f5f5b3f7bf09ed6085c7daf1471b1ef13b7081"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/comparison_receipt.json",
+      "bytes": 14936,
+      "sha256": "92188f2f1038b870fd3a966aa40181eea13b6c42e14fca42771d1ed4443ffb8f"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/independent_verification.json",
+      "bytes": 3002,
+      "sha256": "438218552bea2536c1e4cb19e8b47e66dcedec066827223088ec5441bb0dc3d3"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/live_record_validation.json",
+      "bytes": 15668,
+      "sha256": "51695ae46aae2a480f3d14c4733340635c3774473e0614dc5ef4d6fa35ab4054"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/repeat_camera_state.csv",
+      "bytes": 76126434,
+      "sha256": "297337c35a3fb8c91a2df2da38c9c4eccaa374ff9962bc5ce8bd315a7697bf9a"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/repeat_config.json",
+      "bytes": 20777,
+      "sha256": "3a1f637e35d6831ce01a8db0c5d713a60285d119f5d24ad2f6591c134d01c213"
+    },
+    {
+      "path": "analysis/data/live_render_repeat/repeat_resolved_config.json",
+      "bytes": 88416,
+      "sha256": "ee60f73ac6460c87efb993dc348d358696e57b3240b2d1d14daac82638dca050"
+    },
+    {
+      "path": "analysis/data/live_render_stage2/allcamera_original.csv",
+      "bytes": 75768090,
+      "sha256": "8a4b6dc65b186311401fa96cfc5d51d9c29453c5e6f83214a58b10b8a3ca5e1d"
+    },
+    {
+      "path": "analysis/data/live_render_stage2/allcamera_repeat.csv",
+      "bytes": 75876873,
+      "sha256": "5a3e7ad947b9712174da6ca593103c901958157e62022ac22d63acc5782df3d1"
+    },
+    {
+      "path": "analysis/data/live_render_stage2/mixed_original.csv",
+      "bytes": 18938557,
+      "sha256": "76a9f85441e880ef1fb3d36a3b99a7c91ed4ddbae7d5f8772cfb8c4c9899e1ba"
+    },
+    {
+      "path": "analysis/data/live_render_stage2/mixed_repeat.csv",
+      "bytes": 18965740,
+      "sha256": "3a62beccfb0532e5ce4aec2e439513c05fae18201e32e23ffe0cbac0a97e4f5f"
+    },
+    {
+      "path": "analysis/data/live_render_stage2/verification.json",
+      "bytes": 281,
+      "sha256": "5e50d096eb00a9146e2edc6dde8921ce8c394bff3d623e49614058a236139ec0"
+    },
+    {
+      "path": "analysis/data/main_run_records.csv",
+      "bytes": 11188744,
+      "sha256": "1dc1d8cb36cbf0a2f06cc76c20408e5f7c676ed572ae2f4a62535c17097ac071"
+    },
+    {
+      "path": "analysis/data/portable_analysis_results.json",
+      "bytes": 4528,
+      "sha256": "9e592b224c658dac7991807e1c5b4705a7c827838536c5b098817369aff9c495"
+    },
+    {
+      "path": "analysis/provenance/build_receipt.json",
+      "bytes": 4031,
+      "sha256": "67d849f049a2764d97478832b46cf45a3e2763aabe276b521ef82e4681190594"
+    },
+    {
+      "path": "analysis/provenance/camera_receipt_verification.json",
+      "bytes": 6179,
+      "sha256": "aff1daf5274502593d604e8baebe798639f1b7c665f239dfd3c7c716b4466e72"
+    },
+    {
+      "path": "analysis/provenance/current_validation.json",
+      "bytes": 2591,
+      "sha256": "89f82467e8cc6be53740771d928497a4558500335bad7378059b6dc311731168"
+    },
+    {
+      "path": "analysis/provenance/main_cohort_metadata.json",
+      "bytes": 1252,
+      "sha256": "9929ad65410ad25837180df84fc47643a81d16ab82c282468b0b96a356584797"
+    },
+    {
+      "path": "analysis/provenance/main_evidence_verification.json",
+      "bytes": 31487,
+      "sha256": "fa27c668bf639c3e69dbbaf04f252a2d6f49da016542af326a030f8e14d434a7"
+    },
+    {
+      "path": "analysis/provenance/repeatability_evidence_verification.json",
+      "bytes": 114627,
+      "sha256": "ef010d500c6482c71a6f64544eb2670de08e630b4eb42ed9adcb7343d404617c"
+    },
+    {
+      "path": "analysis/provenance/source_snapshot_manifest.json",
+      "bytes": 27637,
+      "sha256": "df95d58ff304ed33366fbae7a94e5cf10db7ba38f7809a81af5664066ea7bee4"
+    },
+    {
+      "path": "analysis/provenance/three_ideal_attempt16_execution_summary.json",
+      "bytes": 1114,
+      "sha256": "fd0bc085f324dbcd3ad7f03d70ddc20ffcfc8ce7df0ba775ee708b18e3edc21d"
+    },
+    {
+      "path": "analysis/verify_camera_derived_summaries.py",
+      "bytes": 5471,
+      "sha256": "d097e452a895fea0b3670e3eb0b919778e32c551321bcee5d9a9efc12827d5c7"
+    },
+    {
+      "path": "analysis/verify_live_render_hashes.py",
+      "bytes": 1484,
+      "sha256": "cc4ed1f14c1cceeaad58f049b6178557a87f3b3a2734b12510161debe69f3c25"
+    },
+    {
+      "path": "analysis/verify_live_stage2_hashes.py",
+      "bytes": 541,
+      "sha256": "f21eacaa6c450e9207ec1872fbfdd197b59f5179a2cd96c7f18e63695683c76a"
+    },
+    {
+      "path": "camera-cache-files.json",
+      "bytes": 2995743,
+      "sha256": "eec4c6e687e242f9c3f811d6a65736e68724fff3037ae4bc6cdf33146a636aec"
+    },
+    {
+      "path": "dependencies/asset-manifest.json",
+      "bytes": 271526,
+      "sha256": "6be6463ab7b4419396830842813e3bd3893415b7a55d9abe02ac46ec934a70d0"
+    },
+    {
+      "path": "dependencies/README.txt",
+      "bytes": 1268,
+      "sha256": "2555ed4c6530ca669e0700e06dd05958107f2c41f8ba981f2fb43fcd7e63c829"
+    },
+    {
+      "path": "detector/environment.json",
+      "bytes": 9114,
+      "sha256": "cc4502962166a34a087807e9ac954e151f81ec745a940539d2a2cd713742cf04"
+    },
+    {
+      "path": "detector/evaluation-test/metrics.json",
+      "bytes": 2114,
+      "sha256": "d2bd9b26410f449c58e1f660248357a75943c48bf9ccdc53a68792d816afddcc"
+    },
+    {
+      "path": "detector/evaluation-test/metrics_by_stratum.csv",
+      "bytes": 1066,
+      "sha256": "50219afbb1166d114ecb33a1870b1bc6e79f4dd9d806f575513422c1fa561f7b"
+    },
+    {
+      "path": "detector/evaluation-test/predictions.jsonl",
+      "bytes": 1550253,
+      "sha256": "7be36cff79b8b98891629604b1a88c297aca782216300eea86bdaa46912f3803"
+    },
+    {
+      "path": "detector/evaluation-val/metrics.json",
+      "bytes": 2076,
+      "sha256": "20eb8041848ec5781a7bbdda8354b3afc1f361efb1aefd5a2eff00b1eb20fa75"
+    },
+    {
+      "path": "detector/evaluation-val/metrics_by_stratum.csv",
+      "bytes": 1103,
+      "sha256": "60c56bcc83d7c5d8d487a29dd38acf0aa1407b25797d75356f1851fd3c324bae"
+    },
+    {
+      "path": "detector/evaluation-val/predictions.jsonl",
+      "bytes": 1642171,
+      "sha256": "f77cfcd045953adc1e75454a9a8e17e3fdf60b98654aa5b073303623bbec1479"
+    },
+    {
+      "path": "detector/training_args.json",
+      "bytes": 237,
+      "sha256": "0b38de99d39defb4ea28aeccf5a8e0c7efac907babefe774108fb078c96f84be"
+    },
+    {
+      "path": "detector/training_determinism.json",
+      "bytes": 453,
+      "sha256": "2d6292e5cae5c6ac0b1aba92aeb462b511cb7d6deb7a5f3d3e5c3ec1e5ed8ffb"
+    },
+    {
+      "path": "fetch_release.py",
+      "bytes": 2725,
+      "sha256": "a1578f23e62134ea95d4f9a566dbdf6749f52d163b8c5d852ce6391a0d630620"
+    },
+    {
+      "path": "paths/trace_sources.json",
+      "bytes": 93515,
+      "sha256": "e8d3d0357c6124cdc01ec174280b5bd68cb4b86830e7e28972b292aa06881a59"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 8261,
+      "sha256": "0822df5dad487316bdea9a03d5fe5c99f7b9c47f92cf0a5448dfb3bd8d3933ea"
+    },
+    {
+      "path": "release-files.json",
+      "bytes": 2407,
+      "sha256": "3f187294f1d187a48932a5705179d410b06b04bd17b9c72a1943f3c9846fb679"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "bytes": 60,
+      "sha256": "3526d691d90cf5b9fa8eef10ef5e75844da3828230c7fd852986f0140b89d2a7"
+    },
+    {
+      "path": "restore_camera_cache.py",
+      "bytes": 5992,
+      "sha256": "0e58eed86b0e0335c98fc41c569f9bfff3a560bba4928d6da7fb7d05176bbbcd"
+    },
+    {
+      "path": "simulator/current/Config/DefaultEditor.ini",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "simulator/current/Config/DefaultEditorPerProjectUserSettings.ini",
+      "bytes": 628,
+      "sha256": "527f0b357a2229710880ae18994268ba13521b0ac8d9f4db2594c5370092c5d5"
+    },
+    {
+      "path": "simulator/current/Config/DefaultEngine.ini",
+      "bytes": 3481,
+      "sha256": "7c6d70ecf60f7b022f48cfbf40a70b16b9706d829502a0e99b496d2ec5ed7099"
+    },
+    {
+      "path": "simulator/current/Config/DefaultGame.ini",
+      "bytes": 200,
+      "sha256": "7034c0e2f96cc2951dd3220e02ae46fada1d728eeab41db36b56dde63a47cbc1"
+    },
+    {
+      "path": "simulator/current/Config/DefaultInput.ini",
+      "bytes": 9174,
+      "sha256": "18c8dadeab3e0074f58e3bfb64e772db058e1e5d3ef6452ba67b50109e4eb653"
+    },
+    {
+      "path": "simulator/current/Content/NewMap.umap",
+      "bytes": 62180,
+      "sha256": "34058f12a188302f1949d0b58cf73ab3d8050f19a6f48dddb762a5c4e9f6830e"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Blueprints/BP_SimFloatingPawn.uasset",
+      "bytes": 182005,
+      "sha256": "ac54b2af2eea18c67bed79d7e60ce77d1b65d9332bcbb3b7bae63cbe2c148cc0"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Blueprints/BP_SimGameMode.uasset",
+      "bytes": 19930,
+      "sha256": "97e0b3cd2c0dc4825b17fc44f1c55ab9c2b2f11b1dd929096a030921f05bcccd"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Blueprints/BP_SimPlayerController.uasset",
+      "bytes": 403934,
+      "sha256": "bdc6255b6f3e71d548033cd8643c9f5192a196bdb64728e27d49dc50957d0a02"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Blueprints/UMG_Profiling.uasset",
+      "bytes": 277515,
+      "sha256": "6af98e1cae70e77644ec3155cd45f7bd3f61e7541b7921d7d3ef0b22288086bd"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Levels/SimBlank.umap",
+      "bytes": 45487,
+      "sha256": "cbff353cfcb0ec1c950d7048f9cab3771b2a4daf5c3b396b976bbc3e679f0968"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Levels/Thumbnails/SimBlank_Thumbnail.uasset",
+      "bytes": 72705,
+      "sha256": "0f7c330f6ab9973383fdfe72f38471f5b59c7b511db19798b2b79653c3e58b16"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Materials/M_SkyDome.uasset",
+      "bytes": 16648,
+      "sha256": "2fc850ed4d04bc8f62c32aa6fbf85e15d07d59a5ae4b6c445ef1a7da391379e4"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Materials/MI_NoiserClouds.uasset",
+      "bytes": 11342,
+      "sha256": "40fb55f8346238d8c9723a9a337898b6993fc14cdb15ca5f6eda5e495ce01bb9"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Materials/MI_StarSkySphere.uasset",
+      "bytes": 9613,
+      "sha256": "516f46caac4635cac4d975c6e4e59ff5b5db2dcda6b0774fa7cd750e3dd0c55e"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Materials/SkySphere_Equirectangular.uasset",
+      "bytes": 154556,
+      "sha256": "f0ee623238520664630081f69a6050aa7d4476e55d42e24c424bb02769ee5c94"
+    },
+    {
+      "path": "simulator/current/Content/SimBlank/Materials/T_Stars.uasset",
+      "bytes": 1758204,
+      "sha256": "26b792df6484b3d0af7cbea8644a02e9d4d5ebca2230610d3602397685c21dcc"
+    },
+    {
+      "path": "simulator/current/Shaders/Common.ush",
+      "bytes": 538,
+      "sha256": "25386c42e5ef3dbbed64c205388780f09010089154113ef96a434a45d5564857"
+    },
+    {
+      "path": "simulator/current/Shaders/DroneLocalPriorityCompute.usf",
+      "bytes": 5066,
+      "sha256": "485e02b160b17311316eabb2e00b33958270cb4234de4db29f09f37b2f9ef844"
+    },
+    {
+      "path": "simulator/current/Shaders/GridStatsReduce.usf",
+      "bytes": 2362,
+      "sha256": "4454a848d12398baa9d6c42c1d088830498e6d0bf3fc6d832363f48f1df93944"
+    },
+    {
+      "path": "simulator/current/Shaders/ObservationIngest.usf",
+      "bytes": 1226,
+      "sha256": "55140ff2596ecd50a13dcbca5977b56202df7f9cf304403335336c4493976d70"
+    },
+    {
+      "path": "simulator/current/Shaders/PixelBleedSpread.usf",
+      "bytes": 1571,
+      "sha256": "37752d1396de3e69e3b7f65c02e5bdcd744896ae0e97c160193f1693b10d1711"
+    },
+    {
+      "path": "simulator/current/Shaders/PriorityCompute.usf",
+      "bytes": 1384,
+      "sha256": "46bc683a649c0a699ada1904830c136c88baa716ee8a4267597b9d307736a2ad"
+    },
+    {
+      "path": "simulator/current/Shaders/PriorityModel.ush",
+      "bytes": 1833,
+      "sha256": "6227aa73cb6a086c7b4f3b5dd2f1b15cfe27d39b699fe1f96bd459f3e91b678b"
+    },
+    {
+      "path": "simulator/current/Shaders/StalenessUpdate.usf",
+      "bytes": 371,
+      "sha256": "fef5d1c2d3304da9f65757b9c127aa6148b41acc4282e418246108885cb8d26e"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Benchmark/MethodSpec.h",
+      "bytes": 5038,
+      "sha256": "6af621b00693fd99c6285c2abc0329e2c989dd3ea39e526d7c6236b00b862ab0"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Benchmark/SimMetricsRecorder.cpp",
+      "bytes": 37089,
+      "sha256": "24f0aeb55d62bcf30841ff51c2a64e23d5c79f92e051dabbf6e002f89596f830"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Benchmark/SimMetricsRecorder.h",
+      "bytes": 9833,
+      "sha256": "32269be64500d3ea1e9a074bb813e4632df8cb96d84eb4822cc10c2031e5b751"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Benchmark/SimRunConfig.cpp",
+      "bytes": 40841,
+      "sha256": "a7f2a5b074be322ef0f004136200305c23f4d4d3ccf35176614ffe460713dca8"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Benchmark/SimRunConfig.h",
+      "bytes": 2293,
+      "sha256": "a9dfb9f66c6ce0650f335a1966184656519b4767a19c110fd5cdd570c95c2697"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.cpp",
+      "bytes": 2050,
+      "sha256": "278c98902e678114b3b04f8a5e02270d5018b129c342ed5e044b976ad563e702"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.h",
+      "bytes": 1300,
+      "sha256": "597f739f648e2ae8a8d24ce0f97ae3b27fc8411970e2b1e5a040405e574b883d"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/Drone.cpp",
+      "bytes": 118087,
+      "sha256": "e74be70ea66134028599a6d52f9159791772d320475a5a67cbdc0991c4e55856"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/Drone.h",
+      "bytes": 26429,
+      "sha256": "ea67c96ddf844e1bb5ff801888e0ab7d2b7198e231b75b9bf6eb6eef2de4ce0d"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/DronePlannerBase.h",
+      "bytes": 1234,
+      "sha256": "51f1d779e47176e6342391d76574e059062a07de3a255136b45c9212d85e1206"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/DronePlannerFactory.cpp",
+      "bytes": 1794,
+      "sha256": "cf6b590c90239c62e78882cd42a73d17dc264903a6ff92ba9629656e5a1fb0b8"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/DronePlannerFactory.h",
+      "bytes": 331,
+      "sha256": "706baaaef4ea16c52b730497bd34126e463501e9d313553a17680b0682dbee30"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/DroneSensorBase.h",
+      "bytes": 1408,
+      "sha256": "ea61463c04d74ddb8434c4a2947131239c566f4fccbe992f52f9b6054a884472"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/DroneTypes.h",
+      "bytes": 412,
+      "sha256": "e9d367344ac602246bd3dcf388c5534132290381d775409dfa65b504633802f0"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/FullyRandomPlanner.cpp",
+      "bytes": 330,
+      "sha256": "8d7db6c925f348cdaf06db08461da32c44278c3b72683ef554b4828004bd1919"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/FullyRandomPlanner.h",
+      "bytes": 379,
+      "sha256": "8093b3a02b13be6a44788aa6fe7da48eb1be7857f0ceda7138da7971c3e023c1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/FullyRandomWalk.h",
+      "bytes": 1523,
+      "sha256": "7eaf6af2299ac9f441536be7d13578371cc7d25d2f6e32d4114fe6ddcdef8bae"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/GreedyFovPlanner.cpp",
+      "bytes": 169,
+      "sha256": "f56f2b7811e0a8a33e4529491b82ddcd242f2b4d346ba7e88b8ad3d8baef952a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/GreedyFovPlanner.h",
+      "bytes": 553,
+      "sha256": "71d80a1088159e1e416a5cb7e41d9649394dce4b639787a2f3aeb97cfb00667c"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/LawnmowerV1AlignedPlanner.cpp",
+      "bytes": 3150,
+      "sha256": "afcd3904b3bb17adb35a5e3095543906130992538f412f7312b46c281c1a954a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/LawnmowerV1AlignedPlanner.h",
+      "bytes": 893,
+      "sha256": "d88cb66e5d4156c3bcdb50ad92d6dacffce674ef4cd8f390d5e841af303b0a25"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/LawnmowerV1Planner.cpp",
+      "bytes": 1922,
+      "sha256": "bed787cf6b700fd8144cb1dfb1610c8fda02da7614041763646fef950b2d0456"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/LawnmowerV1Planner.h",
+      "bytes": 1022,
+      "sha256": "3218148295c414f73edc5cf4d0d479b11c7f9f8f02c2317c83fefb016d8b7b0c"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/LawnmowerV2Planner.cpp",
+      "bytes": 2536,
+      "sha256": "7689cc508cd83ff353c58760fa45d7bf682303f0342806dbba67f6c9d07097f2"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/LawnmowerV2Planner.h",
+      "bytes": 945,
+      "sha256": "bd3a28951374c400b315c8ea50ad4c6459659453190c6bef2d4dd1c281f54885"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/OracleAssignmentSolver.cpp",
+      "bytes": 3829,
+      "sha256": "ab721c195aa4166019c970a144d877c4aa5cd17c267ea60a139241d09e235307"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/OracleAssignmentSolver.h",
+      "bytes": 785,
+      "sha256": "72d6cac12867b51b322344a27e8b7ea66737c032a4ab5652833cce61cc4db1c2"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/OracleTargetPlanner.cpp",
+      "bytes": 493,
+      "sha256": "acceaafb3eca5d309071847b34144ca1e02284b1ba7c37946f001624f7e5a08f"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/OracleTargetPlanner.h",
+      "bytes": 317,
+      "sha256": "a0646fe176fd9a5db0d4a58f589042d42e1d51dcf91e3b60d7752c59d5e72915"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/PerfectDroneSensor.cpp",
+      "bytes": 7332,
+      "sha256": "f4cf55493b357fa44917922d5a8690ad164953cc9d81d1f65af1c2959dfb208f"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/PerfectDroneSensor.h",
+      "bytes": 1799,
+      "sha256": "bdf254ac0d8d5fe2726a5789a5859652f912b483f1d8365760a740421503f9e2"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/RandomPlanner.cpp",
+      "bytes": 351,
+      "sha256": "d654897e26c453395aee789f216c24f13d04ed0e7cf1b7688f83acf99b706726"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Drone/RandomPlanner.h",
+      "bytes": 305,
+      "sha256": "c65e91a874d350f57a77ac45aa82f1925ee58a19df0c2b0a86dcfb464433a39b"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Gpu/GpuBeliefManager.cpp",
+      "bytes": 34483,
+      "sha256": "ebfc69666cbe5304c5940733d810f23beb585d718dc87d8d9b1083bbe30a86d1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Gpu/GpuBeliefManager.h",
+      "bytes": 4245,
+      "sha256": "f9e7451ea84bdbf334ee24a73ef3fc0c807d1c4f449162f2db07c92ec2d842d8"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Human/HumanManager.cpp",
+      "bytes": 19329,
+      "sha256": "0aa0dd12d3849a1aefa5254bf912e294315c8fbaab638842596694d095a030e1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Human/HumanManager.h",
+      "bytes": 9341,
+      "sha256": "ac215cf000d467749fab09bad06db23dfa7132f80336fad4acdc0e6cfe40529a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Human/HumanTrajectoryImporter.cpp",
+      "bytes": 3508,
+      "sha256": "188cc9e47fc93c44fabf58c5c278fcf3aa38e0d44c3e5478232cff130ef6297f"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Human/HumanTrajectoryImporter.h",
+      "bytes": 1025,
+      "sha256": "31540df6ec3c670b0ef906b776503264b5cf7356157e1b0535ed9e7bf56ddc39"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Human/HumanTypes.h",
+      "bytes": 956,
+      "sha256": "72da49c7428b91be9801b0d3c1bd45f356b55bfbe2a2c51cc54c41f4964f3cac"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Human/HumanVisualPose.cpp",
+      "bytes": 7260,
+      "sha256": "6b29ffe2e2e281bc3f035bf6f4f31e80f604667cbda3458ef6c0586e790ce0d6"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Human/HumanVisualPose.h",
+      "bytes": 1391,
+      "sha256": "58062afaf58406ff13a3cd453065f4a74b65d091b091d4a50dd893637303be43"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/FullyRandomPartition.cpp",
+      "bytes": 4337,
+      "sha256": "80fee2d0afbc9760843703a648983e0efb44d43e16305ab2485a99bb3b921935"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/FullyRandomPartition.h",
+      "bytes": 948,
+      "sha256": "cee1acd4cd068e5e57e542f4b129410f3c2cb246c045f80d5325d79ef0ea5026"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/OracleAllocationPartition.cpp",
+      "bytes": 2692,
+      "sha256": "6e3a0f50a76fe07f46ed4d92d6bb821199d746462ff56e8a16c7be3bd4e07f83"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/OracleAllocationPartition.h",
+      "bytes": 503,
+      "sha256": "a65d87a09f149a81f279c3afea5780d92ce7be0bb627aef5a2d558ca268245b8"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/PartitionStrategy.h",
+      "bytes": 2460,
+      "sha256": "df5d1ec896052fd38ab31d7c675cef70dfc87db127f21a609f1fb7d6d689d74a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/PartitionStrategyFactory.cpp",
+      "bytes": 2220,
+      "sha256": "8c3f0c274cba6683200c2cddbf4cebc2cebd801b9dafe68741a8b19536e22945"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/RandomPartition.cpp",
+      "bytes": 2006,
+      "sha256": "5e7d30c644a8253377a9489454a44375daea09dee5114ea03d8c5851161b5eb2"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/RandomPartition.h",
+      "bytes": 483,
+      "sha256": "2242439179a4190af5f8c33d8068afc987e2de2a9786c54d9ffae6132ab0e4b8"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/SpawnAwareUniformPartition.cpp",
+      "bytes": 4657,
+      "sha256": "09ec8393ecb9e9b0f8191d3f8b4325f2baac22f2c16dec06fd9635de58b2d502"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/SpawnAwareUniformPartition.h",
+      "bytes": 836,
+      "sha256": "3b837c5575ed227408d0b4500f63d2cfe4f6e7c2becc18a99afd6700c9e48503"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/UniformPartition.cpp",
+      "bytes": 2071,
+      "sha256": "d5faf68765409ee0e84a1bca837908977db31d77624444ebd4f0af20e465d78d"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/UniformPartition.h",
+      "bytes": 485,
+      "sha256": "141f61d71d8d395d4ef5c020a8d90cba9eee45edba5450c88487958f89ea23f5"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/ZoneRegionGrowingPartition.cpp",
+      "bytes": 15182,
+      "sha256": "db69a2b2122089cd4bac35d419115774cdd0d60edca92993cb869a3d7ec1d7ac"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Partition/ZoneRegionGrowingPartition.h",
+      "bytes": 850,
+      "sha256": "8c9adf366b0918444be8ff3cf23da2418c38262fcb3f9b3cbefdf75d28d248c1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/CameraReadbackTests.cpp",
+      "bytes": 8581,
+      "sha256": "e5526560b023a2b9303d0baed42cd7a77f4e9f3ec85c16c05e7e2cb41b61350c"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/DeterministicCaptureEffectsTests.cpp",
+      "bytes": 8017,
+      "sha256": "fa76a6f92e0fcf53eb043e8141f2fe8a8447e1b0719c554de88b568ee4c45b9a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/EnvironmentEdgeRenderTests.cpp",
+      "bytes": 7218,
+      "sha256": "cbe2414370ce1b1f8c73f51cced8a234256584c9380d407704faaf53553c1cbd"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/EnvironmentLightingLifecycleTests.cpp",
+      "bytes": 2704,
+      "sha256": "1d7a51838cf3ff6bd5d31cb07ec9234e34f288422641c8b4c7306524279c0362"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/EnvironmentRenderCostProbe.cpp",
+      "bytes": 6683,
+      "sha256": "b27ba60f7141bff99ae95596f9f63851e06a847dd76a3bbc1bb43408d79dfcc5"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/FirePresentationTests.cpp",
+      "bytes": 8341,
+      "sha256": "83e0a2c5c8c268a1677f35c82038e1406b5b11507cc4f3c6e3a4fa95d776f4b7"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/FireVisibilityRenderTests.cpp",
+      "bytes": 45018,
+      "sha256": "9201f46bfee316775a21dd7c4bbae5b1a01784d3b67c9033e47f5bdfe9ac9628"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/ForestApronDeterminismTests.cpp",
+      "bytes": 18338,
+      "sha256": "4c20ac72444dc7bd4bb58c2ffe1f810958557ac412091f1950ece8959d259515"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/ForestDresserBatchingTests.cpp",
+      "bytes": 2392,
+      "sha256": "b12f22b2613a576bf5d386e0907a56fca0400e3bc79d776deb64728a9eed8499"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/ForestVisibilityRenderTests.cpp",
+      "bytes": 10218,
+      "sha256": "774e75bfee47bfb353fe039a4d6a73d8fbc75904bb644721b4b465a9cf709f79"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/FullyRandomPartitionTests.cpp",
+      "bytes": 4819,
+      "sha256": "31e996c12531e8e6815702b761deccdf12690aa001c69855f71bcb4cb1c8c4f7"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/FullyRandomWalkTests.cpp",
+      "bytes": 2324,
+      "sha256": "61b2543aaecb60e76515ad1701689ef066708b78e652304c1ee52050bfd7a87e"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/GpuPersonObservationFreshnessTests.cpp",
+      "bytes": 10266,
+      "sha256": "39b3ac57beae2d1a211498c2ea8b32776c1a84d7b6c2afddab90d0c238ae2c79"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/HumanVisualPoseTests.cpp",
+      "bytes": 14188,
+      "sha256": "76f226cf4da2dd38d709873c7d16f6c764c9dbfb24514230b3aae007cf23e880"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/LawnmowerV1AlignedTests.cpp",
+      "bytes": 6327,
+      "sha256": "353750893ef99e409b5ce9f516a872aeec1710423c0f9cbfaf1eeb4e95d3eaaa"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/LawnmowerV1Tests.cpp",
+      "bytes": 3541,
+      "sha256": "def5e0b7bdc3720616730b0259516ad2a314df7b8ec53ad9cbcc8fe0c2f81767"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/LawnmowerV2Tests.cpp",
+      "bytes": 2821,
+      "sha256": "710771dd3ff547e6de2d1722982180beeeaed8c12b0f9a43f79b791a5c998e1b"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/LiveRenderPolicyTests.cpp",
+      "bytes": 4257,
+      "sha256": "b3daac6860ffb7b62e0eef71050ddc1750d6686ac43772eb01592ab1f058e216"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/LiveViewPresentationTests.cpp",
+      "bytes": 1683,
+      "sha256": "a804dff342cf6ea3acd6515ce1fbe69c60ae04f41a96f317ce2d13e05442881f"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/OracleAssignmentSolverTests.cpp",
+      "bytes": 2299,
+      "sha256": "befd3269e1015b8e35337e668e0f29625f31dfc373a9344acbfa51f09ef992f5"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/PersonFreshnessOwnershipTests.cpp",
+      "bytes": 9396,
+      "sha256": "cbbb2dc8e51dac149a0a98779208a04fc2140eee405d065fc3d5d218267c6f41"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/PersonObservationFreshnessTests.cpp",
+      "bytes": 2183,
+      "sha256": "172f9a556d9c24ba7ab193798e7b60ca05057df35db1d4d0a2f33877d29af3b0"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/ProceduralTerrainBorderTests.cpp",
+      "bytes": 2466,
+      "sha256": "4668cf0eb20ba443bf6db0a0053c2aacade0ecfe3964e6326f7d63469abb2c0a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/SimMetricsRecorderWriteTests.cpp",
+      "bytes": 4792,
+      "sha256": "746cf6b6df343a572c17668e58ea77390af6ce2835d70b54ae7548431ae2400d"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/SpawnAwareUniformPartitionTests.cpp",
+      "bytes": 3978,
+      "sha256": "6733d9ef090eb02731f445de72a2a66f1f038ef2a57b5944e839305dd0b07cc3"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/TerrainRenderTileTests.cpp",
+      "bytes": 4093,
+      "sha256": "3a2c7d9a229c18e6d4ce0d84e8660c15ac16d3332ef981e489cc49a1f7adbc09"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/TerrainSceneCacheTests.cpp",
+      "bytes": 7587,
+      "sha256": "d426b4d2e449e59090ff411f09b3361e5abf5e3056a0d04bfb241364033a4d43"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/VisionProjectionTests.cpp",
+      "bytes": 2389,
+      "sha256": "240fee1b88e685406db25565eac0eab7a70b65143a8bdcfb00309301b3ce28e7"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/YoloDatasetExportTests.cpp",
+      "bytes": 3670,
+      "sha256": "36939ffd76ed79341a6cd43847cd15336d638024483f0030ce963cd5d9a1b670"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/YoloDatasetRenderTests.cpp",
+      "bytes": 5771,
+      "sha256": "07f281e5abf612f31f8f43c3bc3000c006fa6a9c16e16e1b82485921866144d3"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Tests/YoloGeometricMetricsTests.cpp",
+      "bytes": 2871,
+      "sha256": "1ca6cbced29f999b9d057c860a34092b1fae49efad5975b68fa4ea2c62674033"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Thesis.Build.cs",
+      "bytes": 1437,
+      "sha256": "c6852709ab7f1b305bc27ff6ce78ea0a364c82aea8db9c88eae47d766536a95a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Thesis.cpp",
+      "bytes": 881,
+      "sha256": "a9508db0ad6548bf29226e12b212b165c60ddfa22417a8fb9e89c40dd257e73d"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Thesis.h",
+      "bytes": 98,
+      "sha256": "4694b655856b269fc41b195971214f8e629857c7e5d6f34002a066cd4af3037c"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/ThesisGameModeBase.cpp",
+      "bytes": 91,
+      "sha256": "e8919de0d4cd64398de21a5ff535e7f473afb1d3ad0bf92b39dd2fd818dddffa"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/ThesisGameModeBase.h",
+      "bytes": 297,
+      "sha256": "03202f08cc6df97be5ae6ac321f4ec49e0dcf958c175ef104d264248df472f0a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/ChanceNullScorer.cpp",
+      "bytes": 7576,
+      "sha256": "63ff18088b19c203631013785c711ec78982d3226cd60fbc59eba211f4a85d7b"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/ChanceNullScorer.h",
+      "bytes": 3792,
+      "sha256": "d0fc83050f8e5a5a4d5d15697daeef61da09cb9a1a0b3091bd9e01193df96c36"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/DroneCaptureComponent.cpp",
+      "bytes": 55989,
+      "sha256": "055494f08e39184f42f5f555f1045e8491447ed38a8a3edbdf702636a978df07"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/DroneCaptureComponent.h",
+      "bytes": 4613,
+      "sha256": "326b79b80a9c52d89f6aaae2c15fa89f4f3fc9217f3337622b689ff0305fa390"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/VisionBridge.cpp",
+      "bytes": 12790,
+      "sha256": "add3a53919d2f888670abcda11f65af9bb6fcba3224612238f90e4ddfb48d994"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/VisionBridge.h",
+      "bytes": 2352,
+      "sha256": "1857af655fae9d60351adabadaf3c1382d2cf8a8ce3af10646c41a02ce49efe1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/VisionTypes.h",
+      "bytes": 1192,
+      "sha256": "8d48ca903d358c4a54ecedfb585768cf4aaa33c414f265d8b1aa8746461ef2f3"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/YoloDatasetExporter.cpp",
+      "bytes": 19485,
+      "sha256": "273b65eed9b56a01a5ddd3d4005a9a3ef9af44f4959d16a701efbec3035bc8ed"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/YoloDatasetExporter.h",
+      "bytes": 2270,
+      "sha256": "9d260a50d1564bbdecdc67f52700df90fa68e57cb0828c9b026ed3203840aa0b"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/Vision/YoloGeometricMetrics.h",
+      "bytes": 2644,
+      "sha256": "e674e75a6d7a87e99ea809b85c6d727bd71fec2a0f7951291d4645d52f078c95"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/DeterministicCaptureEffects.cpp",
+      "bytes": 14553,
+      "sha256": "09e09d80af1c59eaba0b5543649c2ddb12e89de88347c59b161549cf443d199c"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/DeterministicCaptureEffects.h",
+      "bytes": 3238,
+      "sha256": "2109ef289bd2bd208bc9bd153377e07b872dff2b25dd36a73d1433421cd3844a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/FireDataImporter.cpp",
+      "bytes": 3332,
+      "sha256": "22851877cc9e23b9c0403b806e2844b34722366e9041f17712c7e6cb041f8c05"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/FireDataImporter.h",
+      "bytes": 2461,
+      "sha256": "72fe48c2ad4da8b99f048f00dc0e26672ce43352add7e75936a6a9e5c4c15c89"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/FirePresentationMath.h",
+      "bytes": 6134,
+      "sha256": "df8e33812be1052e0b4d39640a7dadaddbe18c018af2e4c27262e61fd70480ce"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/FireVisualProfile.cpp",
+      "bytes": 32,
+      "sha256": "7541b6804a1a957650ac248e0abb6ce784a343954df9b819772870f70794725c"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/FireVisualProfile.h",
+      "bytes": 4609,
+      "sha256": "c2d4d9183ddf28c5f6ce92d688ed22f2db9ee68ef8e5c5b69de3277efd767b94"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/FireVisualsManager.cpp",
+      "bytes": 89040,
+      "sha256": "663d67998ee0facb303ea62a3b6ee69580d21f430cd54780c87893cd4a50767c"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/FireVisualsManager.h",
+      "bytes": 21326,
+      "sha256": "9fde5078fc5b08c7f7e959aac9a4afbad5fc12c746cf00607546824764846b77"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/ForestDresser.cpp",
+      "bytes": 66416,
+      "sha256": "fbac0241875a5948be6a28c1c7686c5356f6f68befc7fa988683b388ac3c41d1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/ForestDresser.h",
+      "bytes": 10942,
+      "sha256": "6d0b53f2f87f221f5bd15c8a34e790ebcb5fb3ce09ef77702bd811f0347334c2"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/ForestDresserBatching.h",
+      "bytes": 1679,
+      "sha256": "18ecab628b9586190affc62c982048ad491740016e9c00284e5564f90d048606"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/Grid.cpp",
+      "bytes": 8449,
+      "sha256": "417483455c3e39a21a2705405ffa1374f7da1abe7a753b09768aa7190e0892fe"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/Grid.h",
+      "bytes": 3868,
+      "sha256": "2643349f39a696d01def42b067e7f2566b2c5d7527726de0212e76f0ae871597"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/GroundTruthOracle.h",
+      "bytes": 654,
+      "sha256": "1fce29e3b8832d95f88e5823705d2d5dc8c0e4dbbb74ea5cdebb0d6b1193800a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/LiveRenderPolicy.cpp",
+      "bytes": 6577,
+      "sha256": "f647174dd9a7cf779010a08cab790ba629630bddfae86ddaf97f5da8660bf000"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/LiveRenderPolicy.h",
+      "bytes": 563,
+      "sha256": "369608aec7bc7f15ff412041510edcc16bb77f9e821a3e1e62f136bd6fd1f48a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/LiveViewPresentation.h",
+      "bytes": 1501,
+      "sha256": "768f6badea05f1dce6eb7cca3576c79701a12954438fbd27afaa09f1185c5647"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/PriorityModel.h",
+      "bytes": 7459,
+      "sha256": "8249523f4a222c4c890c69277c94a27c78c1d68c3f3775ca058e52047f3a3a4a"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/ProceduralTerrain.cpp",
+      "bytes": 31316,
+      "sha256": "dcbb25fb7223064af792d0f61845b5dd95a890e7711300773298ba2c30b1283f"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/ProceduralTerrain.h",
+      "bytes": 10060,
+      "sha256": "2182113b04b00120ab7ec66dfe24553379a4c9d9740f5a9e4969685a4c313bf2"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/SimulationDatasetExport.cpp",
+      "bytes": 14744,
+      "sha256": "dd139a69f86c65421b04dd3c087c993ac367b2f9fb34c280d766307f1e09ccf1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/SimulationHUD.cpp",
+      "bytes": 6351,
+      "sha256": "c6ef3f3033d9f4829348d3483f4a436dd783ef1436eae0437e225fe1547d437f"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/SimulationHUD.h",
+      "bytes": 440,
+      "sha256": "ac5202fafa6d535c6835ce1bd795a9987eb7543452cb33fc092bffc2aefa79d6"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/SimulationManager.cpp",
+      "bytes": 263946,
+      "sha256": "3f580034a520d69ddb2c349af3b718c91271fa1615b4d58e69a1a439ad0c41a2"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/SimulationManager.h",
+      "bytes": 72905,
+      "sha256": "bbecc0f3823c352b83761409dab319c8700877fb84ed3330ab379dd07aadc3c1"
+    },
+    {
+      "path": "simulator/current/Source/Thesis/World/VisionProjection.h",
+      "bytes": 1536,
+      "sha256": "2ee43984238066d9228bd40f670eadd7cfd058a46d47dc05482a0776b505754d"
+    },
+    {
+      "path": "simulator/current/Source/Thesis.Target.cs",
+      "bytes": 550,
+      "sha256": "3880326edaf1af1adf3a6534c5e77b1d9b4262ebc0321faeb44924cf4f3fb900"
+    },
+    {
+      "path": "simulator/current/Source/ThesisEditor.Target.cs",
+      "bytes": 632,
+      "sha256": "ce6720dcf250b7d96d5e9d9236ba53b95d407c69e8728272f52282c45c58e386"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Private/DroneLocalPriorityComputeShader.cpp",
+      "bytes": 195,
+      "sha256": "0372224abea3f0304cadffca1db09692972b5e0695cbae78d718a23d85289099"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Private/GridStatsShader.cpp",
+      "bytes": 314,
+      "sha256": "7a31530c4009d12d47c287e89a191d0c5850c80bc584a999e20f5e69675a2bd5"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Private/ObservationIngestShader.cpp",
+      "bytes": 169,
+      "sha256": "3d2d6c23c2726ff1889cc1965392e3dcacb0633fb55230af52471333e4cf9127"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Private/PixelBleedSpreadShader.cpp",
+      "bytes": 168,
+      "sha256": "467acce09d2b1b29d68eaceda8b94ee83b88f66607cef1e29ab0e060bcaae186"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Private/PriorityComputeShader.cpp",
+      "bytes": 165,
+      "sha256": "266c4aae274871419bbfc80bbc9d53a389744254a899ab663828fbfe1ae4bf5a"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Private/StalenessUpdateShader.cpp",
+      "bytes": 163,
+      "sha256": "f29fa639478fdf7ad211c7c723d28cbd39dda5cd238dc6b70a83286cec3e23cb"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Private/ThesisShadersModule.cpp",
+      "bytes": 864,
+      "sha256": "c27e472d62f97c59b9fd9ab2a99d505b20e943fcfcc3c9b19a13876cfa79cdce"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Public/DroneLocalPriorityComputeShader.h",
+      "bytes": 2075,
+      "sha256": "b946a45346d38ca619e3e9018c8d2bd0e95cecaa6a5e082b0077895d0a780aa9"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Public/GridStatsShader.h",
+      "bytes": 2031,
+      "sha256": "66e4ef7574b3377c39e2fddaa7cd06dac7c460565bb848a62e9af5e256504807"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Public/ObservationIngestShader.h",
+      "bytes": 1198,
+      "sha256": "caa73f2baf5fb71b2917ae7ba8d7ca66bdb53101d5828bfb0f47714b041de98b"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Public/PixelBleedSpreadShader.h",
+      "bytes": 1202,
+      "sha256": "2834441bf15f9d64780bc49e9ce1baf62fc8e79f730d80db28738849d504b6d3"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Public/PriorityComputeShader.h",
+      "bytes": 1617,
+      "sha256": "f2c82a5f3821677dc95d77d7f9d4e16713ef6443e1e369bc6853f68cfc971dd1"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/Public/StalenessUpdateShader.h",
+      "bytes": 985,
+      "sha256": "fd22ce71b4afbcb90a07e29926f2807ef507741a94efb574558a5f5201e86b5d"
+    },
+    {
+      "path": "simulator/current/Source/ThesisShaders/ThesisShaders.Build.cs",
+      "bytes": 1197,
+      "sha256": "e629b10564cec80f8d63feb3d5b28fe09a2a28247908d430192e6dc7298e6b16"
+    },
+    {
+      "path": "simulator/current/Thesis.uproject",
+      "bytes": 581,
+      "sha256": "fc1044bee01aa98118d81a9563d360c3660d6e29c50c280ac5c38093a95026b1"
+    },
+    {
+      "path": "simulator/current/Tools/audit_yolo_dataset.py",
+      "bytes": 14677,
+      "sha256": "d383902d28c13fa40676b7a2d47b40e0a6fa7288ff22618da7c21456ea1eee21"
+    },
+    {
+      "path": "simulator/current/Tools/download_flora.py",
+      "bytes": 4950,
+      "sha256": "aaf82f995918d121354f32f173e500d29856cecfdf827160b6497b3564942fd1"
+    },
+    {
+      "path": "simulator/current/Tools/download_geres_polyhaven.py",
+      "bytes": 12855,
+      "sha256": "c791d19486140b9f91f937f0f3f10c2cf4ec326708f987088048ac8a82d8b1cb"
+    },
+    {
+      "path": "simulator/current/Tools/evaluate_yolo_experiment.py",
+      "bytes": 18082,
+      "sha256": "5ae24a17ba179022e3bd2146b3b3f441ea81ab35b724f17d5e254b602f2f0c33"
+    },
+    {
+      "path": "simulator/current/Tools/generate_fire_csv.py",
+      "bytes": 45090,
+      "sha256": "5ce3f1fe03272b098a3b4a7cb1c7ceb835fbdcea9f0965605115a875a10054ae"
+    },
+    {
+      "path": "simulator/current/Tools/generate_humans.py",
+      "bytes": 23720,
+      "sha256": "0def298fc0db55d9c46353660425a8649b4d06ba34e7d7f0c610e2d13e359d77"
+    },
+    {
+      "path": "simulator/current/Tools/import_polyhaven.py",
+      "bytes": 10022,
+      "sha256": "66b1b8d265d0f42499d0c2208a1d4b79aa8af50c4c7fd79b141d5db24167d39c"
+    },
+    {
+      "path": "simulator/current/Tools/prepare_yolo_dataset.py",
+      "bytes": 19253,
+      "sha256": "2c4dbf25760014f262903c9f03a0c4a95f603327954c797710bbab86172d14bb"
+    },
+    {
+      "path": "simulator/current/Tools/run_benchmarks.py",
+      "bytes": 70948,
+      "sha256": "5a8d0cc739c53794b29b873dd304bb4d9c11bd313c0149278a811bb99130a757"
+    },
+    {
+      "path": "simulator/current/Tools/run_fov_current_build_all_arms.py",
+      "bytes": 38529,
+      "sha256": "7dd732ba57f5349d6e8ced90d4c04f3c0abada4bd211c2eb420d4bcf3330400e"
+    },
+    {
+      "path": "simulator/current/Tools/run_fov_scoring_full_matrix.py",
+      "bytes": 34614,
+      "sha256": "6440cea94b2a0ebf48b46db0f6ebce81f89292603a389f22330a82bab5e751ed"
+    },
+    {
+      "path": "simulator/current/Tools/run_lawnmower_followup_production.py",
+      "bytes": 51362,
+      "sha256": "da52b087ceeb5977e486fddac7fcbfb08a498caded872129bd59d8140dd362d0"
+    },
+    {
+      "path": "simulator/current/Tools/run_lawnmower_pinned_validation.py",
+      "bytes": 22356,
+      "sha256": "d382202b726874bb79ab660f98734a0ec65152e5c870ff6a09a1b12d8a9c71ac"
+    },
+    {
+      "path": "simulator/current/Tools/train_yolo_experiment.py",
+      "bytes": 28431,
+      "sha256": "699a7726f567179771822da0733fa321422191b2edcd6218c1f9f8f9ebfe0140"
+    },
+    {
+      "path": "simulator/current/Tools/verify_lawnmower_followup_validation.py",
+      "bytes": 31318,
+      "sha256": "67c4e1d9182c90dbc4e45772280a3b43c180ce5881a283f9368842b6e7eb3103"
+    },
+    {
+      "path": "simulator/current/Tools/vision_server.py",
+      "bytes": 20339,
+      "sha256": "8ce54d709c5eec458e8bb72559b48fe0918039599eaa2997d5e2c8bf4bdee4dc"
+    },
+    {
+      "path": "simulator/main_evaluated/Config/DefaultEditor.ini",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "simulator/main_evaluated/Config/DefaultEditorPerProjectUserSettings.ini",
+      "bytes": 628,
+      "sha256": "527f0b357a2229710880ae18994268ba13521b0ac8d9f4db2594c5370092c5d5"
+    },
+    {
+      "path": "simulator/main_evaluated/Config/DefaultEngine.ini",
+      "bytes": 3481,
+      "sha256": "7c6d70ecf60f7b022f48cfbf40a70b16b9706d829502a0e99b496d2ec5ed7099"
+    },
+    {
+      "path": "simulator/main_evaluated/Config/DefaultGame.ini",
+      "bytes": 200,
+      "sha256": "7034c0e2f96cc2951dd3220e02ae46fada1d728eeab41db36b56dde63a47cbc1"
+    },
+    {
+      "path": "simulator/main_evaluated/Config/DefaultInput.ini",
+      "bytes": 9174,
+      "sha256": "18c8dadeab3e0074f58e3bfb64e772db058e1e5d3ef6452ba67b50109e4eb653"
+    },
+    {
+      "path": "simulator/main_evaluated/Content/NewMap.umap",
+      "bytes": 62180,
+      "sha256": "34058f12a188302f1949d0b58cf73ab3d8050f19a6f48dddb762a5c4e9f6830e"
+    },
+    {
+      "path": "simulator/main_evaluated/Content/SimBlank/Blueprints/BP_SimFloatingPawn.uasset",
+      "bytes": 182005,
+      "sha256": "ac54b2af2eea18c67bed79d7e60ce77d1b65d9332bcbb3b7bae63cbe2c148cc0"
+    },
+    {
+      "path": "simulator/main_evaluated/Content/SimBlank/Blueprints/BP_SimGameMode.uasset",
+      "bytes": 19930,
+      "sha256": "97e0b3cd2c0dc4825b17fc44f1c55ab9c2b2f11b1dd929096a030921f05bcccd"
+    },
+    {
+      "path": "simulator/main_evaluated/Content/SimBlank/Blueprints/BP_SimPlayerController.uasset",
+      "bytes": 403934,
+      "sha256": "bdc6255b6f3e71d548033cd8643c9f5192a196bdb64728e27d49dc50957d0a02"
+    },
+    {
+      "path": "simulator/main_evaluated/Content/SimBlank/Blueprints/UMG_Profiling.uasset",
+      "bytes": 277515,
+      "sha256": "6af98e1cae70e77644ec3155cd45f7bd3f61e7541b7921d7d3ef0b22288086bd"
+    },
+    {
+      "path": "simulator/main_evaluated/Content/SimBlank/Levels/SimBlank.umap",
+      "bytes": 45487,
+      "sha256": "cbff353cfcb0ec1c950d7048f9cab3771b2a4daf5c3b396b976bbc3e679f0968"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/Common.ush",
+      "bytes": 538,
+      "sha256": "25386c42e5ef3dbbed64c205388780f09010089154113ef96a434a45d5564857"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/DroneLocalPriorityCompute.usf",
+      "bytes": 5066,
+      "sha256": "485e02b160b17311316eabb2e00b33958270cb4234de4db29f09f37b2f9ef844"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/GridStatsReduce.usf",
+      "bytes": 2362,
+      "sha256": "4454a848d12398baa9d6c42c1d088830498e6d0bf3fc6d832363f48f1df93944"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/ObservationIngest.usf",
+      "bytes": 1226,
+      "sha256": "55140ff2596ecd50a13dcbca5977b56202df7f9cf304403335336c4493976d70"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/PixelBleedSpread.usf",
+      "bytes": 1571,
+      "sha256": "37752d1396de3e69e3b7f65c02e5bdcd744896ae0e97c160193f1693b10d1711"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/PriorityCompute.usf",
+      "bytes": 1384,
+      "sha256": "46bc683a649c0a699ada1904830c136c88baa716ee8a4267597b9d307736a2ad"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/PriorityModel.ush",
+      "bytes": 1833,
+      "sha256": "6227aa73cb6a086c7b4f3b5dd2f1b15cfe27d39b699fe1f96bd459f3e91b678b"
+    },
+    {
+      "path": "simulator/main_evaluated/Shaders/StalenessUpdate.usf",
+      "bytes": 371,
+      "sha256": "fef5d1c2d3304da9f65757b9c127aa6148b41acc4282e418246108885cb8d26e"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Benchmark/MethodSpec.h",
+      "bytes": 2611,
+      "sha256": "e0e094ea0d22546431423c2e7848c5c5afd93393405ae83c39daa89119a501a4"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimMetricsRecorder.cpp",
+      "bytes": 35020,
+      "sha256": "6c6d0d4e1871e3c3e33f5922643d214c7c6f1807daa14a2d88e4ac2d4aeede9d"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimMetricsRecorder.h",
+      "bytes": 9088,
+      "sha256": "42d7d702eb51bc7b1903699ccab8056d46653c3c34ec35da04b6340ea9690291"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimRunConfig.cpp",
+      "bytes": 36541,
+      "sha256": "a2bbbf30557eaef365f3cd8c68afdebe3f65c6db79025f994f50a436dd4c6eeb"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Benchmark/SimRunConfig.h",
+      "bytes": 2293,
+      "sha256": "a9dfb9f66c6ce0650f335a1966184656519b4767a19c110fd5cdd570c95c2697"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.cpp",
+      "bytes": 2050,
+      "sha256": "278c98902e678114b3b04f8a5e02270d5018b129c342ed5e044b976ad563e702"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.h",
+      "bytes": 1300,
+      "sha256": "597f739f648e2ae8a8d24ce0f97ae3b27fc8411970e2b1e5a040405e574b883d"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/Drone.cpp",
+      "bytes": 99792,
+      "sha256": "72068236a0466e420258f2c95bf69da0dba7ae10265373be80bcd6bda62e5490"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/Drone.h",
+      "bytes": 24184,
+      "sha256": "03a17a5436747a2e9f2521e0379df54a4e19c8af1f1ae4080e16bbac8a3128c6"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/DronePlannerBase.h",
+      "bytes": 1234,
+      "sha256": "51f1d779e47176e6342391d76574e059062a07de3a255136b45c9212d85e1206"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/DronePlannerFactory.cpp",
+      "bytes": 1315,
+      "sha256": "3f3588e3927670be399967ea4183848a99b3a2e81f8a74b3afec255213eb4d04"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/DronePlannerFactory.h",
+      "bytes": 331,
+      "sha256": "706baaaef4ea16c52b730497bd34126e463501e9d313553a17680b0682dbee30"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/DroneSensorBase.h",
+      "bytes": 1408,
+      "sha256": "ea61463c04d74ddb8434c4a2947131239c566f4fccbe992f52f9b6054a884472"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/DroneTypes.h",
+      "bytes": 412,
+      "sha256": "e9d367344ac602246bd3dcf388c5534132290381d775409dfa65b504633802f0"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/GreedyFovPlanner.cpp",
+      "bytes": 169,
+      "sha256": "f56f2b7811e0a8a33e4529491b82ddcd242f2b4d346ba7e88b8ad3d8baef952a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/GreedyFovPlanner.h",
+      "bytes": 553,
+      "sha256": "71d80a1088159e1e416a5cb7e41d9649394dce4b639787a2f3aeb97cfb00667c"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/OracleAssignmentSolver.cpp",
+      "bytes": 3829,
+      "sha256": "ab721c195aa4166019c970a144d877c4aa5cd17c267ea60a139241d09e235307"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/OracleAssignmentSolver.h",
+      "bytes": 785,
+      "sha256": "72d6cac12867b51b322344a27e8b7ea66737c032a4ab5652833cce61cc4db1c2"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/OracleTargetPlanner.cpp",
+      "bytes": 493,
+      "sha256": "acceaafb3eca5d309071847b34144ca1e02284b1ba7c37946f001624f7e5a08f"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/OracleTargetPlanner.h",
+      "bytes": 317,
+      "sha256": "a0646fe176fd9a5db0d4a58f589042d42e1d51dcf91e3b60d7752c59d5e72915"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/PerfectDroneSensor.cpp",
+      "bytes": 7332,
+      "sha256": "f4cf55493b357fa44917922d5a8690ad164953cc9d81d1f65af1c2959dfb208f"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/PerfectDroneSensor.h",
+      "bytes": 1799,
+      "sha256": "bdf254ac0d8d5fe2726a5789a5859652f912b483f1d8365760a740421503f9e2"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/RandomPlanner.cpp",
+      "bytes": 351,
+      "sha256": "d654897e26c453395aee789f216c24f13d04ed0e7cf1b7688f83acf99b706726"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Drone/RandomPlanner.h",
+      "bytes": 305,
+      "sha256": "c65e91a874d350f57a77ac45aa82f1925ee58a19df0c2b0a86dcfb464433a39b"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Gpu/GpuBeliefManager.cpp",
+      "bytes": 26338,
+      "sha256": "b149c9221173301004d08edf0dc42e308084af195065e889751f34fa153015a1"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Gpu/GpuBeliefManager.h",
+      "bytes": 3105,
+      "sha256": "1f8fc048c14aada88e4f1cbb020804116b877a881582577d340248a712039439"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Human/HumanManager.cpp",
+      "bytes": 19226,
+      "sha256": "d637872d7ac160c9c20e7f431b8dbef64cb05a914eed0cab9aab34e3cb5a5184"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Human/HumanManager.h",
+      "bytes": 9365,
+      "sha256": "12b5e4f44079389e6ff7bb4df17b88937b0cbc4d1d9f5ea656b70844793f44e1"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Human/HumanTrajectoryImporter.cpp",
+      "bytes": 3508,
+      "sha256": "188cc9e47fc93c44fabf58c5c278fcf3aa38e0d44c3e5478232cff130ef6297f"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Human/HumanTrajectoryImporter.h",
+      "bytes": 1025,
+      "sha256": "31540df6ec3c670b0ef906b776503264b5cf7356157e1b0535ed9e7bf56ddc39"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Human/HumanTypes.h",
+      "bytes": 956,
+      "sha256": "72da49c7428b91be9801b0d3c1bd45f356b55bfbe2a2c51cc54c41f4964f3cac"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Human/HumanVisualPose.cpp",
+      "bytes": 7260,
+      "sha256": "6b29ffe2e2e281bc3f035bf6f4f31e80f604667cbda3458ef6c0586e790ce0d6"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Human/HumanVisualPose.h",
+      "bytes": 1391,
+      "sha256": "58062afaf58406ff13a3cd453065f4a74b65d091b091d4a50dd893637303be43"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/OracleAllocationPartition.cpp",
+      "bytes": 2692,
+      "sha256": "6e3a0f50a76fe07f46ed4d92d6bb821199d746462ff56e8a16c7be3bd4e07f83"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/OracleAllocationPartition.h",
+      "bytes": 503,
+      "sha256": "a65d87a09f149a81f279c3afea5780d92ce7be0bb627aef5a2d558ca268245b8"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/PartitionStrategy.h",
+      "bytes": 2460,
+      "sha256": "df5d1ec896052fd38ab31d7c675cef70dfc87db127f21a609f1fb7d6d689d74a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/PartitionStrategyFactory.cpp",
+      "bytes": 1872,
+      "sha256": "9c9e79539adeb888ab5c78669f17a4b927ce07d2536ed4be187fddf088087a4b"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/RandomPartition.cpp",
+      "bytes": 2006,
+      "sha256": "5e7d30c644a8253377a9489454a44375daea09dee5114ea03d8c5851161b5eb2"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/RandomPartition.h",
+      "bytes": 483,
+      "sha256": "2242439179a4190af5f8c33d8068afc987e2de2a9786c54d9ffae6132ab0e4b8"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/UniformPartition.cpp",
+      "bytes": 2071,
+      "sha256": "d5faf68765409ee0e84a1bca837908977db31d77624444ebd4f0af20e465d78d"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/UniformPartition.h",
+      "bytes": 485,
+      "sha256": "141f61d71d8d395d4ef5c020a8d90cba9eee45edba5450c88487958f89ea23f5"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/ZoneRegionGrowingPartition.cpp",
+      "bytes": 15182,
+      "sha256": "db69a2b2122089cd4bac35d419115774cdd0d60edca92993cb869a3d7ec1d7ac"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Partition/ZoneRegionGrowingPartition.h",
+      "bytes": 850,
+      "sha256": "8c9adf366b0918444be8ff3cf23da2418c38262fcb3f9b3cbefdf75d28d248c1"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/CameraReadbackTests.cpp",
+      "bytes": 8581,
+      "sha256": "e5526560b023a2b9303d0baed42cd7a77f4e9f3ec85c16c05e7e2cb41b61350c"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/DeterministicCaptureEffectsTests.cpp",
+      "bytes": 8017,
+      "sha256": "fa76a6f92e0fcf53eb043e8141f2fe8a8447e1b0719c554de88b568ee4c45b9a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/EnvironmentEdgeRenderTests.cpp",
+      "bytes": 7218,
+      "sha256": "cbe2414370ce1b1f8c73f51cced8a234256584c9380d407704faaf53553c1cbd"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/EnvironmentLightingLifecycleTests.cpp",
+      "bytes": 2704,
+      "sha256": "1d7a51838cf3ff6bd5d31cb07ec9234e34f288422641c8b4c7306524279c0362"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/EnvironmentRenderCostProbe.cpp",
+      "bytes": 6683,
+      "sha256": "b27ba60f7141bff99ae95596f9f63851e06a847dd76a3bbc1bb43408d79dfcc5"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/FirePresentationTests.cpp",
+      "bytes": 8341,
+      "sha256": "83e0a2c5c8c268a1677f35c82038e1406b5b11507cc4f3c6e3a4fa95d776f4b7"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/FireVisibilityRenderTests.cpp",
+      "bytes": 45018,
+      "sha256": "9201f46bfee316775a21dd7c4bbae5b1a01784d3b67c9033e47f5bdfe9ac9628"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/ForestApronDeterminismTests.cpp",
+      "bytes": 18338,
+      "sha256": "4c20ac72444dc7bd4bb58c2ffe1f810958557ac412091f1950ece8959d259515"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/ForestDresserBatchingTests.cpp",
+      "bytes": 2392,
+      "sha256": "b12f22b2613a576bf5d386e0907a56fca0400e3bc79d776deb64728a9eed8499"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/ForestVisibilityRenderTests.cpp",
+      "bytes": 10218,
+      "sha256": "774e75bfee47bfb353fe039a4d6a73d8fbc75904bb644721b4b465a9cf709f79"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/GpuPersonObservationFreshnessTests.cpp",
+      "bytes": 10266,
+      "sha256": "39b3ac57beae2d1a211498c2ea8b32776c1a84d7b6c2afddab90d0c238ae2c79"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/HumanVisualPoseTests.cpp",
+      "bytes": 14188,
+      "sha256": "76f226cf4da2dd38d709873c7d16f6c764c9dbfb24514230b3aae007cf23e880"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/LiveRenderPolicyTests.cpp",
+      "bytes": 4257,
+      "sha256": "b3daac6860ffb7b62e0eef71050ddc1750d6686ac43772eb01592ab1f058e216"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/LiveViewPresentationTests.cpp",
+      "bytes": 1683,
+      "sha256": "a804dff342cf6ea3acd6515ce1fbe69c60ae04f41a96f317ce2d13e05442881f"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/OracleAssignmentSolverTests.cpp",
+      "bytes": 2299,
+      "sha256": "befd3269e1015b8e35337e668e0f29625f31dfc373a9344acbfa51f09ef992f5"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/PersonFreshnessOwnershipTests.cpp",
+      "bytes": 9396,
+      "sha256": "cbbb2dc8e51dac149a0a98779208a04fc2140eee405d065fc3d5d218267c6f41"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/PersonObservationFreshnessTests.cpp",
+      "bytes": 2183,
+      "sha256": "172f9a556d9c24ba7ab193798e7b60ca05057df35db1d4d0a2f33877d29af3b0"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/ProceduralTerrainBorderTests.cpp",
+      "bytes": 2466,
+      "sha256": "4668cf0eb20ba443bf6db0a0053c2aacade0ecfe3964e6326f7d63469abb2c0a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/TerrainRenderTileTests.cpp",
+      "bytes": 4093,
+      "sha256": "3a2c7d9a229c18e6d4ce0d84e8660c15ac16d3332ef981e489cc49a1f7adbc09"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/TerrainSceneCacheTests.cpp",
+      "bytes": 7587,
+      "sha256": "d426b4d2e449e59090ff411f09b3361e5abf5e3056a0d04bfb241364033a4d43"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/VisionProjectionTests.cpp",
+      "bytes": 2389,
+      "sha256": "240fee1b88e685406db25565eac0eab7a70b65143a8bdcfb00309301b3ce28e7"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/YoloDatasetExportTests.cpp",
+      "bytes": 3670,
+      "sha256": "36939ffd76ed79341a6cd43847cd15336d638024483f0030ce963cd5d9a1b670"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/YoloDatasetRenderTests.cpp",
+      "bytes": 5771,
+      "sha256": "07f281e5abf612f31f8f43c3bc3000c006fa6a9c16e16e1b82485921866144d3"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Tests/YoloGeometricMetricsTests.cpp",
+      "bytes": 2871,
+      "sha256": "1ca6cbced29f999b9d057c860a34092b1fae49efad5975b68fa4ea2c62674033"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Thesis.Build.cs",
+      "bytes": 1437,
+      "sha256": "c6852709ab7f1b305bc27ff6ce78ea0a364c82aea8db9c88eae47d766536a95a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Thesis.cpp",
+      "bytes": 881,
+      "sha256": "a9508db0ad6548bf29226e12b212b165c60ddfa22417a8fb9e89c40dd257e73d"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Thesis.h",
+      "bytes": 98,
+      "sha256": "4694b655856b269fc41b195971214f8e629857c7e5d6f34002a066cd4af3037c"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/ThesisGameModeBase.cpp",
+      "bytes": 91,
+      "sha256": "e8919de0d4cd64398de21a5ff535e7f473afb1d3ad0bf92b39dd2fd818dddffa"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/ThesisGameModeBase.h",
+      "bytes": 297,
+      "sha256": "03202f08cc6df97be5ae6ac321f4ec49e0dcf958c175ef104d264248df472f0a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/ChanceNullScorer.cpp",
+      "bytes": 7576,
+      "sha256": "63ff18088b19c203631013785c711ec78982d3226cd60fbc59eba211f4a85d7b"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/ChanceNullScorer.h",
+      "bytes": 3792,
+      "sha256": "d0fc83050f8e5a5a4d5d15697daeef61da09cb9a1a0b3091bd9e01193df96c36"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/DroneCaptureComponent.cpp",
+      "bytes": 55989,
+      "sha256": "055494f08e39184f42f5f555f1045e8491447ed38a8a3edbdf702636a978df07"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/DroneCaptureComponent.h",
+      "bytes": 4613,
+      "sha256": "326b79b80a9c52d89f6aaae2c15fa89f4f3fc9217f3337622b689ff0305fa390"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/VisionBridge.cpp",
+      "bytes": 12790,
+      "sha256": "add3a53919d2f888670abcda11f65af9bb6fcba3224612238f90e4ddfb48d994"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/VisionBridge.h",
+      "bytes": 2352,
+      "sha256": "1857af655fae9d60351adabadaf3c1382d2cf8a8ce3af10646c41a02ce49efe1"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/VisionTypes.h",
+      "bytes": 1192,
+      "sha256": "8d48ca903d358c4a54ecedfb585768cf4aaa33c414f265d8b1aa8746461ef2f3"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/YoloDatasetExporter.cpp",
+      "bytes": 19485,
+      "sha256": "273b65eed9b56a01a5ddd3d4005a9a3ef9af44f4959d16a701efbec3035bc8ed"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/YoloDatasetExporter.h",
+      "bytes": 2270,
+      "sha256": "9d260a50d1564bbdecdc67f52700df90fa68e57cb0828c9b026ed3203840aa0b"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/Vision/YoloGeometricMetrics.h",
+      "bytes": 2644,
+      "sha256": "e674e75a6d7a87e99ea809b85c6d727bd71fec2a0f7951291d4645d52f078c95"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/DeterministicCaptureEffects.cpp",
+      "bytes": 14553,
+      "sha256": "09e09d80af1c59eaba0b5543649c2ddb12e89de88347c59b161549cf443d199c"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/DeterministicCaptureEffects.h",
+      "bytes": 3238,
+      "sha256": "2109ef289bd2bd208bc9bd153377e07b872dff2b25dd36a73d1433421cd3844a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/FireDataImporter.cpp",
+      "bytes": 3332,
+      "sha256": "22851877cc9e23b9c0403b806e2844b34722366e9041f17712c7e6cb041f8c05"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/FireDataImporter.h",
+      "bytes": 2461,
+      "sha256": "72fe48c2ad4da8b99f048f00dc0e26672ce43352add7e75936a6a9e5c4c15c89"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/FirePresentationMath.h",
+      "bytes": 6134,
+      "sha256": "df8e33812be1052e0b4d39640a7dadaddbe18c018af2e4c27262e61fd70480ce"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/FireVisualProfile.cpp",
+      "bytes": 32,
+      "sha256": "7541b6804a1a957650ac248e0abb6ce784a343954df9b819772870f70794725c"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/FireVisualProfile.h",
+      "bytes": 4609,
+      "sha256": "c2d4d9183ddf28c5f6ce92d688ed22f2db9ee68ef8e5c5b69de3277efd767b94"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/FireVisualsManager.cpp",
+      "bytes": 89040,
+      "sha256": "663d67998ee0facb303ea62a3b6ee69580d21f430cd54780c87893cd4a50767c"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/FireVisualsManager.h",
+      "bytes": 21326,
+      "sha256": "9fde5078fc5b08c7f7e959aac9a4afbad5fc12c746cf00607546824764846b77"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/ForestDresser.cpp",
+      "bytes": 66416,
+      "sha256": "fbac0241875a5948be6a28c1c7686c5356f6f68befc7fa988683b388ac3c41d1"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/ForestDresser.h",
+      "bytes": 10942,
+      "sha256": "6d0b53f2f87f221f5bd15c8a34e790ebcb5fb3ce09ef77702bd811f0347334c2"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/ForestDresserBatching.h",
+      "bytes": 1679,
+      "sha256": "18ecab628b9586190affc62c982048ad491740016e9c00284e5564f90d048606"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/Grid.cpp",
+      "bytes": 8449,
+      "sha256": "417483455c3e39a21a2705405ffa1374f7da1abe7a753b09768aa7190e0892fe"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/Grid.h",
+      "bytes": 3868,
+      "sha256": "2643349f39a696d01def42b067e7f2566b2c5d7527726de0212e76f0ae871597"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/GroundTruthOracle.h",
+      "bytes": 654,
+      "sha256": "1fce29e3b8832d95f88e5823705d2d5dc8c0e4dbbb74ea5cdebb0d6b1193800a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/LiveRenderPolicy.cpp",
+      "bytes": 6577,
+      "sha256": "f647174dd9a7cf779010a08cab790ba629630bddfae86ddaf97f5da8660bf000"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/LiveRenderPolicy.h",
+      "bytes": 563,
+      "sha256": "369608aec7bc7f15ff412041510edcc16bb77f9e821a3e1e62f136bd6fd1f48a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/LiveViewPresentation.h",
+      "bytes": 1501,
+      "sha256": "768f6badea05f1dce6eb7cca3576c79701a12954438fbd27afaa09f1185c5647"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/PriorityModel.h",
+      "bytes": 7459,
+      "sha256": "8249523f4a222c4c890c69277c94a27c78c1d68c3f3775ca058e52047f3a3a4a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/ProceduralTerrain.cpp",
+      "bytes": 31316,
+      "sha256": "dcbb25fb7223064af792d0f61845b5dd95a890e7711300773298ba2c30b1283f"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/ProceduralTerrain.h",
+      "bytes": 10060,
+      "sha256": "2182113b04b00120ab7ec66dfe24553379a4c9d9740f5a9e4969685a4c313bf2"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/SimulationDatasetExport.cpp",
+      "bytes": 14744,
+      "sha256": "dd139a69f86c65421b04dd3c087c993ac367b2f9fb34c280d766307f1e09ccf1"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/SimulationHUD.cpp",
+      "bytes": 6351,
+      "sha256": "c6ef3f3033d9f4829348d3483f4a436dd783ef1436eae0437e225fe1547d437f"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/SimulationHUD.h",
+      "bytes": 440,
+      "sha256": "ac5202fafa6d535c6835ce1bd795a9987eb7543452cb33fc092bffc2aefa79d6"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/SimulationManager.cpp",
+      "bytes": 230820,
+      "sha256": "23d5e9e4786f2249a52d0f3615a1f51dc419531fceb4b3161d71a91d09587b76"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/SimulationManager.h",
+      "bytes": 70853,
+      "sha256": "e5112bd84f16dce8da3b7cba3a69e02a29d7e0fb183952589e86e522a2527758"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis/World/VisionProjection.h",
+      "bytes": 1536,
+      "sha256": "2ee43984238066d9228bd40f670eadd7cfd058a46d47dc05482a0776b505754d"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/Thesis.Target.cs",
+      "bytes": 550,
+      "sha256": "3880326edaf1af1adf3a6534c5e77b1d9b4262ebc0321faeb44924cf4f3fb900"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisEditor.Target.cs",
+      "bytes": 632,
+      "sha256": "ce6720dcf250b7d96d5e9d9236ba53b95d407c69e8728272f52282c45c58e386"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Private/DroneLocalPriorityComputeShader.cpp",
+      "bytes": 195,
+      "sha256": "0372224abea3f0304cadffca1db09692972b5e0695cbae78d718a23d85289099"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Private/GridStatsShader.cpp",
+      "bytes": 314,
+      "sha256": "7a31530c4009d12d47c287e89a191d0c5850c80bc584a999e20f5e69675a2bd5"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Private/ObservationIngestShader.cpp",
+      "bytes": 169,
+      "sha256": "3d2d6c23c2726ff1889cc1965392e3dcacb0633fb55230af52471333e4cf9127"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Private/PixelBleedSpreadShader.cpp",
+      "bytes": 168,
+      "sha256": "467acce09d2b1b29d68eaceda8b94ee83b88f66607cef1e29ab0e060bcaae186"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Private/PriorityComputeShader.cpp",
+      "bytes": 165,
+      "sha256": "266c4aae274871419bbfc80bbc9d53a389744254a899ab663828fbfe1ae4bf5a"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Private/StalenessUpdateShader.cpp",
+      "bytes": 163,
+      "sha256": "f29fa639478fdf7ad211c7c723d28cbd39dda5cd238dc6b70a83286cec3e23cb"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Private/ThesisShadersModule.cpp",
+      "bytes": 864,
+      "sha256": "c27e472d62f97c59b9fd9ab2a99d505b20e943fcfcc3c9b19a13876cfa79cdce"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Public/DroneLocalPriorityComputeShader.h",
+      "bytes": 2075,
+      "sha256": "b946a45346d38ca619e3e9018c8d2bd0e95cecaa6a5e082b0077895d0a780aa9"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Public/GridStatsShader.h",
+      "bytes": 2031,
+      "sha256": "66e4ef7574b3377c39e2fddaa7cd06dac7c460565bb848a62e9af5e256504807"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Public/ObservationIngestShader.h",
+      "bytes": 1198,
+      "sha256": "caa73f2baf5fb71b2917ae7ba8d7ca66bdb53101d5828bfb0f47714b041de98b"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Public/PixelBleedSpreadShader.h",
+      "bytes": 1202,
+      "sha256": "2834441bf15f9d64780bc49e9ce1baf62fc8e79f730d80db28738849d504b6d3"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Public/PriorityComputeShader.h",
+      "bytes": 1617,
+      "sha256": "f2c82a5f3821677dc95d77d7f9d4e16713ef6443e1e369bc6853f68cfc971dd1"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/Public/StalenessUpdateShader.h",
+      "bytes": 985,
+      "sha256": "fd22ce71b4afbcb90a07e29926f2807ef507741a94efb574558a5f5201e86b5d"
+    },
+    {
+      "path": "simulator/main_evaluated/Source/ThesisShaders/ThesisShaders.Build.cs",
+      "bytes": 1197,
+      "sha256": "e629b10564cec80f8d63feb3d5b28fe09a2a28247908d430192e6dc7298e6b16"
+    },
+    {
+      "path": "simulator/main_evaluated/Thesis.uproject",
+      "bytes": 581,
+      "sha256": "fc1044bee01aa98118d81a9563d360c3660d6e29c50c280ac5c38093a95026b1"
+    },
+    {
+      "path": "simulator/main_evaluated/Tools/run_benchmarks.py",
+      "bytes": 70948,
+      "sha256": "5a8d0cc739c53794b29b873dd304bb4d9c11bd313c0149278a811bb99130a757"
+    },
+    {
+      "path": "simulator/main_evaluated/Tools/run_fov_current_build_all_arms.py",
+      "bytes": 38529,
+      "sha256": "7dd732ba57f5349d6e8ced90d4c04f3c0abada4bd211c2eb420d4bcf3330400e"
+    },
+    {
+      "path": "simulator/main_evaluated/Tools/run_fov_scoring_full_matrix.py",
+      "bytes": 34614,
+      "sha256": "6440cea94b2a0ebf48b46db0f6ebce81f89292603a389f22330a82bab5e751ed"
+    },
+    {
+      "path": "simulator/source-publication-manifest.json",
+      "bytes": 103498,
+      "sha256": "a3fb38ef6c0707b20b985ccce865fbfd620a47125f878746906b92f7b9cfa474"
+    },
+    {
+      "path": "supplemental-release-files.json",
+      "bytes": 14886321,
+      "sha256": "ba678eeee0f05566b8cbcdfced5f60bb8a97ba640e9c3ec9dc8e945ae486b64b"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 3031,
+      "sha256": "2a862a71aa8d908d4360d14d853060435d262f0e1b3eee71e4b5f01de9366eb6"
+    },
+    {
+      "path": "VALIDATION.txt",
+      "bytes": 1891,
+      "sha256": "1e4d2642bbdbf35881d4a948053cbaf9e729f6cc6a37770fe93a95fd3df17fd7"
+    }
+  ]
+}

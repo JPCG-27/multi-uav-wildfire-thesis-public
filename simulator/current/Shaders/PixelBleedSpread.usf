@@ -1,0 +1,44 @@
+// PixelBleedSpread.usf — wind-biased 3x3 convolution on log-odds belief.
+// One thread per cell. Reads InputBelief, writes OutputBelief (ping-ponged
+// on the CPU side). Border cells clamp.
+//
+// INVARIANT: spread weights set once at scenario start; never modified
+// during a run. Required for per-tick determinism . No atomics, no reductions, fixed sample order.
+
+#include "/Engine/Public/Platform.ush"
+#include "/ThesisShaders/Common.ush"
+
+Texture2D<float>    InputBelief;
+RWTexture2D<float>  OutputBelief;
+int2                TextureSize;
+float               DecayPerTick;
+// SCALAR_ARRAY of 9 floats packed into 3 float4s by the engine.
+// Access with Weights[i/4][i%4].
+float4              Weights[3];
+
+[numthreads(THESIS_TG_X, THESIS_TG_Y, 1)]
+void MainCS(uint3 DTid : SV_DispatchThreadID)
+{
+    if (DTid.x >= (uint)TextureSize.x || DTid.y >= (uint)TextureSize.y)
+    {
+        return;
+    }
+
+    float Acc = 0.0f;
+
+    // Fixed nested loop — explicit, deterministic sample order.
+    [unroll] for (int dy = -1; dy <= 1; ++dy)
+    {
+        [unroll] for (int dx = -1; dx <= 1; ++dx)
+        {
+            int2 P = clamp(int2(DTid.xy) + int2(dx, dy),
+                           int2(0, 0),
+                           TextureSize - int2(1, 1));
+            int   i = (dy + 1) * 3 + (dx + 1);   // flat index 0..8
+            float W = Weights[i / 4][i % 4];      // unpack from float4 slot
+            Acc += InputBelief.Load(int3(P, 0)) * W;
+        }
+    }
+
+    OutputBelief[DTid.xy] = Acc * (1.0f - DecayPerTick);
+}

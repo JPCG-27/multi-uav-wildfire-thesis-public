@@ -1,0 +1,14 @@
+#include "/Engine/Public/Platform.ush"
+#include "/ThesisShaders/Common.ush"
+
+RWTexture2D<float> StalenessOut;
+int2               TextureSize;
+
+[numthreads(THESIS_TG_X, THESIS_TG_Y, 1)]
+void MainCS(uint3 DTid : SV_DispatchThreadID)
+{
+    if (DTid.x >= (uint)TextureSize.x || DTid.y >= (uint)TextureSize.y)
+        return;
+
+    StalenessOut[DTid.xy] += 1.0f;
+}

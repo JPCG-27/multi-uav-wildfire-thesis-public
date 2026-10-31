@@ -1,0 +1,17 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+using UnrealBuildTool;
+using System.Collections.Generic;
+
+public class ThesisTarget : TargetRules
+{
+	public ThesisTarget( TargetInfo Target) : base(Target)
+	{
+		Type = TargetType.Game;
+		DefaultBuildSettings = BuildSettingsVersion.V6;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
+		// Match benchmark compilation regardless of Git working-tree state.
+		bUseAdaptiveUnityBuild = false;
+		ExtraModuleNames.AddRange( new string[] { "Thesis", "ThesisShaders" } );
+	}
+}

@@ -1,0 +1,71 @@
+#include "/Engine/Public/Platform.ush"
+#include "/ThesisShaders/Common.ush"
+
+// Grid-wide staleness statistics for the metrics recorder.
+//
+// Determinism: complies with the /ThesisShaders/ invariant (no atomics, no
+// cross-thread reductions). Pass 1 gives each thread ONE COLUMN which it
+// reduces with a sequential, fixed-order loop. Pass 2 is a single thread
+// reducing the column partials, again in fixed order. Float addition order is
+// therefore identical every run.
+//
+// Coverage definition: a cell is "observed" if its staleness is less than the
+// current tick. Staleness starts at 0 and is incremented every tick; only an
+// observation resets it. A never-observed cell at tick T has staleness == T,
+// an ever-observed cell has staleness <= T - 1.
+
+// ---------------- Pass 1: per-column reduce ----------------
+
+Texture2D<float>           InputStaleness;
+RWStructuredBuffer<float4> ColumnPartials;   // [Width] = (sum, max, observedCount, unused)
+int2                       TextureSize;
+float                      CurrentTickF;
+
+[numthreads(64, 1, 1)]
+void ColumnReduceCS(uint3 DTid : SV_DispatchThreadID)
+{
+    const uint x = DTid.x;
+    if (x >= (uint)TextureSize.x)
+        return;
+
+    float Sum = 0.0f;
+    float MaxV = 0.0f;
+    float Observed = 0.0f;
+
+    for (int y = 0; y < TextureSize.y; ++y)   // fixed order — deterministic
+    {
+        const float S = InputStaleness[uint2(x, (uint)y)];
+        Sum += S;
+        MaxV = max(MaxV, S);
+        if (S < CurrentTickF - 0.5f)
+        {
+            Observed += 1.0f;
+        }
+    }
+
+    ColumnPartials[x] = float4(Sum, MaxV, Observed, 0.0f);
+}
+
+// ---------------- Pass 2: final reduce (single thread) ----------------
+
+StructuredBuffer<float4>   ColumnPartialsIn;
+RWStructuredBuffer<float4> StatsOut;          // [1] = (sum, max, observedCount, unused)
+int                        NumColumns;
+
+[numthreads(1, 1, 1)]
+void FinalReduceCS(uint3 DTid : SV_DispatchThreadID)
+{
+    float Sum = 0.0f;
+    float MaxV = 0.0f;
+    float Observed = 0.0f;
+
+    for (int x = 0; x < NumColumns; ++x)      // fixed order — deterministic
+    {
+        const float4 P = ColumnPartialsIn[x];
+        Sum += P.x;
+        MaxV = max(MaxV, P.y);
+        Observed += P.z;
+    }
+
+    StatsOut[0] = float4(Sum, MaxV, Observed, 0.0f);
+}

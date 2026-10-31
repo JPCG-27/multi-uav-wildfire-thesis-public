@@ -1,0 +1,124 @@
+{
+  "captured_utc": "2026-10-07T15:44:55.935919+00:00",
+  "gpu_driver": "NVIDIA GeForce RTX 5070 Ti, 610.88",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": {
+    "executable": "C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Saved\\YoloCudaRuntime\\Scripts\\python.exe",
+    "implementation": "CPython",
+    "version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]"
+  },
+  "torch": {
+    "cuda_available": true,
+    "cuda_version": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "version": "2.12.1+cu130"
+  },
+  "ultralytics": "8.4.75",
+  "unreal_project": {
+    "Category": "",
+    "Description": "",
+    "EngineAssociation": "5.7",
+    "FileVersion": 3,
+    "Modules": [
+      {
+        "LoadingPhase": "PostConfigInit",
+        "Name": "Thesis",
+        "Type": "Runtime"
+      },
+      {
+        "LoadingPhase": "PostConfigInit",
+        "Name": "ThesisShaders",
+        "Type": "Runtime"
+      }
+    ],
+    "Plugins": [
+      {
+        "Enabled": true,
+        "Name": "ModelingToolsEditorMode",
+        "TargetAllowList": [
+          "Editor"
+        ]
+      },
+      {
+        "Enabled": true,
+        "Name": "SunPosition"
+      },
+      {
+        "Enabled": true,
+        "Name": "GeoReferencing"
+      },
+      {
+        "Enabled": true,
+        "Name": "NiagaraFluids"
+      }
+    ]
+  },
+  "untracked_source_sha256": {
+    "Source/Thesis/Human/HumanVisualPose.cpp": "276815bfb1f586c123ad2a976eb20ba5103b00a7613f69135c7d56b347e0136b",
+    "Source/Thesis/Human/HumanVisualPose.h": "7561cd67db50d8b4ed85b4d9cb0ff77ce9765e262162e8b2912fe4ef2fb90284",
+    "Source/Thesis/Tests/CameraReadbackTests.cpp": "1b254af2dc3456679bde79fab5388d28b9a34b720acd6367d3d4b36cef83311c",
+    "Source/Thesis/Tests/DeterministicCaptureEffectsTests.cpp": "2784420ddd1f9dd9a00b51f46edb5d04823793a841ea8da0ba3f73350a205774",
+    "Source/Thesis/Tests/EnvironmentEdgeRenderTests.cpp": "c9ee2867a198afd8e665955d9dee92603deeb09cb0f54eb3dcf1655835f49184",
+    "Source/Thesis/Tests/EnvironmentLightingLifecycleTests.cpp": "57f55689756dc5affa829c8ef18c50880bdfe5703597505261c8acdc3e2996c9",
+    "Source/Thesis/Tests/EnvironmentRenderCostProbe.cpp": "a051a24804ec5277f8a9b5cd936e153f04e4cedee760619ab0ef9a4eaa2bc2ce",
+    "Source/Thesis/Tests/FirePresentationTests.cpp": "23b0632d4c064eca0622e8feed2a248f396be2a57306209b04e91c80060cf363",
+    "Source/Thesis/Tests/FireVisibilityRenderTests.cpp": "70f06086dcb4a83d2c87a6956b6eedfa202d6fca315cb11b185de5c96150aee5",
+    "Source/Thesis/Tests/ForestApronDeterminismTests.cpp": "43e2abc86e8de405753dd65324078e89e871f54e78c30baddfbd164a9983b0bf",
+    "Source/Thesis/Tests/ForestDresserBatchingTests.cpp": "16e668933e9978c765cc5e60cec0a3e72fd17f0f7ce5f2af0b5762229fc1d5a9",
+    "Source/Thesis/Tests/ForestVisibilityRenderTests.cpp": "4bc128ae092554d5a5bf3cb93f9ba2788425bbecf5409f22be535b9c2f7705c4",
+    "Source/Thesis/Tests/HumanVisualPoseTests.cpp": "aaafe55f14974ab9916e13116030d6176edce211675de67bfff269d90decafa0",
+    "Source/Thesis/Tests/LiveRenderPolicyTests.cpp": "47f9446a357f46a7bf2eda4ecd157293983f6e9cafa68fbce7e7b2599d533a36",
+    "Source/Thesis/Tests/LiveViewPresentationTests.cpp": "a66161121fdb972bb18eef44979e5765bf398e06c106ddbdc523554def9831b3",
+    "Source/Thesis/Tests/ProceduralTerrainBorderTests.cpp": "e6e1e9a608a11eec4ba1418a22d1dea73d8da64524bcc989b728641b40938953",
+    "Source/Thesis/Tests/TerrainRenderTileTests.cpp": "49f9c4e444fb4da093d8b9c429c28ad88b60db7eb38a9cd2d021fa35f7ec6195",
+    "Source/Thesis/Tests/TerrainSceneCacheTests.cpp": "b4f3b90d8999c3996c71918a7919a0490c30c6dbc9bc699d794c9854de8d3f4f",
+    "Source/Thesis/Tests/VisionProjectionTests.cpp": "51826c101d2d81aaf3b842b0cb19b4e360a9133e723a2503c2fc1aa3c247eeaa",
+    "Source/Thesis/Tests/YoloDatasetExportTests.cpp": "09845a5c9a50a682e03aa31812dddbffc7b18a6051c0a53e8b5aa65637eb03b1",
+    "Source/Thesis/Tests/YoloDatasetRenderTests.cpp": "e7f2c12745fe0258a507bf1a3d87036358dfc3b875c430cc6ef566e08c515675",
+    "Source/Thesis/Tests/YoloGeometricMetricsTests.cpp": "8c2ebdb2ac525519143927f7dc06236903a75907f5f587cf90ae78b2e028647d",
+    "Source/Thesis/Vision/YoloDatasetExporter.cpp": "65b84ce9ff78c7c4715f4a4d2f6508cec8c58fb7fcc0f9da883509f8f03194f7",
+    "Source/Thesis/Vision/YoloDatasetExporter.h": "da42f6a5b21697db7055f9cc343f2157f46179545c03baf61777c4fecee8b57f",
+    "Source/Thesis/Vision/YoloGeometricMetrics.h": "5e73e8705b1be244069670b496bbe2ac88831d76f1b1891f7080325644e43885",
+    "Source/Thesis/World/DeterministicCaptureEffects.cpp": "2624e421f70a2f15838ca51d8d19da1a75892f59b1edbdec9c30ffa8bb6fbb15",
+    "Source/Thesis/World/DeterministicCaptureEffects.h": "0e35c043619d0bb8dceba60a485f544093c3d3dc103549fe077792fa5f4952be",
+    "Source/Thesis/World/FirePresentationMath.h": "443419f6df3cf6a3861e0b77a91f2aebbd2ada999115bcc56bfb9770c1e0e72b",
+    "Source/Thesis/World/ForestDresserBatching.h": "a2d1e3d455f9cf8b82419327e88ec23ed0886037866c03cec3b9994250141fac",
+    "Source/Thesis/World/LiveRenderPolicy.cpp": "8fdeda1316c77b423866d67b1746976cfa8ae606f1af52c9a69d3c228e6cb74c",
+    "Source/Thesis/World/LiveRenderPolicy.h": "eee137323b7f6e4c8f7b02d5401b288924a3e080ed2b27abfcaf0a81be9ec0c3",
+    "Source/Thesis/World/LiveViewPresentation.h": "9b771221ece38c559a2638a12e8fe214693037fd6e3ce87c6953a795305e8ca9",
+    "Source/Thesis/World/SimulationDatasetExport.cpp": "1b389f0c4f67567c228e74142c7a9b5ddfc9e966e9cc5818b949051b2b4b9645",
+    "Source/Thesis/World/VisionProjection.h": "2a35334d8327aa219ae82531cb1e00e0594a9e85314af18a43d713e98c3d63d9",
+    "Tools/audit_yolo_dataset.py": "d383902d28c13fa40676b7a2d47b40e0a6fa7288ff22618da7c21456ea1eee21",
+    "Tools/compare_yolo_experiments.py": "4992736041bfb7b022c7ac5d87a602dddf0ba1b370232906d94c95a7a0d6d82e",
+    "Tools/compare_yolo_exports.py": "3c005ef236a8a0f4c20a2952ab4462c4109f7c2d96369a95d2f69c697974f02e",
+    "Tools/create_yolo_assisted_review.py": "17af53c3768a037bd8d1690f2d7a252c08f65a8472ccbcc304f7f1b902d5c13c",
+    "Tools/derive_yolo_dataset.py": "af745c9bbbcc98f4497f8921376ae5e3398ec85cae703faf6bc24af63d69465a",
+    "Tools/evaluate_yolo_experiment.py": "ca637b2e9836794ccd9e84ae64b280e14b6ff6b80d7a1f2349a1a4858ef8deed",
+    "Tools/export_yolo_dataset.py": "61fa13ca7063230c94e1f72578574f9b7dea6ee3967a86e5ee0496d83a3e8485",
+    "Tools/generate_yolo_pilot.py": "791feb7604f8be52153deb009f2b6931dc149036070eb1ea992fd00de5f00186",
+    "Tools/prepare_yolo_ablation.py": "2f4c0b424bd08615f9e6c71448f66a7ecd3d477ec35209e1da12001cd2a46221",
+    "Tools/prepare_yolo_dataset.py": "56d70c83989ed5d1fcfc77e94f7d3a29a6b54458b54d0d2bcb5b1c5c1ad6bfc6",
+    "Tools/request_yolo_sweep_stop.py": "0629e5eacce287142964ce0a85d17e54b3d98c0338d183872bf4aaa63deb7899",
+    "Tools/review_yolo_labels.py": "af7080e19df39df10878f9c940fc25755bddea2d08fe1c160e90b255e424a3b9",
+    "Tools/run_yolo_background.py": "357f8016d602877edec983a48e06f0ad53f29de079a73e7242c0b71c2d531561",
+    "Tools/run_yolo_full_sweep.py": "a8814ba43a02e8536374d3393d31c183d4f1a8c9110c7d2d0ff051fdac1babcf",
+    "Tools/run_yolo_initial_checks.py": "55a79d3ba164eb2fa54e2f637a37e0e6f84d2e25e6bb7b974506eb3cc1d341d0",
+    "Tools/run_yolo_pilot.py": "e1467c43491b19b83b5acd6fbb0c343b3bb899dfc5320ae103852822f37879d4",
+    "Tools/run_yolo_throughput_probe.py": "641c8cb12039c6bdfef82714520502f7490f19f7a00997d7fc1bd6cabe595675",
+    "Tools/test_audit_yolo_dataset.py": "ac74e7356a8458e8001eb643e760baff1b7c6dae86e22ff3405230149545c989",
+    "Tools/test_camera_optimization.py": "7f746db981a01592440e75cedf1879e8e24ea8f3d2f72adf5dc549819221a0f3",
+    "Tools/test_compare_yolo_experiments.py": "88e6e284da9d27cc72a144d9b56df7829baa3d04f830b46eb031822bf179c6d6",
+    "Tools/test_derive_yolo_dataset.py": "8d9d9f070089459a47f575ae5b6d38b8adc039512a3b39e3162440da5ebc78fe",
+    "Tools/test_evaluate_yolo_experiment.py": "2bc1848accfc33c913ed2be7cc0162940c4c7b1a5ce54774e925e9d0b0220d45",
+    "Tools/test_generate_yolo_pilot.py": "4034c770ed23034acb8da51ee5096891774f83fe6af64966f8afd1a19ccb1759",
+    "Tools/test_prepare_yolo_ablation.py": "c8ded9c75c5ea7d641e4f557f4bf9ec48716b649414d129ca8b184dd422e6de4",
+    "Tools/test_prepare_yolo_dataset.py": "de54842090f55cf37c5b6a3d0f7e191d5d708d908bcca762f293ed5af8e8f993",
+    "Tools/test_review_yolo_labels.py": "2fd3be036e3f6b60e76ded9abbd422cec7888c4027f109abfac39532b5b2b122",
+    "Tools/test_run_yolo_pilot.py": "98430705f9f20f9a4720ec07e13ae9c86572623a226a648ccb14dec61ad7136c",
+    "Tools/test_train_yolo_experiment.py": "63ea415ff52ae9f28cdf7c407dbf564f94162ee0b6c6ee9e04f68a6d9d48e593",
+    "Tools/test_vision_server_concurrency.py": "e462c9c38f4fcfb540a1088fa3ebbf932fd5db7d93afb7d9db74dc1663020429",
+    "Tools/test_yolo_background.py": "17c56b92ad6a38c18eaca1e26d94503d3d80e49f2063b1d94d3826c628fef274",
+    "Tools/test_yolo_full_sweep_controls.py": "10fa53b407da7c387ca5f7f4749d2f3a3ff1cf0e74ef77e79c9833a9970dfd7c",
+    "Tools/train_yolo_experiment.py": "421ae0e0bb65b3c15ae3006e504b66790c18a753dbbe046d0e78899858a55feb"
+  }
+}

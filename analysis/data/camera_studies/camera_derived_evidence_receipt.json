@@ -1,0 +1,188 @@
+{
+  "schema": "recent_camera_derived_evidence_receipt_v1",
+  "scope": "selected Oct. 9/11/18 camera cohorts and retained derived camera evidence; no new simulation or cache replay",
+  "temporal_shift": {
+    "mixed": {
+      "source_report": "Saved\\Benchmarks\\supervisor-controls\\analysis\\attempt16-chance-null-final\\mixed1\\chance-null-analysis.json",
+      "source_report_sha256": "22f9049a817b1e2be29345794729c4178cbf37fe06b7a255ee9437748b7ae471",
+      "source_run_index": "data\\camera_studies\\mixed_ideal_plus_camera_run_index.csv",
+      "source_run_index_sha256": "e580d964630c6278ec3a22e83ef1815b6ec0247cd5208e45512f3ac658c948bc",
+      "source_analysis_schema": "chance_null_camera_fraction_v3",
+      "selected_runs": 3240,
+      "complete_index_runs": 3240,
+      "full_matrix_seed_block_inference": true,
+      "aggregation_gate": "all camera support, permutation, metadata/hash, original frame and person-event parity checks passed before aggregation",
+      "common_shift_ranks_percent": [
+        0,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "aligned_equal_run_coverage": 0.1097565157750343,
+      "mean_17_shifted_equal_run_coverage": 0.023497337206487535,
+      "mean_aligned_minus_shifted_percentage_points": 8.625917856854675,
+      "aligned_minus_shifted_seed_block_ci95_percentage_points": {
+        "low": 6.547335460674616,
+        "high": 10.704500253034736
+      },
+      "aligned_person_weighted_coverage": 0.06052910052910053,
+      "shifted_person_weighted_coverage": 0.011518829754123872,
+      "mean_shifted_person_fraction_definition": "For each run, sum matched people across 17 ranks and divide by person_count x 17; cohort value is person-weighted across run/person opportunities.",
+      "source_reprojection_not_repeated": true
+    },
+    "four_camera": {
+      "source_report": "Saved\\Benchmarks\\supervisor-controls\\analysis\\attempt16-chance-null-final\\all_yolo\\chance-null-analysis.json",
+      "source_report_sha256": "b9ecae9c90be77086cf071b446265ac934a144f6d598aebbc933013dc84f2354",
+      "source_run_index": "data\\camera_studies\\four_camera_run_index.csv",
+      "source_run_index_sha256": "0fc2a318a257a0d3385d5ece1ff4d4a6ed31b1bd493dbd6463f71394c3788a2a",
+      "source_analysis_schema": "chance_null_camera_fraction_v3",
+      "selected_runs": 3240,
+      "complete_index_runs": 3240,
+      "full_matrix_seed_block_inference": true,
+      "aggregation_gate": "all camera support, permutation, metadata/hash, original frame and person-event parity checks passed before aggregation",
+      "common_shift_ranks_percent": [
+        0,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "aligned_equal_run_coverage": 0.3621210562414266,
+      "mean_17_shifted_equal_run_coverage": 0.09548656499636891,
+      "mean_aligned_minus_shifted_percentage_points": 26.663449124505767,
+      "aligned_minus_shifted_seed_block_ci95_percentage_points": {
+        "low": 25.74177849237358,
+        "high": 27.585119756637955
+      },
+      "aligned_person_weighted_coverage": 0.20903439153439154,
+      "shifted_person_weighted_coverage": 0.04420634920634921,
+      "mean_shifted_person_fraction_definition": "For each run, sum matched people across 17 ranks and divide by person_count x 17; cohort value is person-weighted across run/person opportunities.",
+      "source_reprojection_not_repeated": true
+    }
+  },
+  "temporal_shift_reported_values": {
+    "mixed": {
+      "aligned_equal_run_percent": 10.97565157750343,
+      "mean_17_shifted_equal_run_percent": 2.3497337206487536,
+      "aligned_minus_shifted_pp": 8.625917856854675,
+      "aligned_minus_shifted_ci95_pp": [
+        6.547335460674616,
+        10.704500253034736
+      ],
+      "aligned_person_weighted_percent": 6.052910052910053,
+      "mean_shifted_person_weighted_percent": 1.1518829754123872
+    },
+    "four_camera": {
+      "aligned_equal_run_percent": 36.21210562414266,
+      "mean_17_shifted_equal_run_percent": 9.548656499636891,
+      "aligned_minus_shifted_pp": 26.663449124505767,
+      "aligned_minus_shifted_ci95_pp": [
+        25.74177849237358,
+        27.585119756637955
+      ],
+      "aligned_person_weighted_percent": 20.90343915343915,
+      "mean_shifted_person_weighted_percent": 4.420634920634921
+    }
+  },
+  "area_share": {
+    "input_summary": "data\\camera_studies\\mixed_camera_territory_per_run.csv",
+    "input_summary_sha256": "98550893fcf610293ef0cbb56a80fb73dcd5cad98b9f859f06e26b2a2374457d",
+    "source_analysis_report": "data\\camera_studies\\mixed_camera_territory_analysis.json",
+    "source_analysis_report_sha256": "c2272fdc90d4bf3d879408241eee40b15e9e6eb9c593eded3345457a8ebc0468",
+    "source_normalized_report": "data\\camera_studies\\mixed_camera_territory_normalized_analysis.json",
+    "source_normalized_report_sha256": "ddc397853a5f6696cb436c6beb957c87a376a6efc732f26441c4cf7f51c88882",
+    "source_script_hashes": {
+      "offline-territory-analysis.py": "d1d82aa3a2c1904bf130f9422e1153a2e112a418309032469e0513d99ca7721b",
+      "offline-territory-normalized.py": "9c6d09e6ae132ca5ec08996a02552b112396d57530a69a3b644fdc837533df85"
+    },
+    "source_trace_scope": {
+      "mixed_index_rows": 3240,
+      "mixed_complete": 3240,
+      "yolo_index_rows": 3240,
+      "yolo_complete": 3240,
+      "matched_run_ids": 3240,
+      "mixed_drones_csv_count": 3240,
+      "all_yolo_drones_csv_count": 0,
+      "rows_per_mixed_run": 32000,
+      "ticks_per_mixed_run": 8000,
+      "drone_rows_per_tick": 4
+    },
+    "camera_drone_share_by_grid": {
+      "100": {
+        "static_share_percent": 25.0,
+        "dynamic_share_percent": 20.598030849537036,
+        "dynamic_minus_static_pp": -4.401969150462962,
+        "ci95_pp": [
+          -7.451877767484854,
+          -1.3520605334410702
+        ],
+        "runs_per_regime": 540
+      },
+      "200": {
+        "static_share_percent": 25.0,
+        "dynamic_share_percent": 24.464044151041662,
+        "dynamic_minus_static_pp": -0.5359558489583335,
+        "ci95_pp": [
+          -0.9370725087142695,
+          -0.13483918920239746
+        ],
+        "runs_per_regime": 540
+      },
+      "300": {
+        "static_share_percent": 25.0,
+        "dynamic_share_percent": 25.031807657664608,
+        "dynamic_minus_static_pp": 0.031807657664609,
+        "ci95_pp": [
+          -0.0776171835907504,
+          0.1412324989199684
+        ],
+        "runs_per_regime": 540
+      }
+    },
+    "limitations": [
+      "Four-camera owned-cell traces were not retained; no four-camera area comparison can be reproduced.",
+      "The package includes only 3,240 derived per-run area means and their trace-hash receipt, not the underlying 103.68 million mixed-team drones.csv rows."
+    ]
+  },
+  "cell_belief_analysis_outputs": {
+    "summary": "data\\camera_studies\\camera_cell_belief_analysis.json",
+    "summary_sha256": "07a062a5249997b1679ef824c37d6bc4daec00c707041213c0698d85c5d87e19",
+    "paired_run_rows": "data\\camera_studies\\camera_cell_belief_paired_runs.csv",
+    "paired_run_rows_sha256": "2e1eb9810995c7342a9f340bb5d6fe3414bfc66f6a9047428f4fd6598384bdf0",
+    "source_script_sha256": "f25b5f39c2a27ceb903a0ae342c74c13bcdb4e067c8b3d5d0cadfe12433c7d03"
+  },
+  "temporal_shift_compact_output": {
+    "per_run_summary": "data\\camera_studies\\temporal_shift_per_run_summary.csv",
+    "per_run_summary_sha256": "16aa87c3de262617e8445402194a30b038f765c7b039e779f7d0eb9a35719ea4",
+    "source_analysis_script": "analysis_sources/analyze_chance_null.py",
+    "source_analysis_script_sha256": "ab89810b8f609caec8e8dbb0c959e461c598f3e076f35531cd7ae645df957991",
+    "metric_boundary": "The packaged per-run rates summarize the already validated shift-scoring reports. They do not allow raw reprojection without retained consumed-detection payloads and destination-time transforms."
+  }
+}

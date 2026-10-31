@@ -1,0 +1,253 @@
+method,method_label,difference,grid,metric,pairs,seed_blocks,mean_seed_block_delta,ci95_low,ci95_high
+mine_full_fov,Priority planner,dynamic minus static,all,primary_cell_belief_coverage_pct,1620,15,0.8227023319615913,-0.3419164775857976,1.9873211415089802
+mine_full_fov,Priority planner,dynamic minus static,all,eventual_before_death_pct,1620,15,0.8127572016460906,-0.3478204598680773,1.9733348631602583
+mine_full_fov,Priority planner,dynamic minus static,all,early_before_death_pct,1620,15,0.6903292181069959,-4.620331223279947,6.000989659493938
+mine_full_fov,Priority planner,dynamic minus static,all,penalized_first_credit_delay_ticks,1620,15,-159.88550411522635,-300.6695950301032,-19.101413200349498
+mine_full_fov,Priority planner,dynamic minus static,all,timeliness_score_pct,1620,15,1.9985688014403293,0.23876766500436886,3.7583699378762896
+mine_full_fov,Priority planner,dynamic minus static,all,recorded_belief_uptime_pct,1620,15,-0.11926864711934156,-0.2099661210892882,-0.028571173149394932
+mine_full_fov,Priority planner,dynamic minus static,all,untracked_danger_ticks_per_person,1620,15,-2.4471124828532225,-4.856046609003727,-0.03817835670271874
+mine_full_fov,Priority planner,dynamic minus static,all,first_fire_penalized_tick,1620,15,-69.35679012345679,-129.9645381183624,-8.74904212855116
+mine_full_fov,Priority planner,dynamic minus static,all,fire_found_pct,1620,15,0,0.0,0.0
+mine_target_cell,Without FOV scoring,dynamic minus static,all,primary_cell_belief_coverage_pct,1620,15,2.448559670781893,1.1579471059037212,3.7391722356600647
+mine_target_cell,Without FOV scoring,dynamic minus static,all,eventual_before_death_pct,1620,15,2.4468449931412897,1.1570102356860232,3.736679750596556
+mine_target_cell,Without FOV scoring,dynamic minus static,all,early_before_death_pct,1620,15,2.0284636488340193,-3.001861478833852,7.05878877650189
+mine_target_cell,Without FOV scoring,dynamic minus static,all,penalized_first_credit_delay_ticks,1620,15,-345.64938614540466,-525.290476056077,-166.0082962347324
+mine_target_cell,Without FOV scoring,dynamic minus static,all,timeliness_score_pct,1620,15,4.320617326817558,2.0751037029341552,6.566130950700961
+mine_target_cell,Without FOV scoring,dynamic minus static,all,recorded_belief_uptime_pct,1620,15,-0.023207518861454047,-0.10926147567796107,0.06284643795505299
+mine_target_cell,Without FOV scoring,dynamic minus static,all,untracked_danger_ticks_per_person,1620,15,-1.933405349794239,-4.335634150182868,0.46882345059438935
+mine_target_cell,Without FOV scoring,dynamic minus static,all,first_fire_penalized_tick,1620,15,-58.12098765432099,-98.13105264265857,-18.11092266598341
+mine_target_cell,Without FOV scoring,dynamic minus static,all,fire_found_pct,1620,15,0,0.0,0.0
+random,Random target,dynamic minus static,all,primary_cell_belief_coverage_pct,1620,15,-4.079218106995885,-6.845074289096963,-1.3133619248948074
+random,Random target,dynamic minus static,all,eventual_before_death_pct,1620,15,-4.087105624142661,-6.861101402239301,-1.3131098460460215
+random,Random target,dynamic minus static,all,early_before_death_pct,1620,15,0.854252400548697,-6.639859896693273,8.348364697790666
+random,Random target,dynamic minus static,all,penalized_first_credit_delay_ticks,1620,15,107.80404320987655,-163.25512854472782,378.86321496448096
+random,Random target,dynamic minus static,all,timeliness_score_pct,1620,15,-1.347550540123457,-4.735790187056012,2.040689106809098
+random,Random target,dynamic minus static,all,recorded_belief_uptime_pct,1620,15,0.004093235596707811,-0.09664967553925644,0.10483614673267205
+random,Random target,dynamic minus static,all,untracked_danger_ticks_per_person,1620,15,-0.6163100137174218,-1.200739967454756,-0.03188005998008747
+random,Random target,dynamic minus static,all,first_fire_penalized_tick,1620,15,148.79012345679013,57.70711266951032,239.87313424406994
+random,Random target,dynamic minus static,all,fire_found_pct,1620,15,-0.6790123456790124,-1.5976304944023516,0.23960580304432688
+fully_random_v1,Fully random,dynamic minus static,all,primary_cell_belief_coverage_pct,1620,15,2.48559670781893,-0.5532050296534528,5.524398445291313
+fully_random_v1,Fully random,dynamic minus static,all,eventual_before_death_pct,1620,15,2.48559670781893,-0.5532050296534528,5.524398445291313
+fully_random_v1,Fully random,dynamic minus static,all,early_before_death_pct,1620,15,1.727366255144033,-1.5415225670850234,4.996255077373089
+fully_random_v1,Fully random,dynamic minus static,all,penalized_first_credit_delay_ticks,1620,15,-289.6817043895748,-535.3234931114171,-44.03991566773249
+fully_random_v1,Fully random,dynamic minus static,all,timeliness_score_pct,1620,15,3.621021304869685,0.5504989458466558,6.691543663892714
+fully_random_v1,Fully random,dynamic minus static,all,recorded_belief_uptime_pct,1620,15,0.06597968106995884,-0.1848541768641388,0.31681353900405645
+fully_random_v1,Fully random,dynamic minus static,all,untracked_danger_ticks_per_person,1620,15,0.06724622770919043,-0.6909399565457678,0.8254324119641486
+fully_random_v1,Fully random,dynamic minus static,all,first_fire_penalized_tick,1620,15,-115.62037037037037,-322.73141345187196,91.49067271113124
+fully_random_v1,Fully random,dynamic minus static,all,fire_found_pct,1620,15,1.7901234567901234,-1.8224964807792987,5.402743394359545
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,primary_cell_belief_coverage_pct,1620,15,0.02983539094650207,-0.47050779489756095,0.5301785767905651
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,eventual_before_death_pct,1620,15,0.027091906721536364,-0.47420064068577095,0.5283844541288437
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,early_before_death_pct,1620,15,-0.5555555555555556,-1.2086967455376405,0.09758563442652934
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,penalized_first_credit_delay_ticks,1620,15,-10.773960905349808,-44.02255697612024,22.474635165420622
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,timeliness_score_pct,1620,15,0.13467451131687275,-0.28093293956775756,0.550281962201503
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,recorded_belief_uptime_pct,1620,15,-0.0011144975994513146,-0.058263405197136756,0.05603440999823413
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,untracked_danger_ticks_per_person,1620,15,-0.4100788751714682,-1.1438038207813028,0.3236460704383665
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,first_fire_penalized_tick,1620,15,0.2654320987654323,-4.94941599082727,5.480280188358134
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,all,fire_found_pct,1620,15,0.0617283950617284,-0.07066584493314365,0.19412263505660043
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,primary_cell_belief_coverage_pct,1620,15,-0.8847736625514403,-1.5881703404419159,-0.18137698466096475
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,eventual_before_death_pct,1620,15,-0.8895747599451302,-1.5899004588369587,-0.18924906105330186
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,early_before_death_pct,1620,15,0.6406035665294925,-0.6958730935990687,1.9770802266580536
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,penalized_first_credit_delay_ticks,1620,15,97.01284293552813,50.890012033410045,143.1356738376462
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,timeliness_score_pct,1620,15,-1.2126605366941008,-1.7891959229705772,-0.6361251504176245
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,recorded_belief_uptime_pct,1620,15,-0.030248113854595346,-0.08901008020781379,0.028513852498623087
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,untracked_danger_ticks_per_person,1620,15,-0.13685528120713264,-0.5211471870581734,0.2474366246439082
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,first_fire_penalized_tick,1620,15,11.250617283950618,4.557559101968983,17.94367546593225
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,all,fire_found_pct,1620,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,primary_cell_belief_coverage_pct,1620,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,eventual_before_death_pct,1620,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,early_before_death_pct,1620,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,penalized_first_credit_delay_ticks,1620,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,timeliness_score_pct,1620,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,recorded_belief_uptime_pct,1620,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,untracked_danger_ticks_per_person,1620,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,first_fire_penalized_tick,1620,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,all,fire_found_pct,1620,15,0,0.0,0.0
+mine_full_fov,Priority planner,dynamic minus static,100,primary_cell_belief_coverage_pct,540,15,0.0,-0.20140839941978603,0.20140839941978603
+mine_full_fov,Priority planner,dynamic minus static,100,eventual_before_death_pct,540,15,0.0,-0.20140839941978603,0.20140839941978603
+mine_full_fov,Priority planner,dynamic minus static,100,early_before_death_pct,540,15,-3.555555555555556,-19.66940234863726,12.558291237526147
+mine_full_fov,Priority planner,dynamic minus static,100,penalized_first_credit_delay_ticks,540,15,-152.3585185185185,-425.5040629385848,120.78702590154779
+mine_full_fov,Priority planner,dynamic minus static,100,timeliness_score_pct,540,15,1.9044814814814814,-1.5098378237693475,5.318800786732311
+mine_full_fov,Priority planner,dynamic minus static,100,recorded_belief_uptime_pct,540,15,-0.3007361111111111,-0.5402950681858333,-0.061177154036388876
+mine_full_fov,Priority planner,dynamic minus static,100,untracked_danger_ticks_per_person,540,15,-7.287777777777776,-14.429917391743956,-0.14563816381159445
+mine_full_fov,Priority planner,dynamic minus static,100,first_fire_penalized_tick,540,15,-14.868518518518519,-36.076451961500474,6.339414924463435
+mine_full_fov,Priority planner,dynamic minus static,100,fire_found_pct,540,15,0,0.0,0.0
+mine_target_cell,Without FOV scoring,dynamic minus static,100,primary_cell_belief_coverage_pct,540,15,2.2222222222222223,0.7838785528584491,3.6605658915859953
+mine_target_cell,Without FOV scoring,dynamic minus static,100,eventual_before_death_pct,540,15,2.2222222222222223,0.7838785528584491,3.6605658915859953
+mine_target_cell,Without FOV scoring,dynamic minus static,100,early_before_death_pct,540,15,-1.1111111111111114,-15.865794300357893,13.643572078135671
+mine_target_cell,Without FOV scoring,dynamic minus static,100,penalized_first_credit_delay_ticks,540,15,-310.62814814814817,-599.0855422360366,-22.17075406025964
+mine_target_cell,Without FOV scoring,dynamic minus static,100,timeliness_score_pct,540,15,3.882851851851852,0.2771344257532453,7.488569277950459
+mine_target_cell,Without FOV scoring,dynamic minus static,100,recorded_belief_uptime_pct,540,15,-0.08360185185185187,-0.3021479009071697,0.13494419720346593
+mine_target_cell,Without FOV scoring,dynamic minus static,100,untracked_danger_ticks_per_person,540,15,-6.193703703703703,-12.41443134971482,0.027023942307414117
+mine_target_cell,Without FOV scoring,dynamic minus static,100,first_fire_penalized_tick,540,15,-32.39074074074074,-61.36974472994341,-3.411736751538065
+mine_target_cell,Without FOV scoring,dynamic minus static,100,fire_found_pct,540,15,0,0.0,0.0
+random,Random target,dynamic minus static,100,primary_cell_belief_coverage_pct,540,15,-0.2592592592592593,-1.563844065562816,1.0453255470442975
+random,Random target,dynamic minus static,100,eventual_before_death_pct,540,15,-0.2592592592592593,-1.563844065562816,1.0453255470442975
+random,Random target,dynamic minus static,100,early_before_death_pct,540,15,-2.0724163126336256e-16,-18.502552644689114,18.502552644689114
+random,Random target,dynamic minus static,100,penalized_first_credit_delay_ticks,540,15,20.838518518518516,-291.1391526656196,332.81618970265663
+random,Random target,dynamic minus static,100,timeliness_score_pct,540,15,-0.2604814814814824,-4.160202371283208,3.6392394083202424
+random,Random target,dynamic minus static,100,recorded_belief_uptime_pct,540,15,-0.04050000000000002,-0.28512930691972777,0.20412930691972775
+random,Random target,dynamic minus static,100,untracked_danger_ticks_per_person,540,15,-1.2703703703703708,-3.0947520172269822,0.5540112764862406
+random,Random target,dynamic minus static,100,first_fire_penalized_tick,540,15,13.087037037037037,-43.3760679054105,69.55014197948458
+random,Random target,dynamic minus static,100,fire_found_pct,540,15,0,0.0,0.0
+fully_random_v1,Fully random,dynamic minus static,100,primary_cell_belief_coverage_pct,540,15,2.4814814814814814,-4.849771961393337,9.812734924356299
+fully_random_v1,Fully random,dynamic minus static,100,eventual_before_death_pct,540,15,2.4814814814814814,-4.849771961393337,9.812734924356299
+fully_random_v1,Fully random,dynamic minus static,100,early_before_death_pct,540,15,5.555555555555555,-4.4623613668800814,15.573472477991192
+fully_random_v1,Fully random,dynamic minus static,100,penalized_first_credit_delay_ticks,540,15,-615.0448148148148,-1255.8466621004914,25.75703247086176
+fully_random_v1,Fully random,dynamic minus static,100,timeliness_score_pct,540,15,7.6880601851851855,-0.32196290588577003,15.698083276256142
+fully_random_v1,Fully random,dynamic minus static,100,recorded_belief_uptime_pct,540,15,0.13205092592592593,-0.548028428780354,0.8121302806322058
+fully_random_v1,Fully random,dynamic minus static,100,untracked_danger_ticks_per_person,540,15,0.007407407407406991,-2.192476597176171,2.207291411990985
+fully_random_v1,Fully random,dynamic minus static,100,first_fire_penalized_tick,540,15,-56.661111111111104,-310.33350801060413,197.0112857883819
+fully_random_v1,Fully random,dynamic minus static,100,fire_found_pct,540,15,0.3703703703703704,-0.9122636523105008,1.6530043930512417
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,primary_cell_belief_coverage_pct,540,15,0.3333333333333333,-0.3815955626389758,1.0482622293056425
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,eventual_before_death_pct,540,15,0.3333333333333333,-0.3815955626389758,1.0482622293056425
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,early_before_death_pct,540,15,-1.5555555555555556,-3.6908645714379933,0.5797534603268819
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,penalized_first_credit_delay_ticks,540,15,8.876296296296305,-80.90270425548886,98.65529684808146
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,timeliness_score_pct,540,15,-0.11095370370370367,-1.2331912106010177,1.0112838031936104
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,recorded_belief_uptime_pct,540,15,-0.0022638888888889177,-0.17461400375956784,0.17008622598179
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,untracked_danger_ticks_per_person,540,15,-1.0303703703703708,-3.260754128964804,1.2000133882240624
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,first_fire_penalized_tick,540,15,-1.2166666666666668,-10.764784775543038,8.331451442209705
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,100,fire_found_pct,540,15,0,0.0,0.0
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,primary_cell_belief_coverage_pct,540,15,0.0,0.0,0.0
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,eventual_before_death_pct,540,15,0.0,0.0,0.0
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,early_before_death_pct,540,15,2.7037037037037037,-0.6319555949573465,6.0393630023647535
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,penalized_first_credit_delay_ticks,540,15,-7.877777777777783,-61.795270234461874,46.039714678906314
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,timeliness_score_pct,540,15,0.09847222222222372,-0.5754964334863274,0.7724408779307749
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,recorded_belief_uptime_pct,540,15,-0.06323611111111113,-0.24179751857584428,0.11532529635362201
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,untracked_danger_ticks_per_person,540,15,0.34185185185185396,-0.5183159779990687,1.2020196817027766
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,first_fire_penalized_tick,540,15,-0.057407407407407386,-1.061801879609601,0.9469870647947862
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,100,fire_found_pct,540,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,primary_cell_belief_coverage_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,eventual_before_death_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,early_before_death_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,penalized_first_credit_delay_ticks,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,timeliness_score_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,recorded_belief_uptime_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,untracked_danger_ticks_per_person,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,first_fire_penalized_tick,540,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,100,fire_found_pct,540,15,0,0.0,0.0
+mine_full_fov,Priority planner,dynamic minus static,200,primary_cell_belief_coverage_pct,540,15,1.027777777777778,0.18282213214873955,1.8727334234068163
+mine_full_fov,Priority planner,dynamic minus static,200,eventual_before_death_pct,540,15,1.0185185185185186,0.17764012599580237,1.8593969110412347
+mine_full_fov,Priority planner,dynamic minus static,200,early_before_death_pct,540,15,4.268518518518518,-2.9259882329753335,11.46302527001237
+mine_full_fov,Priority planner,dynamic minus static,200,penalized_first_credit_delay_ticks,540,15,-281.21194444444444,-525.2288127641733,-37.19507612471554
+mine_full_fov,Priority planner,dynamic minus static,200,timeliness_score_pct,540,15,3.515149305555555,0.4649384515589441,6.565360159552166
+mine_full_fov,Priority planner,dynamic minus static,200,recorded_belief_uptime_pct,540,15,-0.04884143518518519,-0.10204509777576724,0.004362227405396865
+mine_full_fov,Priority planner,dynamic minus static,200,untracked_danger_ticks_per_person,540,15,-0.18203703703703591,-1.6036575603043877,1.239583486230316
+mine_full_fov,Priority planner,dynamic minus static,200,first_fire_penalized_tick,540,15,-89.23333333333333,-179.7293473686119,1.2626807019452428
+mine_full_fov,Priority planner,dynamic minus static,200,fire_found_pct,540,15,0,0.0,0.0
+mine_target_cell,Without FOV scoring,dynamic minus static,200,primary_cell_belief_coverage_pct,540,15,2.8518518518518516,1.2416689901716316,4.462034713532072
+mine_target_cell,Without FOV scoring,dynamic minus static,200,eventual_before_death_pct,540,15,2.8425925925925926,1.2297875946935768,4.455397590491608
+mine_target_cell,Without FOV scoring,dynamic minus static,200,early_before_death_pct,540,15,6.101851851851852,-1.8565130577956683,14.060216761499372
+mine_target_cell,Without FOV scoring,dynamic minus static,200,penalized_first_credit_delay_ticks,540,15,-600.3319444444445,-923.8958401256082,-276.76804876328083
+mine_target_cell,Without FOV scoring,dynamic minus static,200,timeliness_score_pct,540,15,7.504149305555556,3.4596006095410097,11.548698001570102
+mine_target_cell,Without FOV scoring,dynamic minus static,200,recorded_belief_uptime_pct,540,15,0.019841435185185184,-0.07338570162284344,0.1130685719932138
+mine_target_cell,Without FOV scoring,dynamic minus static,200,untracked_danger_ticks_per_person,540,15,0.46324074074074006,-0.8399300631177488,1.766411544599229
+mine_target_cell,Without FOV scoring,dynamic minus static,200,first_fire_penalized_tick,540,15,-77.60925925925926,-131.2934756505541,-23.925042867964443
+mine_target_cell,Without FOV scoring,dynamic minus static,200,fire_found_pct,540,15,0,0.0,0.0
+random,Random target,dynamic minus static,200,primary_cell_belief_coverage_pct,540,15,-4.064814814814815,-9.290323510851556,1.1606938812219258
+random,Random target,dynamic minus static,200,eventual_before_death_pct,540,15,-4.092592592592593,-9.339518709536314,1.154333524351129
+random,Random target,dynamic minus static,200,early_before_death_pct,540,15,4.212962962962963,-3.201040595667478,11.626966521593403
+random,Random target,dynamic minus static,200,penalized_first_credit_delay_ticks,540,15,62.058796296296315,-553.2713050793819,677.3888976719746
+random,Random target,dynamic minus static,200,timeliness_score_pct,540,15,-0.7757349537037033,-8.467361220899683,6.915891313492276
+random,Random target,dynamic minus static,200,recorded_belief_uptime_pct,540,15,0.05950347222222222,-0.08118632146822954,0.20019326591267397
+random,Random target,dynamic minus static,200,untracked_danger_ticks_per_person,540,15,-0.4907407407407419,-0.8553717296324624,-0.1261097518490214
+random,Random target,dynamic minus static,200,first_fire_penalized_tick,540,15,31.51111111111111,-102.49535467980952,165.51757690203175
+random,Random target,dynamic minus static,200,fire_found_pct,540,15,0,0.0,0.0
+fully_random_v1,Fully random,dynamic minus static,200,primary_cell_belief_coverage_pct,540,15,4.407407407407407,-2.902812731458444,11.71762754627326
+fully_random_v1,Fully random,dynamic minus static,200,eventual_before_death_pct,540,15,4.407407407407407,-2.902812731458444,11.71762754627326
+fully_random_v1,Fully random,dynamic minus static,200,early_before_death_pct,540,15,-0.25,-0.7861966719792318,0.2861966719792318
+fully_random_v1,Fully random,dynamic minus static,200,penalized_first_credit_delay_ticks,540,15,-182.08083333333335,-474.1866523194881,110.02498565282136
+fully_random_v1,Fully random,dynamic minus static,200,timeliness_score_pct,540,15,2.2760104166666673,-1.3753123206602669,5.927333153993601
+fully_random_v1,Fully random,dynamic minus static,200,recorded_belief_uptime_pct,540,15,-0.010081018518518517,-0.17571714348158574,0.15555510644454873
+fully_random_v1,Fully random,dynamic minus static,200,untracked_danger_ticks_per_person,540,15,0.08120370370370329,-0.1858775017209402,0.34828490912834675
+fully_random_v1,Fully random,dynamic minus static,200,first_fire_penalized_tick,540,15,85.79074074074076,-393.6057524704034,565.1872339518849
+fully_random_v1,Fully random,dynamic minus static,200,fire_found_pct,540,15,-0.7407407407407407,-8.309576803214556,6.828095321733075
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,primary_cell_belief_coverage_pct,540,15,-0.34259259259259256,-1.3407276359074034,0.6555424507222183
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,eventual_before_death_pct,540,15,-0.34259259259259256,-1.3407276359074034,0.6555424507222183
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,early_before_death_pct,540,15,0.0,-0.45316889869451854,0.45316889869451854
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,penalized_first_credit_delay_ticks,540,15,-23.138796296296327,-64.72226587423664,18.444673281643986
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,timeliness_score_pct,540,15,0.28923495370370395,-0.23055841602055022,0.809028323427958
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,recorded_belief_uptime_pct,540,15,0.003033564814814809,-0.030154700230327118,0.036221829859956735
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,untracked_danger_ticks_per_person,540,15,-0.17916666666666642,-0.40979962183581065,0.05146628850247778
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,first_fire_penalized_tick,540,15,1.551851851851852,-5.08052925550314,8.184232959206843
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,200,fire_found_pct,540,15,0,0.0,0.0
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,primary_cell_belief_coverage_pct,540,15,-0.9629629629629629,-1.9330162008676486,0.007090274941722763
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,eventual_before_death_pct,540,15,-0.9814814814814815,-1.9524055294941123,-0.010557433468850852
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,early_before_death_pct,540,15,-0.6666666666666666,-1.4457423690067661,0.11240903567343286
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,penalized_first_credit_delay_ticks,540,15,115.26824074074074,24.072905429947212,206.46357605153426
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,timeliness_score_pct,540,15,-1.4408530092592589,-2.5807947006441783,-0.3009113178743392
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,recorded_belief_uptime_pct,540,15,-0.02464814814814814,-0.06969170385586873,0.020395407559572448
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,untracked_danger_ticks_per_person,540,15,-0.39361111111111113,-0.8291510313805511,0.04192880915832886
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,first_fire_penalized_tick,540,15,1.8592592592592592,-1.5095607243405844,5.228079242859103
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,200,fire_found_pct,540,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,primary_cell_belief_coverage_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,eventual_before_death_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,early_before_death_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,penalized_first_credit_delay_ticks,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,timeliness_score_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,recorded_belief_uptime_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,untracked_danger_ticks_per_person,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,first_fire_penalized_tick,540,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,200,fire_found_pct,540,15,0,0.0,0.0
+mine_full_fov,Priority planner,dynamic minus static,300,primary_cell_belief_coverage_pct,540,15,1.440329218106996,-1.5720721339289117,4.452730570142903
+mine_full_fov,Priority planner,dynamic minus static,300,eventual_before_death_pct,540,15,1.4197530864197532,-1.583166424025559,4.422672596865065
+mine_full_fov,Priority planner,dynamic minus static,300,early_before_death_pct,540,15,1.3580246913580247,-2.6567975676755298,5.372846950391579
+mine_full_fov,Priority planner,dynamic minus static,300,penalized_first_credit_delay_ticks,540,15,-46.08604938271606,-227.69693158415413,135.52483281872202
+mine_full_fov,Priority planner,dynamic minus static,300,timeliness_score_pct,540,15,0.5760756172839511,-1.6940604102340249,2.846211644801927
+mine_full_fov,Priority planner,dynamic minus static,300,recorded_belief_uptime_pct,540,15,-0.008228395061728396,-0.0438916691043698,0.02743487898091301
+mine_full_fov,Priority planner,dynamic minus static,300,untracked_danger_ticks_per_person,540,15,0.12847736625514447,-0.5939321509475464,0.8508868834578354
+mine_full_fov,Priority planner,dynamic minus static,300,first_fire_penalized_tick,540,15,-103.96851851851852,-245.96068540527125,38.023648368234205
+mine_full_fov,Priority planner,dynamic minus static,300,fire_found_pct,540,15,0,0.0,0.0
+mine_target_cell,Without FOV scoring,dynamic minus static,300,primary_cell_belief_coverage_pct,540,15,2.2716049382716053,-1.373153653301705,5.916363529844915
+mine_target_cell,Without FOV scoring,dynamic minus static,300,eventual_before_death_pct,540,15,2.2757201646090537,-1.3683207988005521,5.91976112801866
+mine_target_cell,Without FOV scoring,dynamic minus static,300,early_before_death_pct,540,15,1.0946502057613168,-1.8971992444733827,4.0864996559960165
+mine_target_cell,Without FOV scoring,dynamic minus static,300,penalized_first_credit_delay_ticks,540,15,-125.98806584362138,-421.110112562051,169.13398087480823
+mine_target_cell,Without FOV scoring,dynamic minus static,300,timeliness_score_pct,540,15,1.5748508230452671,-2.114174760935103,5.263876407025638
+mine_target_cell,Without FOV scoring,dynamic minus static,300,recorded_belief_uptime_pct,540,15,-0.0058621399176954705,-0.0414356893283669,0.02971140949297596
+mine_target_cell,Without FOV scoring,dynamic minus static,300,untracked_danger_ticks_per_person,540,15,-0.06975308641975446,-1.208288736667955,1.0687825638284463
+mine_target_cell,Without FOV scoring,dynamic minus static,300,first_fire_penalized_tick,540,15,-64.36296296296297,-167.50691270174042,38.78098677581447
+mine_target_cell,Without FOV scoring,dynamic minus static,300,fire_found_pct,540,15,0,0.0,0.0
+random,Random target,dynamic minus static,300,primary_cell_belief_coverage_pct,540,15,-7.91358024691358,-12.466923007581176,-3.3602374862459827
+random,Random target,dynamic minus static,300,eventual_before_death_pct,540,15,-7.909465020576132,-12.467308896906165,-3.3516211442461
+random,Random target,dynamic minus static,300,early_before_death_pct,540,15,-1.6502057613168726,-4.638873102785562,1.3384615801518167
+random,Random target,dynamic minus static,300,penalized_first_credit_delay_ticks,540,15,240.51481481481483,-40.298092760884856,521.3277223905145
+random,Random target,dynamic minus static,300,timeliness_score_pct,540,15,-3.0064351851851856,-6.516596529881431,0.5037261595110603
+random,Random target,dynamic minus static,300,recorded_belief_uptime_pct,540,15,-0.006723765432098765,-0.06431505198521051,0.050867521121012976
+random,Random target,dynamic minus static,300,untracked_danger_ticks_per_person,540,15,-0.08781893004115264,-0.3393729455127788,0.1637350854304735
+random,Random target,dynamic minus static,300,first_fire_penalized_tick,540,15,401.77222222222224,139.3140439464159,664.2304004980285
+random,Random target,dynamic minus static,300,fire_found_pct,540,15,-2.037037037037037,-4.792891483207056,0.7188174091329809
+fully_random_v1,Fully random,dynamic minus static,300,primary_cell_belief_coverage_pct,540,15,0.5679012345679011,-2.7709594557909005,3.9067619249267027
+fully_random_v1,Fully random,dynamic minus static,300,eventual_before_death_pct,540,15,0.5679012345679011,-2.7709594557909005,3.9067619249267027
+fully_random_v1,Fully random,dynamic minus static,300,early_before_death_pct,540,15,-0.12345679012345677,-0.7933245460766646,0.546410965829751
+fully_random_v1,Fully random,dynamic minus static,300,penalized_first_credit_delay_ticks,540,15,-71.91946502057617,-219.08868019175026,75.24975015059793
+fully_random_v1,Fully random,dynamic minus static,300,timeliness_score_pct,540,15,0.8989933127572018,-0.9406218768824743,2.738608502396878
+fully_random_v1,Fully random,dynamic minus static,300,recorded_belief_uptime_pct,540,15,0.07596913580246913,-0.0327504836703969,0.18468875527533515
+fully_random_v1,Fully random,dynamic minus static,300,untracked_danger_ticks_per_person,540,15,0.11312757201646105,-0.08378225871605736,0.31003740274897945
+fully_random_v1,Fully random,dynamic minus static,300,first_fire_penalized_tick,540,15,-375.99074074074076,-714.1745738077229,-37.80690767375853
+fully_random_v1,Fully random,dynamic minus static,300,fire_found_pct,540,15,5.740740740740741,-4.320723763852059,15.802205245333543
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,primary_cell_belief_coverage_pct,540,15,0.0987654320987655,-0.48904681809803857,0.6865776822955696
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,eventual_before_death_pct,540,15,0.09053497942386839,-0.5039230445608069,0.6849930034085436
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,early_before_death_pct,540,15,-0.11111111111111108,-0.376277590550958,0.15405536832873587
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,penalized_first_credit_delay_ticks,540,15,-18.0593827160494,-47.049104082418125,10.930338650319328
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,timeliness_score_pct,540,15,0.22574228395061796,-0.1366292331289914,0.5881138010302274
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,recorded_belief_uptime_pct,540,15,-0.004113168724279841,-0.019070340435314234,0.010844002986754551
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,untracked_danger_ticks_per_person,540,15,-0.02069958847736735,-0.06960886887518829,0.028209691920453594
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,first_fire_penalized_tick,540,15,0.46111111111111086,-5.2536571694059395,6.175879391628162
+lawnmower_v1_aligned,Lawnmower,dynamic minus static,300,fire_found_pct,540,15,0.18518518518518517,-0.21199753479943095,0.5823679051698013
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,primary_cell_belief_coverage_pct,540,15,-1.691358024691358,-3.51668912943269,0.13397308004997388
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,eventual_before_death_pct,540,15,-1.6872427983539093,-3.5121562110220195,0.13767061431420102
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,early_before_death_pct,540,15,-0.11522633744855965,-1.007279923904834,0.7768272490077148
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,penalized_first_credit_delay_ticks,540,15,183.6480658436214,100.87969463772394,266.41643704951883
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,timeliness_score_pct,540,15,-2.2956008230452674,-3.3302054631189857,-1.260996182971549
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,recorded_belief_uptime_pct,540,15,-0.00286008230452675,-0.03140805329880071,0.025687888689747213
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,untracked_danger_ticks_per_person,540,15,-0.35880658436214075,-0.8387021583693822,0.12108898964510073
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,first_fire_penalized_tick,540,15,31.95,13.363011555338407,50.53698844466159
+lawnmower_v2,FOV-aware lawnmower,dynamic minus static,300,fire_found_pct,540,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,primary_cell_belief_coverage_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,eventual_before_death_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,early_before_death_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,penalized_first_credit_delay_ticks,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,timeliness_score_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,recorded_belief_uptime_pct,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,untracked_danger_ticks_per_person,540,15,0.0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,first_fire_penalized_tick,540,15,0,0.0,0.0
+oracle,Oracle,dynamic minus static,300,fire_found_pct,540,15,0,0.0,0.0

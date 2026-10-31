@@ -1,0 +1,20 @@
+// Common helpers shared across Thesis compute shaders.
+// INVARIANT: no atomics, no thread-group reductions, no nondeterministic
+// constructs anywhere in /ThesisShaders/. Per-tick determinism  requires it.
+// Shader cache version 2: custom compute shaders compile for UE 5.7 SM6.
+
+#pragma once
+
+#define THESIS_TG_X 8
+#define THESIS_TG_Y 8
+
+float Saturate01(float x)
+{
+    return clamp(x, 0.0f, 1.0f);
+}
+
+float LogOddsToProbability(float l)
+{
+    // sigma(l) = 1 / (1 + exp(-l))
+    return 1.0f / (1.0f + exp(-l));
+}

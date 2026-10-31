@@ -1,0 +1,41 @@
+#include "/Engine/Private/Common.ush"
+#include "/ThesisShaders/PriorityModel.ush"
+
+Texture2D<float> InputFireBelief;
+Texture2D<float> InputPersonBelief;
+Texture2D<float> InputStaleness;
+Texture2D<uint> InputPersonObservationTick;
+RWTexture2D<float> OutputPriority;
+
+int2 TextureSize;
+float WeightStaleness;
+float WeightDanger;
+float WeightPerson;
+float StalenessSaturationTicks;
+float ProbabilityScale;
+float MonitoringUrgencyTau;
+float UnseenExplorationBonus;
+uint  CurrentTick;
+uint  SeparatePersonFreshness;
+
+[numthreads(8, 8, 1)]
+void MainCS(uint3 DispatchThreadId : SV_DispatchThreadID)
+{
+    uint2 Coord = DispatchThreadId.xy;
+    if (Coord.x >= (uint)TextureSize.x || Coord.y >= (uint)TextureSize.y) return;
+
+    uint PersonTickPlusOne = InputPersonObservationTick[Coord];
+    float PersonStaleness = SeparatePersonFreshness != 0
+        ? (PersonTickPlusOne == 0 ? float(CurrentTick) : float(int(CurrentTick) - int(PersonTickPlusOne - 1)))
+        : InputStaleness[Coord];
+    OutputPriority[Coord] = ThesisComputePriority(
+        InputStaleness[Coord],
+        PersonStaleness,
+        InputFireBelief[Coord],
+        InputPersonBelief[Coord],
+        WeightStaleness, WeightDanger, WeightPerson,
+        StalenessSaturationTicks, ProbabilityScale,
+        MonitoringUrgencyTau,
+        UnseenExplorationBonus,
+        CurrentTick);
+}

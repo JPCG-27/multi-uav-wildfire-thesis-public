@@ -1,0 +1,115 @@
+{
+  "scope": "recent measured cohorts only; historical rows and comparisons excluded",
+  "main_cohort_date": "2026-10-21",
+  "main_rows": 12960,
+  "main_unique_scenarios": 1620,
+  "means_metric": "cell-belief coverage (summary.csv detection_fraction; equal-run mean)",
+  "means": {
+    "mine_full_fov": {
+      "n": 3240,
+      "equal_run_mean": 0.9240209188271605,
+      "percent": 92.40209188271605
+    },
+    "mine_target_cell": {
+      "n": 3240,
+      "equal_run_mean": 0.8790432101851852,
+      "percent": 87.90432101851852
+    },
+    "random": {
+      "n": 3240,
+      "equal_run_mean": 0.8013288728395062,
+      "percent": 80.13288728395061
+    },
+    "oracle": {
+      "n": 1620,
+      "equal_run_mean": 0.9995781913580246,
+      "percent": 99.95781913580247,
+      "deduplication": "one static_uniform record per scenario after verifying paired mission outcomes"
+    }
+  },
+  "full_minus_random_paired_seed_block_ci": {
+    "mean": 0.12269204598765432,
+    "ci95_low": 0.10432438877454912,
+    "ci95_high": 0.1410597032007595,
+    "seed_blocks": 15,
+    "percent_points": {
+      "mean": 12.269204598765432,
+      "ci95_low": 10.432438877454912,
+      "ci95_high": 14.10597032007595
+    },
+    "pairs": 3240
+  },
+  "fully_random_oct22": {
+    "n": 3240,
+    "equal_run_mean": 0.5074108148148149,
+    "percent": 50.74108148148149,
+    "measured_date": "2026-10-22",
+    "interpretation": "descriptive; separately implemented cohort"
+  },
+  "camera_studies": {
+    "mixed_ideal_plus_camera": {
+      "metric": "cell-belief coverage (aggregate detection_fraction; equal-run mean)",
+      "measured_date": "2026-10-09",
+      "runs": 3240,
+      "run_index_statuses": {
+        "complete": 3240
+      },
+      "equal_run_mean": 0.8411574092592593,
+      "percent": 84.11574092592593,
+      "by_grid_percent": {
+        "100": 98.16666666666667,
+        "200": 88.25462962962963,
+        "300": 65.92592648148148
+      },
+      "source_file": "camera_studies/mixed_ideal_plus_camera_aggregate.csv",
+      "run_index_file": "camera_studies/mixed_ideal_plus_camera_run_index.csv",
+      "comparison_scope": "descriptive cohort summary; no matched comparison with Oct 21 main cohort"
+    },
+    "four_camera": {
+      "metric": "cell-belief coverage (aggregate detection_fraction; equal-run mean)",
+      "measured_date": "2026-10-11",
+      "runs": 3240,
+      "run_index_statuses": {
+        "complete": 3240
+      },
+      "equal_run_mean": 0.4259156228395061,
+      "percent": 42.591562283950616,
+      "by_grid_percent": {
+        "100": 74.22222222222223,
+        "200": 36.26851851851852,
+        "300": 17.283946111111113
+      },
+      "source_file": "camera_studies/four_camera_aggregate.csv",
+      "run_index_file": "camera_studies/four_camera_run_index.csv",
+      "comparison_scope": "descriptive cohort summary; no matched comparison with Oct 21 main cohort"
+    },
+    "three_ideal": {
+      "metric": "cell-belief coverage (summary.csv detection_fraction; equal-run mean)",
+      "measured_date": "2026-10-18",
+      "runs": 3240,
+      "run_index_statuses": {
+        "complete": 3240
+      },
+      "equal_run_mean": 0.8727331922839505,
+      "percent": 87.27331922839505,
+      "by_grid_percent": {
+        "100": 99.49999999999999,
+        "200": 92.78703703703704,
+        "300": 69.53292064814815
+      },
+      "source_file": "camera_studies/three_ideal_cell_belief_run_summaries.csv",
+      "run_index_file": "camera_studies/three_ideal_completed_attempt16_run_index.csv",
+      "execution_verification": "provenance/three_ideal_attempt16_execution_summary.json",
+      "comparison_scope": "descriptive cohort summary; not a matched comparison with Oct 21 main cohort"
+    },
+    "three_ideal_sensor_based": {
+      "metric": "ideal-sensor witness coverage (person-run witnesses; not cell-belief coverage)",
+      "measured_date": "2026-10-18",
+      "runs": 3240,
+      "equal_run_mean": 0.8070130315500685,
+      "percent": 80.70130315500685,
+      "source_file": "camera_studies/three_ideal_analysis.json"
+    }
+  },
+  "limitations": "Main interval is Student-t over 15 paired seed means. Main Oracle is counted once per scenario after paired outcomes are checked. Camera/team-size cohorts are reported as separate cell-belief summaries; the three-ideal sensor-based witness metric is listed separately. These cohorts are not compared as matched controls to the Oct 21 main cohort."
+}

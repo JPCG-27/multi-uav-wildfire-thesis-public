@@ -1,0 +1,16 @@
+[
+  {
+    "team": "mixed",
+    "baseline_hashes": 799,
+    "repeat_hashes": 799,
+    "keys_equal": true,
+    "mismatches": 0
+  },
+  {
+    "team": "allcamera",
+    "baseline_hashes": 3199,
+    "repeat_hashes": 3199,
+    "keys_equal": true,
+    "mismatches": 0
+  }
+]

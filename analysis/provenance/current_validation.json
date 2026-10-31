@@ -1,0 +1,78 @@
+{
+  "runs": 12960,
+  "historical_rows": 9720,
+  "worlds": 1620,
+  "oracle_pairs": 1620,
+  "oracle_person_exact": 1620,
+  "oracle_mission_equal": 1620,
+  "runtime_contracts": [
+    {
+      "arm": "mine_full_fov",
+      "regime": "dynamic",
+      "partition": "ZoneRegionGrowing",
+      "planner": "GreedyFov",
+      "runs": 1620
+    },
+    {
+      "arm": "mine_target_cell",
+      "regime": "dynamic",
+      "partition": "ZoneRegionGrowing",
+      "planner": "GreedyFov",
+      "runs": 1620
+    },
+    {
+      "arm": "random",
+      "regime": "dynamic",
+      "partition": "ZoneRegionGrowing",
+      "planner": "Random",
+      "runs": 1620
+    },
+    {
+      "arm": "oracle",
+      "regime": "dynamic",
+      "partition": "OracleAllocation",
+      "planner": "OracleTarget",
+      "runs": 1620
+    },
+    {
+      "arm": "mine_full_fov",
+      "regime": "static",
+      "partition": "Uniform",
+      "planner": "GreedyFov",
+      "runs": 1620
+    },
+    {
+      "arm": "mine_target_cell",
+      "regime": "static",
+      "partition": "Uniform",
+      "planner": "GreedyFov",
+      "runs": 1620
+    },
+    {
+      "arm": "random",
+      "regime": "static",
+      "partition": "Uniform",
+      "planner": "Random",
+      "runs": 1620
+    },
+    {
+      "arm": "oracle",
+      "regime": "static",
+      "partition": "Uniform",
+      "planner": "OracleTarget",
+      "runs": 1620
+    }
+  ],
+  "metrics": "Unweighted run means; 95% t intervals of paired differences averaged within 15 seed blocks. Legacy conditional latency excludes undetected; miss latency censors death and assigns remaining horizon. Historical sensitivity uses preserved trajectory inputs; historical producer byte provenance unavailable.",
+  "staleness": "Unavailable: grid sampling disabled. Do not interpret recorded zeros as freshness.",
+  "caveat": "Historical dynamic random uses Random allocation; current dynamic random uses ZoneRegionGrowing. New-versus-old dynamic random is a combined change. Current full-target is combined target-neighborhood and route scoring intervention.",
+  "additional_full_matrix_checks": {
+    "runtime_absolute_input_identity_runs": 12960,
+    "person_detection_bounds_records": 302400,
+    "current_summary_person_roster_counts_verified": true,
+    "cached_input_hashes_worlds": 1620,
+    "legacy_recall500_direct_person_recomputation_rows": 22680,
+    "source_script_sha256": "4b994ed796e18e0f573359728970b29b3be1c55c02c8296de8f8f35fec4dd412",
+    "conditional_latency_valid_pairs_in_contrasts_csv": true
+  }
+}

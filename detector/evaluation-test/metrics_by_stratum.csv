@@ -1,0 +1,17 @@
+dimension,stratum,persons,tp,recall,images
+mesh,/Game/Mixamo/Characters/SK_Mixamo_00.SK_Mixamo_00,143,27,0.1888111888111888,133
+mesh,/Game/Mixamo/Characters/SK_Mixamo_01.SK_Mixamo_01,114,21,0.18421052631578946,105
+mesh,/Game/Mixamo/Characters/SK_Mixamo_02.SK_Mixamo_02,123,53,0.43089430894308944,116
+mesh,/Game/NiagaraExamples/Gallery/SkeletalMesh/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple,104,36,0.34615384615384615,99
+mesh,/Game/NiagaraExamples/Gallery/SkeletalMesh/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple,98,45,0.45918367346938777,92
+native_visible_box_height,<16,582,182,0.3127147766323024,179
+opaque_occlusion,0-10%,531,176,0.3314500941619586,178
+opaque_occlusion,10-50%,49,6,0.12244897959183673,45
+opaque_occlusion,>50%,2,0,0.0,2
+pose,crouching,66,30,0.45454545454545453,66
+pose,lying,66,17,0.25757575757575757,66
+pose,running,94,37,0.39361702127659576,92
+pose,seated,79,29,0.3670886075949367,79
+pose,standing,94,27,0.2872340425531915,92
+pose,walking,94,25,0.26595744680851063,88
+pose,waving,89,17,0.19101123595505617,89

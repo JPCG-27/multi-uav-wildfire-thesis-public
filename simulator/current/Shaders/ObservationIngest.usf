@@ -1,0 +1,37 @@
+#include "/Engine/Public/Platform.ush"
+#include "/ThesisShaders/Common.ush"
+
+// One entry per unique cell for this tick.  No duplicates → no atomics needed.
+struct FPackedCellUpdate
+{
+    uint   CellIndex;
+    float  FireDelta;
+    float  PersonDelta;
+    uint   PersonTickPlusOne;
+};
+
+StructuredBuffer<FPackedCellUpdate> CellUpdates;
+RWTexture2D<float> FireBeliefOut;
+RWTexture2D<float> PersonBeliefOut;
+RWTexture2D<float> StalenessOut;
+RWTexture2D<uint> PersonObservationTickOut;
+
+int2 TextureSize;
+uint NumUpdates;
+
+[numthreads(64, 1, 1)]
+void MainCS(uint3 ThreadId : SV_DispatchThreadID)
+{
+    uint Idx = ThreadId.x;
+    if (Idx >= NumUpdates) return;
+
+    FPackedCellUpdate Update = CellUpdates[Idx];
+    int2 Coord = int2(Update.CellIndex % TextureSize.x, Update.CellIndex / TextureSize.x);
+
+    // Direct write – no race because each cell appears at most once
+    FireBeliefOut[Coord]   += Update.FireDelta;
+    PersonBeliefOut[Coord] += Update.PersonDelta;
+    StalenessOut[Coord]     = 0.0f;
+    // A zero field denotes fire-only sensing, not a negative person observation.
+    PersonObservationTickOut[Coord] = max(PersonObservationTickOut[Coord], Update.PersonTickPlusOne);
+}

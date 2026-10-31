@@ -1,0 +1,57 @@
+#ifndef THESIS_PRIORITY_MODEL_USH
+#define THESIS_PRIORITY_MODEL_USH
+
+// Shader cache version 2: custom compute shaders compile for UE 5.7 SM6.
+
+float ThesisLogOddsToProb(float L)
+{
+    return 1.0 / (1.0 + exp(-L));
+}
+
+float ThesisPositiveEvidence(float LogOdds)
+{
+    return max(0.0, 2.0 * ThesisLogOddsToProb(LogOdds) - 1.0);
+}
+
+float ThesisMonitoringUrgency(float StalenessTicks, float Tau)
+{
+    return 1.0 - exp(-StalenessTicks / max(Tau, 1.0));
+}
+
+// Server‑side priority (GPU).
+// Staleness term is uncapped (grows linearly forever).
+// Unseen exploration bonus (+UnseenExplorationBonus) when staleness ≈ CurrentTick.
+float ThesisComputePriority(
+    float Staleness,
+    float PersonStaleness,
+    float FireLogOdds,
+    float PersonLogOdds,
+    float WeightStaleness,
+    float WeightDanger,
+    float WeightPerson,
+    float StalenessSaturationTicks,
+    float ProbabilityScale,
+    float MonitoringUrgencyTau,
+    float UnseenExplorationBonus,
+    uint CurrentTick)
+{
+    // Uncapped staleness (no clamp)
+    float StalenessTerm = Staleness / StalenessSaturationTicks;
+    if (StalenessTerm < 0.0) StalenessTerm = 0.0;
+
+    // Unseen bonus: cell has never been observed → staleness == CurrentTick
+    if (Staleness >= float(CurrentTick) - 0.5f)
+    {
+        StalenessTerm += UnseenExplorationBonus;
+    }
+
+    float Urgency    = ThesisMonitoringUrgency(Staleness, MonitoringUrgencyTau);
+    float DangerTerm = ThesisPositiveEvidence(FireLogOdds)   * ProbabilityScale * Urgency;
+    float PersonTerm = ThesisPositiveEvidence(PersonLogOdds) * ProbabilityScale * ThesisMonitoringUrgency(PersonStaleness, MonitoringUrgencyTau);
+
+    return WeightStaleness * StalenessTerm
+         + WeightDanger    * DangerTerm
+         + WeightPerson    * PersonTerm;
+}
+
+#endif

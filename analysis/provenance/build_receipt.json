@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "build_status": "manual_link_succeeded_ubt_link_failed_temp_acl",
+  "engine": "UE 5.7.4",
+  "toolchain": "Visual Studio 2022 14.44.35217 (MSVC 14.44.35207), Windows SDK 10.0.26100.0",
+  "ubt_command": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Build\\BatchFiles\\Build.bat ThesisEditor Win64 Development -Project=\"C:\\Users\\Utilizador\\Documents\\Unreal Projects\\Thesis\\Thesis.uproject\" -WaitMutex -NoUBA -MaxParallelActions=1",
+  "ubt_log": "build/UBT_failed_link_Log.txt",
+  "ubt_result": "UBT generated code and compilation completed. The UBT link and lib conversion actions failed because temporary files under AppData\\Local\\Packages\\sandbox...\\AC\\Temp\\UnrealBuildTool were inaccessible. All five generated module unity objects were manually compiled using their generated response files; the DLL and import library were manually linked with the generated UBT response files using project-local TEMP/TMP. Focused Unreal validation subsequently loaded the DLL and completed all six runs.",
+  "manual_link_working_directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source",
+  "manual_commands": [
+    "Set-Location -LiteralPath \"C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source\"",
+    "$env:TEMP = \"<experiment>\\build\\temp\"",
+    "$env:TMP = $env:TEMP",
+    "For each i=1..5: cl.exe @\"<experiment>\\build\\response_files\\Module.Thesis.i.cpp.obj.rsp\"",
+    "link.exe @\"<experiment>\\build\\response_files\\UnrealEditor-Thesis.dll.rsp\"",
+    "lib.exe @\"<experiment>\\build\\response_files\\UnrealEditor-Thesis.lib.rsp\""
+  ],
+  "module_dll": "Binaries/Win64/UnrealEditor-Thesis.dll",
+  "module_dll_sha256": "b93ab572ce06285f38a147010f931bf71a7f156fced659da0c858bc141bce6b4",
+  "module_dll_bytes": 2187776,
+  "unity_objects": [
+    {
+      "path": "Module.Thesis.1.cpp.obj",
+      "bytes": 2526388,
+      "sha256": "8c5d6a14637fb91096c447e1212e6961ac27171fb78c3d57eb4124a68365514f"
+    },
+    {
+      "path": "Module.Thesis.2.cpp.obj",
+      "bytes": 566538,
+      "sha256": "e37ae07f1a1d2d1c8f8ddd66424dfdd8ec7fd5d1352597eb538de6d3365f0d35"
+    },
+    {
+      "path": "Module.Thesis.3.cpp.obj",
+      "bytes": 2335360,
+      "sha256": "3a3b0d3ee750d811e5a5e536414755d0bd0a4a21401619c47e675e64d57b2d60"
+    },
+    {
+      "path": "Module.Thesis.4.cpp.obj",
+      "bytes": 16735681,
+      "sha256": "e0069b9b98f09dabdaf5fefd96e7a030fc22cad00eea2d9a71acab6d42695bef"
+    },
+    {
+      "path": "Module.Thesis.5.cpp.obj",
+      "bytes": 21762224,
+      "sha256": "e87ced175ee042f0368de1b02689c7e56eebfa91ba31ec026a94c908762497ef"
+    }
+  ],
+  "response_files": [
+    {
+      "path": "Module.Thesis.1.cpp.obj.rsp",
+      "bytes": 1985,
+      "sha256": "83d5ed68e9dc4aa2f4c1028a69fc3b1020b0a09cd3efaff682ec9153e07d34cc"
+    },
+    {
+      "path": "Module.Thesis.2.cpp.obj.rsp",
+      "bytes": 1985,
+      "sha256": "ce08e83629bb6637c08c92aaaa2e129b1606189cdb162629b60db9faf7aef792"
+    },
+    {
+      "path": "Module.Thesis.3.cpp.obj.rsp",
+      "bytes": 1985,
+      "sha256": "f89aa5ee468e99bde1d1df8e122f10d73f541e7b945d4392601f09852389fafc"
+    },
+    {
+      "path": "Module.Thesis.4.cpp.obj.rsp",
+      "bytes": 1985,
+      "sha256": "b32b20e61053576e0030d8a7b0569881e8768cc69186796bdb9c1b26b8f347ff"
+    },
+    {
+      "path": "Module.Thesis.5.cpp.obj.rsp",
+      "bytes": 1985,
+      "sha256": "b27a2d2d1487c4ec8f606964a9b58ddbe85f5e0f26e23c25906f69315f9bb888"
+    },
+    {
+      "path": "UnrealEditor-Thesis.dll.rsp",
+      "bytes": 4306,
+      "sha256": "d012f47c205baf79c34de50316cb7123903e231f5daae3d090e9604eaf379cbb"
+    },
+    {
+      "path": "UnrealEditor-Thesis.lib.rsp",
+      "bytes": 1289,
+      "sha256": "3bc5ff65da0b845268d799046c0632dc9839520279ab94128bd2b38ea8e8d966"
+    }
+  ],
+  "focused_runtime_log": "build/focused_runtime_startup_and_completion.log",
+  "focused_runtime_log_sha256": "ef8c003494bbc830092206fe9ef1ff89e598bee97832cbaa7cc67fbf881f1f91"
+}

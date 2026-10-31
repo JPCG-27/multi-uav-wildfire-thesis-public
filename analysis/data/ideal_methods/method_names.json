@@ -1,0 +1,9 @@
+{
+  "mine_full_fov": "Priority planner",
+  "mine_target_cell": "Without FOV scoring",
+  "random": "Random target",
+  "fully_random_v1": "Fully random",
+  "lawnmower_v1_aligned": "Lawnmower",
+  "lawnmower_v2": "FOV-aware lawnmower",
+  "oracle": "Oracle"
+}

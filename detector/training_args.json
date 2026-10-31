@@ -1,0 +1,1 @@
+{"amp":false,"batch":32,"close_mosaic":0,"deterministic":true,"device":"0","epochs":200,"imgsz":640,"lr0":0.0003,"mixup":0.0,"mosaic":0.0,"optimizer":"AdamW","patience":40,"plots":false,"scale":0.1,"seed":11,"verbose":false,"workers":0}

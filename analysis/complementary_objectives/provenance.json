@@ -1,0 +1,40 @@
+{
+  "scope": "Seven final retained ideal-sensor cohorts; the discarded original lawnmower sweep is excluded.",
+  "runs": 22680,
+  "runs_per_method": {
+    "lawnmower_v2": 3240,
+    "lawnmower_v1_aligned": 3240,
+    "mine_full_fov": 3240,
+    "mine_target_cell": 3240,
+    "random": 3240,
+    "oracle": 3240,
+    "fully_random_v1": 3240
+  },
+  "person_run_rows": 529200,
+  "unique_scenarios": 1620,
+  "unique_scenario_people": 37800,
+  "source_manifests_sha256": {
+    "Saved/Benchmarks/current_build_main_and_fov_20261021/manifest.json": "a35a9a610518d61f50ada81c3ea67800cd8faa0bc026eec692f9648b00ce95c2",
+    "Saved/Benchmarks/fully_random_v1_20261022/manifest.json": "1b5f0d4218daf7b5f7b4dd7d7c2fe66ef05025099baf72914b0e470f5e98841c",
+    "Saved/Benchmarks/lawnmower_followup_recovery_20261027_r1/runtime_v2.json": "847658403bdc82c769e8d5df3d87bc439dcd4a229440c64599c051f683632825",
+    "Saved/Benchmarks/lawnmower_followup_recovery_20261027_r1/runtime_aligned.json": "78ef48c85e4821ae2e38ee8e456973508729b8f0f8b93b4e8d26b29495e51fbb",
+    "Saved/Benchmarks/lawnmower_v2_full_20261027/production_runtime.json": "18b3a80278391f73f673c687f55c62648c0b53524b62d4cf37a8a43cec39420c",
+    "Saved/Benchmarks/lawnmower_followup_recovery_20261027_r1/recovery_plan.json": "91b94f4b305adcc9a85442d96587ec81bbc22cd09f7f1d7b256d12f9b8827fc3"
+  },
+  "existing_per_run_metrics_source": "analysis/data/ideal_methods/per_run_metrics.csv",
+  "existing_per_run_metrics_sha256": "7ebd1d3f52f06596f779380ca19230c43165ef0286e094fdfeea77a799ed8a0a",
+  "checks": "Every raw persons.csv and summary.csv was read and hashed, every raw config was read and hashed, every source human trajectory was re-read and matched to pinned SHA-256; all per-run original coverage, before-death coverage, 500-tick recall, penalized delay, gaps, danger and distance values reproduce existing selected derived data.",
+  "horizon": "All appearance ticks 0; all source trajectories span 0..8000; all evaluated run summaries span 1..8000.",
+  "evidence": "Person rows preserve first credit, appearance, recorded gaps and danger; scenario-person rows preserve earliest dead state; run rows preserve raw summary fields and source hashes. Full raw trajectories are not duplicated.",
+  "settings": {
+    "tracking_window_ticks": 50,
+    "danger_exposure_threshold": 0.5,
+    "vision_bridge": false
+  },
+  "evidence_sha256": {
+    "person_evidence.csv.gz": "700d7c35b9409ba21a8f0a81d01ef695bc962cf35908e3889c12df22bf329ee0",
+    "run_evidence.csv.gz": "8c135dec3fc6c099364f26bb1ae32b5325e3b3d4e8788a93640c8b6c50386385",
+    "scenario_person_states.csv.gz": "466af5f759acd51630a8e29615dbb686248974eb95ea6c165b513780e3f960b6",
+    "trajectory_provenance.csv.gz": "2e4c19e45a41a092ae0fcf8743eed7fe918fba5818d9edb1ef45fa321fa09ebe"
+  }
+}

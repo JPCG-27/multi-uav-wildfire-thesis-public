@@ -1,0 +1,907 @@
+{
+  "runs": 12960,
+  "hash_checks": {
+    "runtime": 12960,
+    "launch": 12960,
+    "summary": 12960,
+    "runs": 12960
+  },
+  "errors": [],
+  "sources": [
+    {
+      "path": "external:C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool.dll",
+      "sha256": "64a3ae1864cabbfcb3ed9e074b08692f74304ec1e8362b54828d20846630d017",
+      "match": true
+    },
+    {
+      "path": "external:C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Build\\BatchFiles\\Build.bat",
+      "sha256": "4f71b08ebc3fe2ba7918a5be7a0b3f22cf7ce5530049873e9eca8df946bc1cb3",
+      "match": true
+    },
+    {
+      "path": "Config/DefaultEditor.ini",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "Config/DefaultEditorPerProjectUserSettings.ini",
+      "sha256": "527f0b357a2229710880ae18994268ba13521b0ac8d9f4db2594c5370092c5d5",
+      "match": true
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "sha256": "7c6d70ecf60f7b022f48cfbf40a70b16b9706d829502a0e99b496d2ec5ed7099",
+      "match": true
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "sha256": "7034c0e2f96cc2951dd3220e02ae46fada1d728eeab41db36b56dde63a47cbc1",
+      "match": true
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "sha256": "18c8dadeab3e0074f58e3bfb64e772db058e1e5d3ef6452ba67b50109e4eb653",
+      "match": true
+    },
+    {
+      "path": "Content/EuropeanBeech/Maps/EuropeanBeech_Asset_Zoo.umap",
+      "sha256": "ed9fc40e7871bc8dc39c8f8c347c296db198d1bf1dfb5df229af2405603110f2",
+      "match": true
+    },
+    {
+      "path": "Content/NewMap.umap",
+      "sha256": "34058f12a188302f1949d0b58cf73ab3d8050f19a6f48dddb762a5c4e9f6830e",
+      "match": true
+    },
+    {
+      "path": "Content/NiagaraExamples/GalleryLevel.umap",
+      "sha256": "d53ff0f6fb5e3e8b2105537f4d8ee6bba1ce4e064b365aa4355a3cec1368dc63",
+      "match": true
+    },
+    {
+      "path": "Content/NiagaraExamples/Utilities/SpriteGeneration/TestSpriteMap.umap",
+      "sha256": "061bfe422abb35029593bd83dc75c3728a655ea5b211b13c0b99fce2c53892af",
+      "match": true
+    },
+    {
+      "path": "Content/SimBlank/Levels/SimBlank.umap",
+      "sha256": "cbff353cfcb0ec1c950d7048f9cab3771b2a4daf5c3b396b976bbc3e679f0968",
+      "match": true
+    },
+    {
+      "path": "Content/Vefects/Free_Fire/Demo/Demo.umap",
+      "sha256": "abbaf0eece6520b53f74530f9e4aed3dc1aa2eed76b1f397657a9d91fc407a62",
+      "match": true
+    },
+    {
+      "path": "Shaders/Common.ush",
+      "sha256": "0bfd31dd5add6bb78cf89f6ebcb9ba5bdf8bbe27e6113a5feb35070c8e57f3b3",
+      "match": true
+    },
+    {
+      "path": "Shaders/DroneLocalPriorityCompute.usf",
+      "sha256": "8d6ac6024b3b4824bb170fef620b6641ef57dfda1eeb86cfa22f1c483178b4f4",
+      "match": true
+    },
+    {
+      "path": "Shaders/GridStatsReduce.usf",
+      "sha256": "239c50846e278c61929085b13d9969bcb703faaf59272a9cd69b2820fb45c3fe",
+      "match": true
+    },
+    {
+      "path": "Shaders/ObservationIngest.usf",
+      "sha256": "76c6fed194fd89feafe18a964a22f926cba621c7eb388dda938d2aaca1e2756d",
+      "match": true
+    },
+    {
+      "path": "Shaders/PixelBleedSpread.usf",
+      "sha256": "f6faa70365125d265e45950a73a2153012db807778a9dee72c09860927bce1dd",
+      "match": true
+    },
+    {
+      "path": "Shaders/PriorityCompute.usf",
+      "sha256": "347e2aa7d84ebcd03bc97dc8d6ecd24e768348b826cf52dc16040bcb095dc974",
+      "match": true
+    },
+    {
+      "path": "Shaders/PriorityModel.ush",
+      "sha256": "e0c283ddea1e53e1f104806f2f37cfa665c91c0530823d43fe0287c331a70336",
+      "match": true
+    },
+    {
+      "path": "Shaders/StalenessUpdate.usf",
+      "sha256": "fef5d1c2d3304da9f65757b9c127aa6148b41acc4282e418246108885cb8d26e",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis.Target.cs",
+      "sha256": "cbca04236d1927bea1d142144bad9bb5e8bca6d9a3a5c389261e574363f9322a",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Benchmark/MethodSpec.h",
+      "sha256": "66ec9e7487b9ab3f169b549370ee64e8ab4153c33a8a5556e9fac55753286e19",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Benchmark/SimMetricsRecorder.cpp",
+      "sha256": "aaa1875cba30ccb7627b857d75fce2b77002df30d48f760d714145c47548d4c3",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Benchmark/SimMetricsRecorder.h",
+      "sha256": "a5a904d00fcedeea8f8decf638945c437357177f20f544d6a52f044626d1ca09",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Benchmark/SimRunConfig.cpp",
+      "sha256": "44d1f2dc74e3ecaf908948a7e2dbd0684958460b72f0a7ceade07c0d5de90295",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Benchmark/SimRunConfig.h",
+      "sha256": "0c7b2976788c5908231c7f22fe09f71355f1c88e81d29678c2ea05b33b728137",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.cpp",
+      "sha256": "5405f5243a9469e57b469ebbb226392b5fb71f0dbbe447d174c90de56351f7aa",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Benchmark/ThesisBenchmarkSubsystem.h",
+      "sha256": "6e824406b4267dc21b1fc7c2eda92d43f645e1908b7e5fe2c12726e8e75444db",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/Drone.cpp",
+      "sha256": "322430d3a0a03d598cfff2152a79fe5add24ab08bca2378ba17a7acaf6c774e0",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/Drone.h",
+      "sha256": "24f56e24f6e632323b723f69b99397254ef13093a534c9a0cf878c79506b5305",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/DronePlannerBase.h",
+      "sha256": "d8dd86168736f72d1689235433f797c22e5796c88dc14ff3ee6b4744bd2af1ee",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/DronePlannerFactory.cpp",
+      "sha256": "9e872a2415ba5a854195d433b18d16dbe595c3732a250d15a904ea1d1bf1973a",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/DronePlannerFactory.h",
+      "sha256": "a64e429d9dac5aeef95ca180fc58517e60e326cfee46bacb7acb6eae3fefcc1d",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/DroneSensorBase.h",
+      "sha256": "ea61463c04d74ddb8434c4a2947131239c566f4fccbe992f52f9b6054a884472",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/DroneTypes.h",
+      "sha256": "8c7362033fc8f9aba24bc6332fbbf45eaa3df5bfcb46cc937675500860e6c671",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/GreedyFovPlanner.cpp",
+      "sha256": "2d2d24ba4d36a5f70dab97c18fe8739a9d79dcdd2dce57b897f06b0df870080d",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/GreedyFovPlanner.h",
+      "sha256": "fb7b89d458b1bcdb4d050c1cf16108c3430ef5f0f0d44b90527e09401e7df69b",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/OracleAssignmentSolver.cpp",
+      "sha256": "7995e2a26220b8a167db6f3764b6687711d959619fb7346ee783d64f8ad4f29e",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/OracleAssignmentSolver.h",
+      "sha256": "dfce487b64cde7560358a48e1aec71d5950ac41a5cbd62bd1931310f10893cfe",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/OracleTargetPlanner.cpp",
+      "sha256": "dc1a3041733c9a89355d7d5767308c890772a0d36591a489b1ec9bd14fc5aa4d",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/OracleTargetPlanner.h",
+      "sha256": "98b32ef4130a0a7270599a1479274e0fb8d5c28e787d46bbc63c1df6cb0bb404",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/PerfectDroneSensor.cpp",
+      "sha256": "06d994099c759261510f705a1d73f27d99c58d9e94e7f0b1fc8c783d3def845b",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/PerfectDroneSensor.h",
+      "sha256": "bdf254ac0d8d5fe2726a5789a5859652f912b483f1d8365760a740421503f9e2",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/RandomPlanner.cpp",
+      "sha256": "60e42f8860262ae53982d3a29358884ea0ea797663a4a172c448a50af4b13cd9",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Drone/RandomPlanner.h",
+      "sha256": "6973889f00e1178d7d215953d09dbf413eaa50de4e3e2b7a62fdf8d623f39b13",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Gpu/GpuBeliefManager.cpp",
+      "sha256": "12ecce3a5cc23c4bfd8577011051319619a7de0f46511cdfaed006c81dd26a1d",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Gpu/GpuBeliefManager.h",
+      "sha256": "819d77be2e4b1c004b4f6d9cc0e0a7c2144f471cb36c3af93802d2bb82f0d04a",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Human/HumanManager.cpp",
+      "sha256": "6251e6f6b7f3411bb3ebd0f525608a4bcef860aaa1e2c52d8d898a66efb0d952",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Human/HumanManager.h",
+      "sha256": "bf9f68bdce23a2a9f2cc252f399e140e0d66201a3e941f8bd88904b91efbd85a",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Human/HumanTrajectoryImporter.cpp",
+      "sha256": "f0087ef95f3ec53d2a39821e754c9b842f48006d589f5c2ba23ebbe3d1f2c7b8",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Human/HumanTrajectoryImporter.h",
+      "sha256": "13959786e85794e1997b46014123083ca0465e9df6259e3f0b5f5d159b1c65f1",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Human/HumanTypes.h",
+      "sha256": "2e4ef852d095e08dc1ba1a63e8af5ed1cb99abed865efae8a8195501d66f06f0",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Human/HumanVisualPose.cpp",
+      "sha256": "276815bfb1f586c123ad2a976eb20ba5103b00a7613f69135c7d56b347e0136b",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Human/HumanVisualPose.h",
+      "sha256": "7561cd67db50d8b4ed85b4d9cb0ff77ce9765e262162e8b2912fe4ef2fb90284",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/OracleAllocationPartition.cpp",
+      "sha256": "eab1c4a898a93f1df4360d3a185167cb802ccc1bd6ebcedb6ee56fdf99758c03",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/OracleAllocationPartition.h",
+      "sha256": "e347880fd5a19e5bbd1d0008d088e174b2fcf67de31617ceca51b572f351a78c",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/PartitionStrategy.h",
+      "sha256": "ec72cf5c35d762ebe3a4d67e50340372b138db65497570b8ffe7ba4242aa5242",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/PartitionStrategyFactory.cpp",
+      "sha256": "58e29e4fe5f007f10b14572dc7db74f5bf2c8f40dd3ab837b0e956b99b81d876",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/RandomPartition.cpp",
+      "sha256": "ec8c986bf760df56fd6314612d65f022140bfa9cd7464e28310b810bd7a97290",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/RandomPartition.h",
+      "sha256": "52bea5741ebe88f935556eecc06723bda51435c8c35608d680561983b6893aaf",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/UniformPartition.cpp",
+      "sha256": "88121dcc57ec0c6a4b9fa0fa483b683621516364f0990433b0ec839cbda5fc37",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/UniformPartition.h",
+      "sha256": "8853d56457e5562022d5700cc55c188ce2f5f24f87361b86bb4f013353c0ebdd",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/ZoneRegionGrowingPartition.cpp",
+      "sha256": "2cb76f73588e2d3908f776fa368d258b8f2bf6829f80bbb42d02099b0c77ffc5",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Partition/ZoneRegionGrowingPartition.h",
+      "sha256": "fc95f7b2bd008bec5fc5aa7583c418af2b02f1bd0740cb28087730addba5937a",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/CameraReadbackTests.cpp",
+      "sha256": "1b254af2dc3456679bde79fab5388d28b9a34b720acd6367d3d4b36cef83311c",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/DeterministicCaptureEffectsTests.cpp",
+      "sha256": "2784420ddd1f9dd9a00b51f46edb5d04823793a841ea8da0ba3f73350a205774",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/EnvironmentEdgeRenderTests.cpp",
+      "sha256": "c9ee2867a198afd8e665955d9dee92603deeb09cb0f54eb3dcf1655835f49184",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/EnvironmentLightingLifecycleTests.cpp",
+      "sha256": "57f55689756dc5affa829c8ef18c50880bdfe5703597505261c8acdc3e2996c9",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/EnvironmentRenderCostProbe.cpp",
+      "sha256": "a051a24804ec5277f8a9b5cd936e153f04e4cedee760619ab0ef9a4eaa2bc2ce",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/FirePresentationTests.cpp",
+      "sha256": "23b0632d4c064eca0622e8feed2a248f396be2a57306209b04e91c80060cf363",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/FireVisibilityRenderTests.cpp",
+      "sha256": "70f06086dcb4a83d2c87a6956b6eedfa202d6fca315cb11b185de5c96150aee5",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/ForestApronDeterminismTests.cpp",
+      "sha256": "43e2abc86e8de405753dd65324078e89e871f54e78c30baddfbd164a9983b0bf",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/ForestDresserBatchingTests.cpp",
+      "sha256": "16e668933e9978c765cc5e60cec0a3e72fd17f0f7ce5f2af0b5762229fc1d5a9",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/ForestVisibilityRenderTests.cpp",
+      "sha256": "4bc128ae092554d5a5bf3cb93f9ba2788425bbecf5409f22be535b9c2f7705c4",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/GpuPersonObservationFreshnessTests.cpp",
+      "sha256": "9c29c5cedb1c8f9dd8c42165f21847fc6cb74f7ca6885c88637585e5d63bc61f",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/HumanVisualPoseTests.cpp",
+      "sha256": "aaafe55f14974ab9916e13116030d6176edce211675de67bfff269d90decafa0",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/LiveRenderPolicyTests.cpp",
+      "sha256": "47f9446a357f46a7bf2eda4ecd157293983f6e9cafa68fbce7e7b2599d533a36",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/LiveViewPresentationTests.cpp",
+      "sha256": "a66161121fdb972bb18eef44979e5765bf398e06c106ddbdc523554def9831b3",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/OracleAssignmentSolverTests.cpp",
+      "sha256": "8884bf3b8000bb02b7c00a56c90fb08726fef46dae0e01f3297ddaaf5fdf0693",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/PersonFreshnessOwnershipTests.cpp",
+      "sha256": "c86c7f7fc4fbf03597f77a3a4e3d657078cc0f94bc90991b0aad5be259c959c2",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/PersonObservationFreshnessTests.cpp",
+      "sha256": "7ce62f4336a425486dbb19ab8b495f2bc09243fee0bd34dddc7507ae6c5a9b83",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/ProceduralTerrainBorderTests.cpp",
+      "sha256": "e6e1e9a608a11eec4ba1418a22d1dea73d8da64524bcc989b728641b40938953",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/TerrainRenderTileTests.cpp",
+      "sha256": "49f9c4e444fb4da093d8b9c429c28ad88b60db7eb38a9cd2d021fa35f7ec6195",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/TerrainSceneCacheTests.cpp",
+      "sha256": "b4f3b90d8999c3996c71918a7919a0490c30c6dbc9bc699d794c9854de8d3f4f",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/VisionProjectionTests.cpp",
+      "sha256": "51826c101d2d81aaf3b842b0cb19b4e360a9133e723a2503c2fc1aa3c247eeaa",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/YoloDatasetExportTests.cpp",
+      "sha256": "09845a5c9a50a682e03aa31812dddbffc7b18a6051c0a53e8b5aa65637eb03b1",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/YoloDatasetRenderTests.cpp",
+      "sha256": "e7f2c12745fe0258a507bf1a3d87036358dfc3b875c430cc6ef566e08c515675",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Tests/YoloGeometricMetricsTests.cpp",
+      "sha256": "75568d675cb99c844727c0e3a517f3b8e5954bf29a942e1eb3242fc0ca3f02f6",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Thesis.Build.cs",
+      "sha256": "ff8157d3e0b8ab546691792a5169c8d7cdc59dcb4becaa7347f5d768274b47f6",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Thesis.cpp",
+      "sha256": "ec46e75a42cdc180bbf5471300e3c5f87f62df15bc25004ccc12abf7fc2c428d",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Thesis.h",
+      "sha256": "4694b655856b269fc41b195971214f8e629857c7e5d6f34002a066cd4af3037c",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/ThesisGameModeBase.cpp",
+      "sha256": "e8919de0d4cd64398de21a5ff535e7f473afb1d3ad0bf92b39dd2fd818dddffa",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/ThesisGameModeBase.h",
+      "sha256": "03202f08cc6df97be5ae6ac321f4ec49e0dcf958c175ef104d264248df472f0a",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/ChanceNullScorer.cpp",
+      "sha256": "210900064b433b027229d283dda06c72a53a51030bad0223ae7720a0d2fb3d73",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/ChanceNullScorer.h",
+      "sha256": "59145dcab70c6b6f963a15db9d70dd66a1b4a2014413b0b3362d33e4a3d99f31",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/DroneCaptureComponent.cpp",
+      "sha256": "cfae6508b4cbe419935a4122474a82e4e1128128b5dc09d045a7bd666cfc2d09",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/DroneCaptureComponent.h",
+      "sha256": "b61af26cbd80d45f51f87eeda18f0e96acd730e9f733f5e4f741a25e12ba68c1",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/VisionBridge.cpp",
+      "sha256": "add3a53919d2f888670abcda11f65af9bb6fcba3224612238f90e4ddfb48d994",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/VisionBridge.h",
+      "sha256": "1857af655fae9d60351adabadaf3c1382d2cf8a8ce3af10646c41a02ce49efe1",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/VisionTypes.h",
+      "sha256": "bc2090df8b02076a9e4be873fe6fa5056aeb2d7ce2a33de0ef90eb503faa3263",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/YoloDatasetExporter.cpp",
+      "sha256": "65b84ce9ff78c7c4715f4a4d2f6508cec8c58fb7fcc0f9da883509f8f03194f7",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/YoloDatasetExporter.h",
+      "sha256": "da42f6a5b21697db7055f9cc343f2157f46179545c03baf61777c4fecee8b57f",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/Vision/YoloGeometricMetrics.h",
+      "sha256": "9832c114dce6cd9a37cd6f56dc6b4f6cfc4a5a5148865ad231b2b377e4746726",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/DeterministicCaptureEffects.cpp",
+      "sha256": "2624e421f70a2f15838ca51d8d19da1a75892f59b1edbdec9c30ffa8bb6fbb15",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/DeterministicCaptureEffects.h",
+      "sha256": "0e35c043619d0bb8dceba60a485f544093c3d3dc103549fe077792fa5f4952be",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/FireDataImporter.cpp",
+      "sha256": "cd6767396f17331d383543165214bf78b04ef0c41fcfd9f3f93ca916ad6f4b97",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/FireDataImporter.h",
+      "sha256": "9fc6c2fecab9fe7d441cf8746894d5d996e344c38255d1b561747125f65cc49f",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/FirePresentationMath.h",
+      "sha256": "443419f6df3cf6a3861e0b77a91f2aebbd2ada999115bcc56bfb9770c1e0e72b",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/FireVisualProfile.cpp",
+      "sha256": "2a8101ed4696c17e6699bbc5dca887054cf4ce92b3e855f9aee1338e89a27ef5",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/FireVisualProfile.h",
+      "sha256": "72f8e8ba4b8d924d04a2536df6ce18ab0d4d81a129637a2c7a3044dd5bd8469d",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/FireVisualsManager.cpp",
+      "sha256": "b818e1563668c702285ca625c8b2ec9393831d844faf8846695c9a589e1b4bff",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/FireVisualsManager.h",
+      "sha256": "5fdc8af7a34a5f18e055035a3cf44145204db90f3b84230e4ecc28a607a71c68",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/ForestDresser.cpp",
+      "sha256": "0e2c538bc999aebc1afbb7339e6a26e0d98f2032470f43971c304021ce2bd2ee",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/ForestDresser.h",
+      "sha256": "e60f6e9ec3fbbde7f3818b12f8ec06dabb4fbe645d60f9e1a53e53281584b89b",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/ForestDresserBatching.h",
+      "sha256": "a2d1e3d455f9cf8b82419327e88ec23ed0886037866c03cec3b9994250141fac",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/Grid.cpp",
+      "sha256": "0c22f287ab3666a6778d454b71eac4a19b94e63750d8682def47be0813054a04",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/Grid.h",
+      "sha256": "95aad564807ff8995406b1b8c98284055c256d574085e5133790811dcd134e32",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/GroundTruthOracle.h",
+      "sha256": "97e2fc445765320d8662ee0582b8abb5e4dd4558b6551e4dc1b5902bb271f482",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/LiveRenderPolicy.cpp",
+      "sha256": "8fdeda1316c77b423866d67b1746976cfa8ae606f1af52c9a69d3c228e6cb74c",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/LiveRenderPolicy.h",
+      "sha256": "eee137323b7f6e4c8f7b02d5401b288924a3e080ed2b27abfcaf0a81be9ec0c3",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/LiveViewPresentation.h",
+      "sha256": "9b771221ece38c559a2638a12e8fe214693037fd6e3ce87c6953a795305e8ca9",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/PriorityModel.h",
+      "sha256": "82126fcd431492219b9eedf782294a6b80bd88ef5017697635743edd5b495c85",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/ProceduralTerrain.cpp",
+      "sha256": "25c8ac03c9d24ac2ea073a7edeb94a02506f0831a16ea3175210f3ceb2d66a55",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/ProceduralTerrain.h",
+      "sha256": "6f9fe114bc6ca776257e0d789f76f85ed8a254bf1ab01c18c610f6b4d365ea6c",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/SimulationDatasetExport.cpp",
+      "sha256": "1b389f0c4f67567c228e74142c7a9b5ddfc9e966e9cc5818b949051b2b4b9645",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/SimulationHUD.cpp",
+      "sha256": "0aac23665f72f24f6f58af649934902535f14e3fb4b7c3f16595cb71e71f0d89",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/SimulationHUD.h",
+      "sha256": "482753d60cb35f4010559ba916241fff813904c053d86f6edea3502396c13e6e",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/SimulationManager.cpp",
+      "sha256": "059794ecd18d63f0053cba443ca0d4682f05a256338c381b80316a5279646b7c",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/SimulationManager.h",
+      "sha256": "d73b91ca16bbddfd0abb63a213060e9a5dc8160cba119eaebb0371797e3ce2ad",
+      "match": true
+    },
+    {
+      "path": "Source/Thesis/World/VisionProjection.h",
+      "sha256": "2a35334d8327aa219ae82531cb1e00e0594a9e85314af18a43d713e98c3d63d9",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisEditor.Target.cs",
+      "sha256": "46010b24d6302aaf0c230c651369c9a616a421802cbfd1deda9ced4fda7beff2",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Private/DroneLocalPriorityComputeShader.cpp",
+      "sha256": "b1626d6ad03d6078fe35d9d30e066173cf1799fe80bf590980352b8e3159b894",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Private/GridStatsShader.cpp",
+      "sha256": "d9369a9693f2daf85adb40dbd682c4dc2268ac35d0d452196533a74fe1d14797",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Private/ObservationIngestShader.cpp",
+      "sha256": "3d2d6c23c2726ff1889cc1965392e3dcacb0633fb55230af52471333e4cf9127",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Private/PixelBleedSpreadShader.cpp",
+      "sha256": "820ef87f43ec274d71010c1d9bf8d39e27fa0a526500baac27fd3e77bf0568e5",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Private/PriorityComputeShader.cpp",
+      "sha256": "893e6c66cbe69baeea74e8f09bb3d5d6f5a3e6b5b47d5a9b7d649b15d89ae13a",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Private/StalenessUpdateShader.cpp",
+      "sha256": "f29fa639478fdf7ad211c7c723d28cbd39dda5cd238dc6b70a83286cec3e23cb",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Private/ThesisShadersModule.cpp",
+      "sha256": "d0e178cc6b7c0c42b06b54891b28325f29d01d9025605a44b498aed143a996f2",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Public/DroneLocalPriorityComputeShader.h",
+      "sha256": "0241b41fe03208c17763223a99cffc43df932d80710c8155d2421f5457b18b13",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Public/GridStatsShader.h",
+      "sha256": "59bcc8efe266a42d3edb7b499707f4e4050c42691c4711769f4b0de8a6c7a497",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Public/ObservationIngestShader.h",
+      "sha256": "2a97b45e5459a666cb8b86bcd9531a14bc4f232abbfa4df61216e81353a49f49",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Public/PixelBleedSpreadShader.h",
+      "sha256": "f3f6d3dad629a4d6861b6323ca2ce2289fa7bd5b671de2d82c252740cc23908a",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Public/PriorityComputeShader.h",
+      "sha256": "3c4c2a1227519d03e1d3e2760bf93c577e4031c6fa5dfab7b25e99092532ffce",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/Public/StalenessUpdateShader.h",
+      "sha256": "4599b8a8ce577a3704d20269c21a5675db56614ccb938d5266427b1584689de8",
+      "match": true
+    },
+    {
+      "path": "Source/ThesisShaders/ThesisShaders.Build.cs",
+      "sha256": "1eadb0bcae7d8b36a2073156a12d489e25ffd0a3ad7a1c963b917ce1d60a6f7b",
+      "match": true
+    },
+    {
+      "path": "Thesis.uproject",
+      "sha256": "fc1044bee01aa98118d81a9563d360c3660d6e29c50c280ac5c38093a95026b1",
+      "match": true
+    },
+    {
+      "path": "Tools/run_benchmarks.py",
+      "sha256": "5a8d0cc739c53794b29b873dd304bb4d9c11bd313c0149278a811bb99130a757",
+      "match": true
+    },
+    {
+      "path": "Tools/run_fov_scoring_full_matrix.py",
+      "sha256": "76d9aadd2da6d58787448037aa3dcf730b20a0656842e6177a818d6d5cc557f3",
+      "match": true
+    },
+    {
+      "path": "module_binary",
+      "sha256": "b93ab572ce06285f38a147010f931bf71a7f156fced659da0c858bc141bce6b4",
+      "match": true
+    },
+    {
+      "path": "engine_binary",
+      "sha256": "ecce9996191f7f7e69b3d104eecdd0e678ae69176fdccd79828c3e75a0654d6d",
+      "match": true
+    },
+    {
+      "path": "Content/SimBlank/Blueprints/BP_SimFloatingPawn.uasset",
+      "sha256": "ac54b2af2eea18c67bed79d7e60ce77d1b65d9332bcbb3b7bae63cbe2c148cc0",
+      "match": true
+    },
+    {
+      "path": "Content/SimBlank/Blueprints/BP_SimGameMode.uasset",
+      "sha256": "97e0b3cd2c0dc4825b17fc44f1c55ab9c2b2f11b1dd929096a030921f05bcccd",
+      "match": true
+    },
+    {
+      "path": "Content/SimBlank/Blueprints/BP_SimPlayerController.uasset",
+      "sha256": "bdc6255b6f3e71d548033cd8643c9f5192a196bdb64728e27d49dc50957d0a02",
+      "match": true
+    },
+    {
+      "path": "Content/SimBlank/Blueprints/UMG_Profiling.uasset",
+      "sha256": "6af98e1cae70e77644ec3155cd45f7bd3f61e7541b7921d7d3ef0b22288086bd",
+      "match": true
+    },
+    {
+      "path": "Tools/run_fov_current_build_all_arms.py",
+      "sha256": "f0c0fc3031c884687cf8b79061f42b6a09b9d25db6d6485e26238167e02bdb62",
+      "match": true
+    }
+  ],
+  "runtime_value_counts": {
+    "cell_size_uu": {
+      "3600": 12960
+    },
+    "drone_capture_auto_exposure": {
+      "true": 12960
+    },
+    "drone_capture_bloom_intensity": {
+      "0.4000000059604645": 12960
+    },
+    "drone_capture_clear_air": {
+      "false": 12960
+    },
+    "drone_capture_exposure_bias": {
+      "0": 12960
+    },
+    "drone_capture_manual_ev100": {
+      "12": 12960
+    },
+    "drone_capture_pitch_degrees": {
+      "-60": 12960
+    },
+    "drone_commitment_margin": {
+      "0.20000000298023224": 12960
+    },
+    "drone_count": {
+      "4": 12960
+    },
+    "drone_fov_degrees": {
+      "90": 12960
+    },
+    "drone_max_view_distance_uu": {
+      "14400": 12960
+    },
+    "drone_planner_scoring_mode": {
+      "\"full_fov\"": 9720,
+      "\"target_cell\"": 3240
+    },
+    "drone_processing_mode": {
+      "\"parallel_cpu\"": 12960
+    },
+    "drone_replan_cadence_ticks": {
+      "5": 12960
+    },
+    "drone_speed_uu_per_tick": {
+      "3600": 12960
+    },
+    "enable_drone_captures": {
+      "false": 12960
+    },
+    "launch:drone_detour_budget_fraction": {
+      "\"ABSENT\"": 12960
+    },
+    "launch:drone_fast_route_fov_gain_weight": {
+      "\"ABSENT\"": 12960
+    },
+    "launch:drone_neighbor_priority_weight": {
+      "\"ABSENT\"": 12960
+    },
+    "launch:drone_spawn_cell_positions": {
+      "\"ABSENT\"": 12960
+    },
+    "launch:drone_top_k_path_bonus_candidates": {
+      "\"ABSENT\"": 12960
+    },
+    "launch:drone_use_fast_route_planner": {
+      "\"ABSENT\"": 12960
+    },
+    "parallel_drone_processing": {
+      "true": 12960
+    },
+    "partition_recompute_every_n_ticks": {
+      "50": 12960
+    },
+    "priority_weight_danger": {
+      "0.3499999940395355": 12960
+    },
+    "priority_weight_person": {
+      "0.30000001192092896": 12960
+    },
+    "priority_weight_staleness": {
+      "1": 12960
+    },
+    "save_drone_capture_pngs": {
+      "true": 12960
+    },
+    "seconds_per_tick": {
+      "3.5999999046325684": 12960
+    },
+    "sensor_fire_negative_llr": {
+      "-0.30000001192092896": 12960
+    },
+    "sensor_fire_positive_llr": {
+      "3": 12960
+    },
+    "sensor_person_negative_llr": {
+      "-0.20000000298023224": 12960
+    },
+    "sensor_person_positive_llr": {
+      "2.5": 12960
+    },
+    "use_drone_local_gpu_priority": {
+      "false": 12960
+    },
+    "vision_sensor_contract_version": {
+      "6": 12960
+    }
+  },
+  "equal_run_mean_percent": {
+    "mine_full_fov": 92.40209188271604,
+    "mine_target_cell": 87.90432101851852,
+    "random": 80.13288728395061,
+    "oracle": 99.95781913580247
+  },
+  "scope": "Read-only recheck of every launch config, runtime config, summary and receipt; no new simulations, no raw data edits. Source snapshot checked against cohort manifest. Does not promote missing runtime keys to unknown effective values."
+}

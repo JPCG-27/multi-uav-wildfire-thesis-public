@@ -1,0 +1,1291 @@
+{
+  "schema": "recent_camera_cell_belief_contrasts_v1",
+  "scope": "Oct 9 mixed, Oct 11 four-camera and Oct 18 accepted three-ideal cohorts only; no Oct 21 main-cohort comparison",
+  "metric": "cell-belief coverage; per-run detection_fraction, equal-run means unless labeled person-weighted",
+  "source_summaries": {
+    "mixed": "mixed_ideal_plus_camera_aggregate.csv",
+    "four_camera": "four_camera_aggregate.csv",
+    "three_ideal": "three_ideal_cell_belief_run_summaries.csv"
+  },
+  "source_indexes": {
+    "mixed": "mixed_ideal_plus_camera_run_index.csv",
+    "four_camera": "four_camera_run_index.csv",
+    "three_ideal": "three_ideal_completed_attempt16_run_index.csv"
+  },
+  "index_status_and_count": {
+    "mixed": {
+      "rows": 3240,
+      "complete": 3240
+    },
+    "four_camera": {
+      "rows": 3240,
+      "complete": 3240
+    },
+    "three_ideal": {
+      "rows": 3240,
+      "complete": 3240
+    }
+  },
+  "canonical_scenario_key": [
+    "terrain",
+    "flora",
+    "focus",
+    "spread",
+    "seed",
+    "grid",
+    "regime"
+  ],
+  "canonical_key_matches": {
+    "mixed_vs_four_camera": 3240,
+    "mixed_vs_three_ideal": 3240,
+    "four_camera_vs_three_ideal": 3240
+  },
+  "cohort_cell_belief": {
+    "mixed": {
+      "overall": {
+        "runs": 3240,
+        "equal_run_mean": 0.8411574092592593,
+        "equal_run_percent": 84.11574092592593,
+        "equal_run_seed_block_ci95": {
+          "mean": 0.8411574092592592,
+          "ci95_low": 0.8294903458965536,
+          "ci95_high": 0.8528244726219648,
+          "seed_blocks": 15,
+          "df": 14
+        },
+        "matched_seed_blocks": 15
+      },
+      "by_grid": {
+        "100": {
+          "runs": 1080,
+          "equal_run_mean": 0.9816666666666667,
+          "equal_run_percent": 98.16666666666667,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9816666666666667,
+            "ci95_low": 0.9680958649644807,
+            "ci95_high": 0.9952374683688526,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200": {
+          "runs": 1080,
+          "equal_run_mean": 0.8825462962962963,
+          "equal_run_percent": 88.25462962962963,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.8825462962962962,
+            "ci95_low": 0.8657047503543356,
+            "ci95_high": 0.8993878422382569,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300": {
+          "runs": 1080,
+          "equal_run_mean": 0.6592592648148148,
+          "equal_run_percent": 65.92592648148148,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.6592592648148148,
+            "ci95_low": 0.6332281159471016,
+            "ci95_high": 0.685290413682528,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      },
+      "by_regime": {
+        "static": {
+          "runs": 1620,
+          "equal_run_mean": 0.8025994580246913,
+          "equal_run_percent": 80.25994580246913,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.8025994580246913,
+            "ci95_low": 0.7810499994418636,
+            "ci95_high": 0.8241489166075191,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "dynamic": {
+          "runs": 1620,
+          "equal_run_mean": 0.8797153604938271,
+          "equal_run_percent": 87.97153604938272,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.8797153604938271,
+            "ci95_low": 0.8713455689151908,
+            "ci95_high": 0.8880851520724635,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      },
+      "by_grid_and_regime": {
+        "100_static": {
+          "runs": 540,
+          "equal_run_mean": 0.9722222222222222,
+          "equal_run_percent": 97.22222222222221,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9722222222222222,
+            "ci95_low": 0.9480532142918479,
+            "ci95_high": 0.9963912301525966,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "100_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.9911111111111112,
+          "equal_run_percent": 99.11111111111111,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.991111111111111,
+            "ci95_low": 0.9842513882089863,
+            "ci95_high": 0.9979708340132358,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200_static": {
+          "runs": 540,
+          "equal_run_mean": 0.830925925925926,
+          "equal_run_percent": 83.0925925925926,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.830925925925926,
+            "ci95_low": 0.7918860335990056,
+            "ci95_high": 0.8699658182528464,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.9341666666666667,
+          "equal_run_percent": 93.41666666666667,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9341666666666666,
+            "ci95_low": 0.9196522135308027,
+            "ci95_high": 0.9486811198025304,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300_static": {
+          "runs": 540,
+          "equal_run_mean": 0.6046502259259259,
+          "equal_run_percent": 60.46502259259259,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.604650225925926,
+            "ci95_low": 0.5639533940791959,
+            "ci95_high": 0.6453470577726561,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.7138683037037037,
+          "equal_run_percent": 71.38683037037038,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.7138683037037037,
+            "ci95_low": 0.6938247277186305,
+            "ci95_high": 0.7339118796887769,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      }
+    },
+    "four_camera": {
+      "overall": {
+        "runs": 3240,
+        "equal_run_mean": 0.4259156228395061,
+        "equal_run_percent": 42.591562283950616,
+        "equal_run_seed_block_ci95": {
+          "mean": 0.4259156228395062,
+          "ci95_low": 0.41261662950661077,
+          "ci95_high": 0.4392146161724016,
+          "seed_blocks": 15,
+          "df": 14
+        },
+        "matched_seed_blocks": 15
+      },
+      "by_grid": {
+        "100": {
+          "runs": 1080,
+          "equal_run_mean": 0.7422222222222222,
+          "equal_run_percent": 74.22222222222223,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.7422222222222222,
+            "ci95_low": 0.713348611175305,
+            "ci95_high": 0.7710958332691394,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200": {
+          "runs": 1080,
+          "equal_run_mean": 0.36268518518518517,
+          "equal_run_percent": 36.26851851851852,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.36268518518518517,
+            "ci95_low": 0.3424186126797004,
+            "ci95_high": 0.3829517576906699,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300": {
+          "runs": 1080,
+          "equal_run_mean": 0.17283946111111112,
+          "equal_run_percent": 17.283946111111113,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.17283946111111112,
+            "ci95_low": 0.16322356527220092,
+            "ci95_high": 0.18245535695002132,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      },
+      "by_regime": {
+        "static": {
+          "runs": 1620,
+          "equal_run_mean": 0.44823386975308643,
+          "equal_run_percent": 44.823386975308644,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.44823386975308643,
+            "ci95_low": 0.43223673426402953,
+            "ci95_high": 0.46423100524214334,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "dynamic": {
+          "runs": 1620,
+          "equal_run_mean": 0.4035973759259259,
+          "equal_run_percent": 40.359737592592595,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.403597375925926,
+            "ci95_low": 0.38502762786910355,
+            "ci95_high": 0.4221671239827484,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      },
+      "by_grid_and_regime": {
+        "100_static": {
+          "runs": 540,
+          "equal_run_mean": 0.7918518518518519,
+          "equal_run_percent": 79.18518518518519,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.7918518518518519,
+            "ci95_low": 0.7580322954939106,
+            "ci95_high": 0.8256714082097932,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "100_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.6925925925925925,
+          "equal_run_percent": 69.25925925925925,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.6925925925925926,
+            "ci95_low": 0.6521657127817124,
+            "ci95_high": 0.7330194724034729,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200_static": {
+          "runs": 540,
+          "equal_run_mean": 0.37305555555555553,
+          "equal_run_percent": 37.30555555555555,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.37305555555555553,
+            "ci95_low": 0.34588905387661073,
+            "ci95_high": 0.40022205723450033,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.3523148148148148,
+          "equal_run_percent": 35.23148148148148,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.3523148148148148,
+            "ci95_low": 0.32633477938654626,
+            "ci95_high": 0.37829485024308335,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300_static": {
+          "runs": 540,
+          "equal_run_mean": 0.17979420185185185,
+          "equal_run_percent": 17.979420185185184,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.17979420185185185,
+            "ci95_low": 0.16232999109708732,
+            "ci95_high": 0.1972584126066164,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.16588472037037036,
+          "equal_run_percent": 16.588472037037036,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.16588472037037036,
+            "ci95_low": 0.1557717366000032,
+            "ci95_high": 0.1759977041407375,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      }
+    },
+    "three_ideal": {
+      "overall": {
+        "runs": 3240,
+        "equal_run_mean": 0.8727331922839505,
+        "equal_run_percent": 87.27331922839505,
+        "equal_run_seed_block_ci95": {
+          "mean": 0.8727331922839506,
+          "ci95_low": 0.8618348443660514,
+          "ci95_high": 0.8836315402018499,
+          "seed_blocks": 15,
+          "df": 14
+        },
+        "matched_seed_blocks": 15
+      },
+      "by_grid": {
+        "100": {
+          "runs": 1080,
+          "equal_run_mean": 0.9949999999999999,
+          "equal_run_percent": 99.49999999999999,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.995,
+            "ci95_low": 0.9904515579467263,
+            "ci95_high": 0.9995484420532736,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200": {
+          "runs": 1080,
+          "equal_run_mean": 0.9278703703703703,
+          "equal_run_percent": 92.78703703703704,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9278703703703702,
+            "ci95_low": 0.9181220396984622,
+            "ci95_high": 0.9376187010422783,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300": {
+          "runs": 1080,
+          "equal_run_mean": 0.6953292064814816,
+          "equal_run_percent": 69.53292064814815,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.6953292064814816,
+            "ci95_low": 0.6709787237032611,
+            "ci95_high": 0.719679689259702,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      },
+      "by_regime": {
+        "static": {
+          "runs": 1620,
+          "equal_run_mean": 0.8676611777777778,
+          "equal_run_percent": 86.76611777777778,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.8676611777777778,
+            "ci95_low": 0.8513543500066755,
+            "ci95_high": 0.8839680055488802,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "dynamic": {
+          "runs": 1620,
+          "equal_run_mean": 0.8778052067901234,
+          "equal_run_percent": 87.78052067901234,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.8778052067901234,
+            "ci95_low": 0.8707221440779943,
+            "ci95_high": 0.8848882695022525,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      },
+      "by_grid_and_regime": {
+        "100_static": {
+          "runs": 540,
+          "equal_run_mean": 0.9948148148148149,
+          "equal_run_percent": 99.4814814814815,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9948148148148148,
+            "ci95_low": 0.9889466405459656,
+            "ci95_high": 1.0006829890836642,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "100_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.9951851851851852,
+          "equal_run_percent": 99.51851851851852,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9951851851851852,
+            "ci95_low": 0.9901343343943698,
+            "ci95_high": 1.0002360359760005,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200_static": {
+          "runs": 540,
+          "equal_run_mean": 0.9242592592592593,
+          "equal_run_percent": 92.42592592592594,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9242592592592592,
+            "ci95_low": 0.9059288202941146,
+            "ci95_high": 0.9425896982244039,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "200_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.9314814814814815,
+          "equal_run_percent": 93.14814814814815,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.9314814814814815,
+            "ci95_low": 0.9203216769051923,
+            "ci95_high": 0.9426412860577706,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300_static": {
+          "runs": 540,
+          "equal_run_mean": 0.6839094592592593,
+          "equal_run_percent": 68.39094592592593,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.6839094592592593,
+            "ci95_low": 0.6489770500727681,
+            "ci95_high": 0.7188418684457505,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        },
+        "300_dynamic": {
+          "runs": 540,
+          "equal_run_mean": 0.7067489537037037,
+          "equal_run_percent": 70.67489537037036,
+          "equal_run_seed_block_ci95": {
+            "mean": 0.7067489537037037,
+            "ci95_low": 0.6876257569201822,
+            "ci95_high": 0.7258721504872252,
+            "seed_blocks": 15,
+            "df": 14
+          },
+          "matched_seed_blocks": 15
+        }
+      }
+    }
+  },
+  "paired_differences": {
+    "three_ideal_minus_mixed": {
+      "all_grids": {
+        "all_grids": {
+          "runs": 3240,
+          "mean_percentage_points": 3.1575783024691355,
+          "seed_block_ci95_percentage_points": {
+            "mean": 3.1575783024691355,
+            "ci95_low": 1.7199029131453332,
+            "ci95_high": 4.595253691792938
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_grid": {
+        "100": {
+          "runs": 1080,
+          "mean_percentage_points": 1.3333333333333333,
+          "seed_block_ci95_percentage_points": {
+            "mean": 1.333333333333333,
+            "ci95_low": 0.1024330228378098,
+            "ci95_high": 2.564233643828856
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200": {
+          "runs": 1080,
+          "mean_percentage_points": 4.532407407407408,
+          "seed_block_ci95_percentage_points": {
+            "mean": 4.532407407407408,
+            "ci95_low": 2.331915666026979,
+            "ci95_high": 6.732899148787837
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300": {
+          "runs": 1080,
+          "mean_percentage_points": 3.606994166666667,
+          "seed_block_ci95_percentage_points": {
+            "mean": 3.606994166666667,
+            "ci95_low": 0.3954364149609729,
+            "ci95_high": 6.818551918372361
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_regime": {
+        "static": {
+          "runs": 1620,
+          "mean_percentage_points": 6.506171975308642,
+          "seed_block_ci95_percentage_points": {
+            "mean": 6.506171975308642,
+            "ci95_low": 3.986284538820781,
+            "ci95_high": 9.026059411796503
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "dynamic": {
+          "runs": 1620,
+          "mean_percentage_points": -0.19101537037037042,
+          "seed_block_ci95_percentage_points": {
+            "mean": -0.19101537037037042,
+            "ci95_low": -1.1162054235070848,
+            "ci95_high": 0.7341746827663439
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_grid_and_regime": {
+        "100_static": {
+          "runs": 540,
+          "mean_percentage_points": 2.2592592592592586,
+          "seed_block_ci95_percentage_points": {
+            "mean": 2.2592592592592586,
+            "ci95_low": -0.14773730979341754,
+            "ci95_high": 4.666255828311935
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "100_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": 0.4074074074074074,
+          "seed_block_ci95_percentage_points": {
+            "mean": 0.4074074074074074,
+            "ci95_low": 0.06905195307905085,
+            "ci95_high": 0.7457628617357639
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200_static": {
+          "runs": 540,
+          "mean_percentage_points": 9.333333333333334,
+          "seed_block_ci95_percentage_points": {
+            "mean": 9.333333333333334,
+            "ci95_low": 4.801532454214284,
+            "ci95_high": 13.865134212452384
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -0.26851851851851843,
+          "seed_block_ci95_percentage_points": {
+            "mean": -0.26851851851851843,
+            "ci95_low": -1.7090540702217791,
+            "ci95_high": 1.1720170331847424
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300_static": {
+          "runs": 540,
+          "mean_percentage_points": 7.925923333333333,
+          "seed_block_ci95_percentage_points": {
+            "mean": 7.925923333333333,
+            "ci95_low": 2.645357373184868,
+            "ci95_high": 13.206489293481798
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -0.7119350000000002,
+          "seed_block_ci95_percentage_points": {
+            "mean": -0.7119350000000001,
+            "ci95_low": -2.8068587718806635,
+            "ci95_high": 1.3829887718806635
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      }
+    },
+    "four_camera_minus_mixed": {
+      "all_grids": {
+        "all_grids": {
+          "runs": 3240,
+          "mean_percentage_points": -41.524178641975304,
+          "seed_block_ci95_percentage_points": {
+            "mean": -41.52417864197531,
+            "ci95_low": -43.06267978496857,
+            "ci95_high": -39.98567749898206
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_grid": {
+        "100": {
+          "runs": 1080,
+          "mean_percentage_points": -23.94444444444444,
+          "seed_block_ci95_percentage_points": {
+            "mean": -23.944444444444446,
+            "ci95_low": -26.488895033422676,
+            "ci95_high": -21.399993855466214
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200": {
+          "runs": 1080,
+          "mean_percentage_points": -51.986111111111114,
+          "seed_block_ci95_percentage_points": {
+            "mean": -51.986111111111114,
+            "ci95_low": -54.44004641071151,
+            "ci95_high": -49.53217581151071
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300": {
+          "runs": 1080,
+          "mean_percentage_points": -48.64198037037037,
+          "seed_block_ci95_percentage_points": {
+            "mean": -48.64198037037037,
+            "ci95_low": -51.20914248621609,
+            "ci95_high": -46.07481825452466
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_regime": {
+        "static": {
+          "runs": 1620,
+          "mean_percentage_points": -35.436558827160496,
+          "seed_block_ci95_percentage_points": {
+            "mean": -35.436558827160496,
+            "ci95_low": -38.39774067109591,
+            "ci95_high": -32.47537698322508
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "dynamic": {
+          "runs": 1620,
+          "mean_percentage_points": -47.611798456790126,
+          "seed_block_ci95_percentage_points": {
+            "mean": -47.61179845679012,
+            "ci95_low": -49.49793419329351,
+            "ci95_high": -45.725662720286735
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_grid_and_regime": {
+        "100_static": {
+          "runs": 540,
+          "mean_percentage_points": -18.037037037037035,
+          "seed_block_ci95_percentage_points": {
+            "mean": -18.037037037037035,
+            "ci95_low": -21.975016219216982,
+            "ci95_high": -14.099057854857087
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "100_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -29.85185185185185,
+          "seed_block_ci95_percentage_points": {
+            "mean": -29.85185185185185,
+            "ci95_low": -33.49110093373275,
+            "ci95_high": -26.21260276997095
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200_static": {
+          "runs": 540,
+          "mean_percentage_points": -45.78703703703704,
+          "seed_block_ci95_percentage_points": {
+            "mean": -45.78703703703704,
+            "ci95_low": -50.424505221931824,
+            "ci95_high": -41.14956885214225
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -58.18518518518518,
+          "seed_block_ci95_percentage_points": {
+            "mean": -58.18518518518518,
+            "ci95_low": -61.03077931323154,
+            "ci95_high": -55.339591057138826
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300_static": {
+          "runs": 540,
+          "mean_percentage_points": -42.485602407407406,
+          "seed_block_ci95_percentage_points": {
+            "mean": -42.485602407407406,
+            "ci95_low": -47.222906990223365,
+            "ci95_high": -37.748297824591454
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -54.79835833333333,
+          "seed_block_ci95_percentage_points": {
+            "mean": -54.79835833333334,
+            "ci95_low": -56.57317912299501,
+            "ci95_high": -53.02353754367167
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      }
+    },
+    "four_camera_minus_three_ideal": {
+      "all_grids": {
+        "all_grids": {
+          "runs": 3240,
+          "mean_percentage_points": -44.68175694444444,
+          "seed_block_ci95_percentage_points": {
+            "mean": -44.681756944444444,
+            "ci95_low": -46.4062440524734,
+            "ci95_high": -42.95726983641549
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_grid": {
+        "100": {
+          "runs": 1080,
+          "mean_percentage_points": -25.27777777777778,
+          "seed_block_ci95_percentage_points": {
+            "mean": -25.27777777777778,
+            "ci95_low": -28.15505261520209,
+            "ci95_high": -22.400502940353466
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200": {
+          "runs": 1080,
+          "mean_percentage_points": -56.51851851851851,
+          "seed_block_ci95_percentage_points": {
+            "mean": -56.518518518518526,
+            "ci95_low": -58.758190384906975,
+            "ci95_high": -54.27884665213008
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300": {
+          "runs": 1080,
+          "mean_percentage_points": -52.24897453703703,
+          "seed_block_ci95_percentage_points": {
+            "mean": -52.24897453703704,
+            "ci95_low": -54.6563050321186,
+            "ci95_high": -49.841644041955476
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_regime": {
+        "static": {
+          "runs": 1620,
+          "mean_percentage_points": -41.94273080246913,
+          "seed_block_ci95_percentage_points": {
+            "mean": -41.942730802469136,
+            "ci95_low": -44.42655535297733,
+            "ci95_high": -39.45890625196094
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "dynamic": {
+          "runs": 1620,
+          "mean_percentage_points": -47.42078308641975,
+          "seed_block_ci95_percentage_points": {
+            "mean": -47.42078308641975,
+            "ci95_low": -49.536261195790416,
+            "ci95_high": -45.30530497704909
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      },
+      "by_grid_and_regime": {
+        "100_static": {
+          "runs": 540,
+          "mean_percentage_points": -20.296296296296294,
+          "seed_block_ci95_percentage_points": {
+            "mean": -20.296296296296294,
+            "ci95_low": -23.925126948959065,
+            "ci95_high": -16.667465643633527
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "100_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -30.25925925925926,
+          "seed_block_ci95_percentage_points": {
+            "mean": -30.25925925925926,
+            "ci95_low": -34.059188117920414,
+            "ci95_high": -26.459330400598102
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200_static": {
+          "runs": 540,
+          "mean_percentage_points": -55.12037037037037,
+          "seed_block_ci95_percentage_points": {
+            "mean": -55.120370370370374,
+            "ci95_low": -58.47132268672105,
+            "ci95_high": -51.7694180540197
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "200_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -57.91666666666667,
+          "seed_block_ci95_percentage_points": {
+            "mean": -57.91666666666667,
+            "ci95_low": -61.059675769216405,
+            "ci95_high": -54.77365756411694
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300_static": {
+          "runs": 540,
+          "mean_percentage_points": -50.411525740740736,
+          "seed_block_ci95_percentage_points": {
+            "mean": -50.411525740740736,
+            "ci95_low": -54.18702445872512,
+            "ci95_high": -46.63602702275635
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        },
+        "300_dynamic": {
+          "runs": 540,
+          "mean_percentage_points": -54.086423333333336,
+          "seed_block_ci95_percentage_points": {
+            "mean": -54.086423333333336,
+            "ci95_low": -55.73685359775795,
+            "ci95_high": -52.435993068908715
+          },
+          "seed_blocks": 15,
+          "df": 14,
+          "paired_by": [
+            "terrain",
+            "flora",
+            "focus",
+            "spread",
+            "seed",
+            "grid",
+            "regime"
+          ]
+        }
+      }
+    }
+  },
+  "interpretation": "Differences compare matched scenario/factor tuples across distinct recorded cohort dates. They are exploratory cohort contrasts, not a randomized or build-identical estimate of a camera-only effect. The three-ideal versus mixed sensor-based witness/union analysis is separately preserved in three_ideal_analysis.json.",
+  "method": "Within each fixed seed, average paired run differences across the selected factor matrix; report mean and Student-t interval over 15 seed-block means (df=14)."
+}
