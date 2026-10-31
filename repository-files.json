@@ -353,8 +353,8 @@
     },
     {
       "path": "dependencies/README.txt",
-      "bytes": 1268,
-      "sha256": "2555ed4c6530ca669e0700e06dd05958107f2c41f8ba981f2fb43fcd7e63c829"
+      "bytes": 1290,
+      "sha256": "25c51b442f2b416c0ec2ba5e92d2f1987bc5ef7fcccc32701a9757f3809f4c7b"
     },
     {
       "path": "detector/environment.json",
@@ -2118,8 +2118,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
-      "bytes": 2995,
-      "sha256": "4003b89a7599f79bcc8a5a54241a2b4ec60b86ac5d258701d2c68c0a1c8dd8c8"
+      "bytes": 2889,
+      "sha256": "3adaba905a06bf07a4a6f26de66f9f927304442501b2939776e9c4d017b81b3c"
     },
     {
       "path": "VALIDATION.txt",

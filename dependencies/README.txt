@@ -15,6 +15,7 @@ Vefects: https://www.fab.com/listings/d2136c01-8d35-403f-a637-146e8173bdb3
 Forest Floor: https://www.fab.com/listings/dae56d09-862c-4f77-9e72-a41281c49633
 Poly Haven: https://polyhaven.com/
 
-Mixamo characters are not supplied. Acquisition alone does not authorise
-machine-learning use; see THIRD_PARTY_NOTICES.txt. Replacing visual assets is
-a new rendering configuration and cannot establish exact visual reproduction.
+Third-party character assets are not supplied. Separately acquired assets must
+be licensed for the intended use; see THIRD_PARTY_NOTICES.txt. Replacing visual
+assets changes the rendering configuration and cannot establish exact visual
+reproduction.
